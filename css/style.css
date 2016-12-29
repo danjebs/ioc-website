@@ -1047,7 +1047,7 @@ form.enrol input, form.enrol textarea {
     display: inline-block;
 }
 form.enrol input[type="submit"] {
-  background-color: #00A9BF;;
+  background-color: #00A9BF;
   color: white;
   font-weight: bold;
   padding: 1em;
@@ -1055,7 +1055,7 @@ form.enrol input[type="submit"] {
 form.enrol input[type="submit"]:hover {
   background-color: white;
   color: #00A9BF;
-  border: 2px solid #00A9BF;;
+  border: 2px solid #00A9BF;
   font-weight: bold;
   padding: 1em;
 }
@@ -1185,7 +1185,8 @@ form.enrol input[type="submit"]:hover {
 
 
 /* TEMP */
-@media (max-width: 700px)
+@media screen and (max-width: 700px)
 form.enrol input {
     font-size: 0.8rem !important;
+    color:
 }
