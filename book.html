@@ -1,0 +1,64 @@
+---
+title: Book Now Institute of Code
+layout: default
+---
+
+<!-- This is the javascript for Xola buttons -->
+<script type="text/javascript"> (function() { var co=document.createElement("script"); co.type="text/javascript"; co.async=true; co.src="https://xola.com/checkout.js"; var s=document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(co, s); })(); </script>
+
+<!-- this script is for tapfiliate -->
+
+<script src="//static.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
+<script type="text/javascript">
+    window['TapfiliateObject'] = i = 'tap';
+    window[i] = window[i] || function () {
+          (window[i].q = window[i].q || []).push(arguments);
+    };
+    tap('create', '2467-fb8e17');
+    ctr = 0;
+    function overrideXolaCheckoutSuccess() {
+        if(!window.xola) {
+            if(++ctr < 1000) {
+                // Wait for the xola object to get initialized
+                setTimeout(overrideXolaCheckoutSuccess, 100);
+            } else {
+                // We've waited long enough; something is wrong, so give up
+            }
+            return;
+        }
+        xola.checkoutSuccess = function(a) {
+            if (!a.order) return;
+            tap('conversion', a.order.id, a.order.amount, {meta_data: {
+                name: a.order.customerName,
+                email: a.order.customerEmail
+            }});
+            if (typeof ga == "function") { this.sendToGoogleAnalytics(a.order) }
+        };
+    }
+    overrideXolaCheckoutSuccess();
+</script>
+
+<!--- end of tapfiliate --->
+<section class="video-banner">
+
+    {% include header.html %}
+
+    <div class="banner-inner">
+        <h2 class="editable"> Confirm your enrollment </h2>
+    </div>
+    <video autoplay loop poster="/assets/images/still_coding_1.jpg">
+        <source src="/assets/website-video-coding1.mp4" />
+        your browser does not support video
+    </video>
+    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
+        <polygon class="white" points="0,250 1200,350 0,350" />
+    </svg>
+</section>
+<section>
+      <h3> Need any help? Click on live chat or email us at hello@instituteofcode.com </h3>
+        <div class="event">
+            <h2> 10 day Code Retreat: Bali </h2>
+            <p> Enrollment open for:   </p>
+            <div class="xola-checkout" id="563a70e1926705c1538b45ce"></div>
+        </div>
+</section>

@@ -1,0 +1,1191 @@
+/*
+  NOTES
+
+  Colors : Teal = #00A9BF, Pink = #CC0C4C, Grey = #41414D;
+*/
+
+
+/* ----------------------- CSS RESET ------------------------------ */
+
+* {
+  box-sizing  : border-box;
+  margin      : 0;
+  padding     : 0;
+  font-variant-numeric: lining-nums;
+}
+
+body {
+  color : #41414D;
+  font-family : "macho", sans-serif;
+}
+
+img {
+  max-width : 100%;
+}
+
+.no-bullets {
+  list-style : none;
+}
+
+li {
+  list-style-position: inside;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+/* ----------------------- GRID STRUCTURE ------------------------------ */
+
+footer,
+header,
+section {
+  padding : 5vh 10%;
+}
+
+div.padded {
+  padding : 5vh 5%;
+}
+
+.no-padding {
+  margin  : 0;
+  padding : 0;
+}
+
+section {
+  position       : relative;
+  top            : 0;
+  left           : 0;
+  min-height     : 30vh;
+  padding-top    : 5%;
+  padding-bottom : 5%;
+  overflow       : hidden;
+}
+
+.banner {
+  padding : 8vh 10%;
+}
+.image-banner {
+  padding: 8vh 10%;
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+.padded-bottom {
+  padding-bottom: 12%;
+}
+
+.col,
+.ten-wide,
+.nine-wide,
+.eight-wide,
+.seven-wide,
+.six-wide,
+.five-wide,
+.four-wide,
+.three-wide,
+.two-wide,
+.one-wide {
+  display        : inline-block;
+  margin         : 1%;
+  vertical-align : top;
+}
+
+.one-wide {     width : 6.333%; }
+.two-wide { width : 14.66%;   }
+
+.fourcol .col,
+.three-wide {     width : 23%;    }
+
+.four-wide,
+.threecol .col {  width : 31.33%; }
+
+.five-wide {  width : 39.66%;}
+
+.six-wide,
+.twocol .col {  width : 48%;    }
+
+.seven-wide {   width : 56.33%; }
+.eight-wide {   width : 64.66%;   }
+.nine-wide {    width: 73%; }
+.ten-wide {  width : 81.33%;  }
+
+.grid {
+  display  : block;
+  position : relative;
+  margin   : 0;
+}
+
+.grid .vert-center,
+.grid div {
+  display        : inline-block;
+  position       : relative;
+  width          : 50%;
+  height         : 60vh;
+  margin         : 0;
+  vertical-align : top;
+}
+
+.grid.large div {
+  height: 80vh;
+}
+
+.grid .image img {
+  display    : block;
+  width      : 100%;
+  height     : 100%;
+  -o-object-fit : cover;
+     object-fit : cover;
+}
+
+.grid .vert-center {
+  padding    : 5%;
+  text-align : center;
+}
+
+.capped-width {
+  max-width: 1080px;
+}
+
+.inline-block {
+  display: inline-block;
+  margin: 1em;
+}
+
+/* ----------------------- UNIVERSAL STYLES ------------------------------ */
+
+/* --- Header --- */
+
+header {
+  padding          : 2vh 5%;
+  color            : #41414D;
+  background-color : rgb(255,255,255);
+  vertical-align   : top;
+  height:            80px;
+  text-align: right;
+}
+
+header .logo {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width          : 250px;
+  margin         : 5px;
+}
+
+header nav {
+  display    : inline-block;
+  width      : 75%;
+  margin     : 0;
+  text-align : right;
+  vertical-align: middle;
+}
+
+header nav li {
+  display        : inline-block;
+  min-width      : 60px;
+  margin         : 0;
+  padding        : 0;
+  text-transform : uppercase;
+  font-size      : 16px;
+}
+
+header nav a {
+  display      : block;
+  width        : 100%;
+  padding      : 0.5em;
+  text-align   : left;
+  font-weight  : 400;
+}
+
+header nav a:last-child {
+  border : none;
+}
+
+header ul,
+header ul li {
+  position : relative;
+}
+
+header ul ul {
+  display    : none;
+  position   : absolute;
+  top        : 100%;
+  left       : 0;
+  padding    : 0;
+  text-align : left;
+}
+
+header ul li ul li {
+  display          : block;
+  width            : 250px;
+  margin           : 0;
+  background-color : white;
+  text-transform   : none;
+}
+
+header ul li:hover ul {
+  display : block;
+}
+
+header ul ul a {
+  padding : 5px 10px;
+}
+
+header nav ul a:hover {
+  color       : #00A9BF;
+  font-weight : 400;
+}
+
+/* --- Sections --- */
+
+.featured {
+  color            : white;
+  border-color     : white !important;
+  background-color : #00A9BF;
+}
+.dark {
+  color: white;
+  background-color: rgb(90,90,90);
+}
+.light {
+  color: rgb(80,80,80);
+  background-color: rgb(250,250,252);
+}
+
+
+.featured .header-block.left,
+.featured .header-block.right,
+.featured .vertical-line {
+  border-color : white;
+}
+
+.centered {
+  text-align : center;
+}
+
+.right {
+  margin-left : auto;
+  text-align  : right;
+}
+
+.left {
+  text-align : left;
+}
+/* Image styles */
+img.full-width {
+  width: 98%;
+  max-width: 1280px;
+  margin: 1vh 1%;
+}
+img.half-width {
+  width: 48%;
+  display: inline-block;
+  margin: 1vh 1%;
+}
+
+
+svg.mask /* this controls the triangles */ {
+  position : absolute;
+  bottom   : 0;
+  left     : 0;
+  width    : 100%;
+}
+
+/* these are hacks to target internet explorer */
+.ie svg.mask ,
+.ie .arrow-left,
+.ie .arrow-right {
+  display: none!important;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	svg.mask,
+  .arrow-left,
+  .arrow-right  { display: none!important; }
+}
+
+.top {
+  top    : 0;
+  bottom : auto;
+  left   : 0;
+}
+
+.arrow-left,
+.arrow-right {
+  z-index  : 1;
+  position : absolute;
+  top      : 0;
+  bottom   : 0;
+  height   : 100%;
+}
+
+.arrow-right {
+  right : -1px;
+}
+
+.arrow-left {
+  left : -1px;
+}
+
+.teal {
+  fill: #00A9BF;
+  color: #00A9BF;
+}
+
+
+.white {
+  fill: white;
+  background-color: white;
+  color: #41414D;
+}
+
+/* This fixes the 1px transparent border on safari and IE */
+polygon.white {
+  stroke-width: 2px;
+  stroke: white;
+}
+
+polygon.grey {
+  stroke-width: 2px;
+  stroke: #41414D;
+}
+
+polygon.teal {
+  stroke-width: 2px;
+  stroke: #00A9BF;
+}
+.grey {
+  fill: #41414D;
+  background-color: #41414D;
+  color: white;
+}
+
+
+img.full {
+  width  : 100%;
+  height : 15em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+img.square {
+  width  : 49%;
+  height : 10em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tall-grid .full {
+  height: 30em;
+}
+.tall-grid .square {
+  height: 20em;
+}
+
+
+img.first {
+  margin-right : 1%;
+}
+
+img.second {
+  margin-left : 1%;
+}
+
+
+/* two-col equal height grid */
+
+.two-box {
+  position: relative;
+  padding: 0;
+}
+.box-img {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top:0;
+  background-size: cover;
+  background-position: center;
+}
+.box-text {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  padding: 5% 10%;
+}
+.box-img.right {
+  left: 50%;
+}
+.box-text.right {
+  margin-left: 50%;
+}
+
+.testimonials .box-text {
+    min-height: 350px;
+}
+
+/* --- Typography -- */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin : 0.5em 0;
+  line-height: 1.1em;
+  font       : "macho" semibold;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #CC0C4C;
+}
+
+p {
+  font-size   : 17px;
+  font-weight : 300;
+  line-height: 1.4em;
+  margin: 0.8em 0;
+}
+
+p.emphasis {
+  font-size : 24px;
+}
+
+p.subtitle {
+  color     : rgb(180,180,180);
+  font-size : 14px;
+}
+
+a {
+  font-weight : 400;
+  color           : inherit;
+  text-decoration : none;
+}
+
+.fa {
+  padding: 0 1em;
+}
+/* Whats included sections */
+
+ .inclusions ul {
+   list-style:none;
+ }
+
+
+/* -- BLOCK HEADINGS --- */
+
+.header-block {
+  padding        : 0 10px;
+  text-transform : uppercase;
+  line-height    : 1.2em;
+}
+
+.header-block.left {
+  border-left : 3px solid #41414D;
+}
+
+.header-block.right {
+  border-right : 3px solid #41414D;
+  text-align   : right;
+}
+
+.header-block h2 {
+  margin-top : 0;
+}
+.block {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.white-text {
+  color: white;
+}
+
+.block span {
+  display     : block;
+  font-size   : 1.8em;
+  line-height : 1.1em;
+}
+
+.lg-icon {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.pr-logos .three-wide {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.grid div.header-horiz {
+  padding: 0;
+}
+
+.header-horiz > span {
+  display: inline-block;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.header-horiz >span.right {
+    border-right: 2px solid rgb(80,80,85);
+    padding-right: 10px;
+}
+.header-horiz >span.left{
+    border-left: 2px solid rgb(80,80,85);
+    padding-left: 10px;
+}
+
+.header-horiz h2 {
+  display: inline-block;
+  font-size: 3.5rem;
+  margin: 0.25em 0;
+}
+
+.columns {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns:3;
+}
+
+.columns p {
+  margin-top : 0;
+}
+
+.header-text {
+  width : 17em;
+}
+
+.header-text.small {
+  width : 14em;
+}
+
+.location-text {
+  height : 5em;
+}
+
+.vertical-line {
+  position    : absolute;
+  left        : 50%;
+  height      : 70%;
+  margin      : 1em 0 10vh;
+  border-left : 3px solid #41414D;
+}
+
+.border-right {
+  border-right : 3px solid rgb(120,120,125);
+}
+
+.bump-down {
+  padding-top : 1em;
+}
+
+/* --- Other elements -- */
+
+.button {
+  display       : inline-block;
+  font-size: 14px;
+  margin        : 1em 0;
+  padding       : 0.6em 1em 0.8em;
+  text-transform: uppercase;
+  color         : #00A9BF;
+  border        : 1px solid #00A9BF;
+  border-radius : 2em;
+  line-height   : 1em;
+}
+.button:hover {
+  font-weight: bold;
+  border-width: 2px;
+}
+
+
+.featured .button,
+.white.button {
+  color        : white;
+  border-color : white;
+}
+
+.vert-text {
+  height : 23em;
+}
+img.enrol {
+  height: 30em;
+}
+
+.text-mask {
+  position : absolute;
+}
+
+.vert-center > * {
+  vertical-align: middle;
+}
+
+.curl span {
+  font-family : "Lato";
+  font-size   : 15em;
+  font-weight : 100;
+}
+.highlight-box  {
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.fa-chevron-down {
+  font-size: 3em;
+}
+
+/* --- Video Banner -- */
+
+.video-banner {
+  position         : relative;
+  height           : 100vh;
+  min-height: 450px;
+  padding          : 0;
+  color            : white;
+  font-size        : 120%;
+  z-index: -5;
+}
+
+.video-banner video {
+  z-index  : -1;
+  position : absolute;
+  top      : 0;
+  left     : 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border: 1px solid white;
+}
+
+.video-banner.small {
+  height : 80vh;
+}
+
+.video-banner.small video {
+  height : 80vh;
+}
+
+.banner-inner {
+  padding : 10vh 10%;
+}
+
+.banner-inner h2 {
+  text-transform : uppercase;
+  font-size      : 3em;
+}
+
+/* ----------------------- HOME PAGE ------------------------------ */
+
+/* ----------------------- SUB-PAGEs------------------------------ */
+
+/*
+  .twocol .square.right,
+  .twocol .square.left {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height:100%;
+  top: 0;
+  margin: 0;
+  }
+
+  .float.right {
+  float: right;
+  text-align: left;
+  }
+  .twocol .square.right {
+  right: 0;
+  }
+  .twocol .square.left {
+  left:0;
+  }
+*/
+
+
+/*
+  #flow {
+  background-image: url("assets/images/flow.jpg");
+  }
+*/
+
+
+/* ---- Social Grid ----- */
+
+/*
+  .social-grid {
+  padding: 0;
+  }
+
+  .social-grid .col {
+  height: 15em;
+  margin: 0;
+  width: 33.33%;
+  padding: 1.5em;
+  position: relative;
+  color: white;
+  background-color: rgb(60,60,65);
+  }
+  .social-grid .inverted {
+  background-color: white;
+  color: rgb(60,60,65);
+  }
+
+  .social-grid .col.no-padding {
+  padding: 0;
+  }
+
+  .social-grid img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  }
+
+  .social-grid .arrow-left,
+  .social-grid
+  .arrow-right {
+  fill: white;
+  }
+*/
+
+
+/* ---- Social take 2 ---------- */
+
+.social {
+  color            : white;
+  background-color : #41414D;
+  vertical-align   : top;
+}
+
+.social .author {
+  display    : inline-block;
+  width      : 10%;
+  text-align : center;
+}
+
+.social .author img {
+  display       : block;
+  width         : 60px;
+  height        : 60px;
+  border-radius : 50%;
+}
+
+.social p {
+  display        : inline-block;
+  width          : 90%;
+  padding-left   : 1.5em;
+  vertical-align : top;
+}
+
+.quote-mark {
+  display    : inline-block;
+  margin-top : -40px;
+  font-size  : 100px;
+}
+
+/* --- Enrolment table ---- */
+
+table.enrol {
+  width          : 100%;
+  border-spacing : 0 1.5em;
+  font-weight: 300;
+}
+
+td {
+  padding        : 0 1.5em;
+  vertical-align : bottom;
+}
+
+
+td:first-child {
+  color        : #00A9BF;
+  border-right : 2px solid rgb(150,150,155);
+  text-align   : right;
+}
+
+td:first-child span {
+  display: block;
+  font-size: 3em;
+  line-height: 0.9em;
+  font-family: "Proxima Nova";
+  font-weight: 200;
+}
+
+td:nth-child(3) {
+  border-left : 2px solid rgb(150,150,155);
+}
+
+td:nth-child(2) span,
+td:nth-child(3) span {
+  display     : block;
+  color       : rgb(150,150,155);
+  font-weight : bold;
+}
+
+td:nth-child(2) span.teal,
+td:nth-child(3) span.teal {
+  display     : block;
+  color       : #00A9BF;
+  font-weight : bold;
+}
+
+.padded div {
+  padding : 7vh 5%;
+}
+
+p.teal,
+span.teal {
+  color : #00A9BF;
+}
+
+
+
+/* ---- Footer --- */
+
+footer div:not(:first-child) {
+  padding     : 0 1em;
+  border-left : 2px solid white;
+}
+
+footer nav a {
+  display     : block;
+  font-weight : 200;
+}
+
+footer a:hover {
+  color: #00A9BF;
+}
+
+.social-proof .col {
+  display             : inline-block;
+  position            : relative;
+  width               : 33.33%;
+  min-height          : 350px;
+  margin              : 0;
+  background-position : center;
+  background-size     : cover;
+}
+
+.social-proof .first,
+.social-proof .second,
+.social-proof .third {
+  min-height : 400px;
+}
+
+.social-proof p {
+  font-size: 14px;
+  line-height: 1.1em;
+}
+
+.social-proof .first {
+  background-image : url("/assets/images/students-claire.jpg");
+}
+
+.social-proof .second {
+  background-image : url("/assets/images/students-jo.jpg");
+}
+
+.social-proof .third {
+  background-image : url("/assets/images/students-ibo.jpg");
+}
+
+.social-proof .fourth {
+  background-image : url("/assets/images/students-christina.jpg");
+}
+
+.social-proof .fifth {
+  background-image : url("/assets/images/students-josh.jpg");
+}
+
+.social-proof .sixth {
+  background-image : url("/assets/images/students-sharns.png");
+}
+
+.social-proof .col p {
+  position         : absolute;
+  bottom           : 0;
+  left             : -30px;
+  margin           : 10px 40px;
+  padding          : 1em;
+  background-color : white;
+  color: #41414D;
+}
+
+.our-story {
+  background-image: url("/assets/images/our-story.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.our-story .banner-inner {
+    color: rgb(80,80,85);
+}
+.circles img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mob-show {
+  display: none!important;
+}
+
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  font-size: 0.8em;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  vertical-align: top;
+  font-family: "Macho";
+  position: relative;
+}
+
+form input {
+  width: 48%;
+  margin: 1%;
+}
+form textarea {
+  display: block;
+  width: 98%;
+  margin: 1%;
+}
+
+form input[type="submit"] {
+  background: none;
+  width: auto;
+  margin: auto;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 8rem;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .3rem;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .3rem;
+  font-weight: normal; }
+
+  /* Enrolment Form */
+
+.enrol ::-webkit-input-placeholder {
+  color: rgb(150,150,150);
+}
+.enrol ::-moz-placeholder {
+  color: rgb(150,150,150);
+}
+.enrol :-ms-input-placeholder {
+  color: rgb(150,150,150);
+}
+.enrol :-moz-placeholder  {
+  color: rgb(150,150,150);
+}
+form.enrol label {
+  color: #00A9BF;
+}
+
+form.enrol input, form.enrol textarea {
+    background-color: transparent;
+    color: rgb(60,60,60);
+    border: 1px solid #00A9BF;
+    padding: 0.5rem;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 300;
+    vertical-align: bottom;
+    margin: 0 0 1em;
+    display: inline-block;
+}
+form.enrol input[type="submit"] {
+  background-color: #00A9BF;;
+  color: white;
+  font-weight: bold;
+  padding: 1em;
+}
+form.enrol input[type="submit"]:hover {
+  background-color: white;
+  color: #00A9BF;
+  border: 2px solid #00A9BF;;
+  font-weight: bold;
+  padding: 1em;
+}
+
+@media(max-width:700px) {
+  form.enrol input,
+  form.enrol textarea {
+      font-size: 1rem;
+  }
+}
+
+/* ------- MD Pages --------- */
+
+.md-page h2 {
+    text-transform : uppercase;
+    line-height    : 1.2em;
+    color: #00A9BF;
+}
+
+.md-page h3 {
+    font-weight: 300;
+    color: #00A9BF;
+}
+.md-page ol {
+  list-style:decimal;
+  list-style-position: outside;
+}
+/* ----------------------- MEDIA QUERIES ------------------------------ */
+
+@media (max-width: 967px) {
+  .twocol .col,
+  .ten-wide,
+  .nine-wide,
+  .eight-wide,
+  .seven-wide,
+  .six-wide,
+  .five-wide,
+  .four-wide,
+  .three-wide,
+  .two-wide,
+  .one-wide,
+  .grid div,
+  .grid .vert-center,
+  .box-img,
+  .box-text {
+    display : block;
+    width   : 100%;
+    margin:0!important;
+    height: auto;
+  }
+
+  div.padded {
+    padding : 2vh 1%;
+  }
+  .pr-logos .three-wide {
+      width: 48%;
+      display: inline-block;
+  }
+
+  .mob-dark {
+    background-color: rgb(80,80,85);
+    color: white;
+  }
+  .box-img {
+    min-height: 350px;
+    position: static;
+  }
+
+  .vert-center > * {
+    position: static;
+    -webkit-transform: none;
+            transform: none;
+  }
+
+  .arrow-left,
+  .arrow-right,
+  .vertical-line,
+  .mob-hide {
+    display: none!important;
+  }
+  .mob-show {
+    display: block!important;
+  }
+  .social-proof .col {
+    width: 50%;
+  }
+
+}
+
+@media (max-width:600px) {
+  .social-proof .col {
+    width: 100%;
+  }
+  header {
+    padding: 1%;
+  }
+  header nav {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .banner-inner h2 {
+    font-size: 10vw;
+  }
+  .banner-inner p {
+    font-size: 18px;
+  }
+  header nav a {
+    font-size:4vw;
+    padding: 1em 0.15em ;
+  }
+
+   form input {
+     width: 98%;
+     margin:1% auto;
+   }
+   .columns {
+     -moz-columns: 1;
+          columns: 1;
+     -webkit-columns:1;
+   }
+
+}
+
+
+/* TEMP */
+@media (max-width: 700px)
+form.enrol input {
+    font-size: 0.8rem !important;
+}
