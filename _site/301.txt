@@ -19,3 +19,4 @@
 /courses/app.html /courses/app/
 /careers.html /careers/
 /2016/11/27/5-tips-to-landing-your-first-paid-web-development-job/ /2016/11/27/5-tips-for-landing-your-first-paid-web-development-job/
+http://www.instituteofcode.com/2016/03/24/want-a-career-in-graphic-design-here-is-why-you-need-to-learn-to-code/ http://www.instituteofcode.com/2016/07/22/want-a-career-in-graphic-design-heres-why-you-need-to-learn-to-code-/
