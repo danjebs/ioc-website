@@ -1,0 +1,107 @@
+---
+layout: default
+title: Enroll Now | Institute of Code
+---
+
+<section class="video-banner">
+
+    {% include header.html %}
+
+    <div class="banner-inner">
+        <h2 class="block">Secure Your Spot <span> 24 HOURS ONLY - $500 Off</span></h2>
+    </div>
+    <video autoplay loop poster="/assets/images/rice-paddy.jpg">
+        <source src="/assets/website-video-coding2.mp4" type="video/mp4" />
+        your browser does not support video
+    </video>
+<!--    <img src="/assets/shapes/triangle.svg" class="mask teal">-->
+    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
+            <polygon class="white" points="600,250 0,350 1200,350" />
+    </svg>
+</section>
+
+<section id="enrol">
+  <div class="six-wide editable highlight-box light centered">
+            <h2> Our Process </h2>
+            <h3> Step 1: Apply </h3>
+            <p> Just fill out your details in the form above, and we'll send you through more information, give you a call to answer and questions and then send you through the full enrollment form </p>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            <h3> Step 2: Enroll </h3>
+            <p> After we've answered any questions you might have, we'll send through the enrollment application. This takes around 15 - 20 minutes to fill in, and we'll get back to you within 48 hours to let you know if you have been accepted into the program </p>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            <h3> Step 3: Book </h3>
+            <p> If you've been accepted into the program we'll send you through a link where you can formally book the course and pay a $250US deposit. As soon as we have received your deposit, we'll give you access to the pre-coursework containing exclusive video tutorials, help you start planning your portfolio and organise a payment plan for the remaining balance (you can pay upfront or in installments) </p>
+  </div><!--
+  --><div class="six-wide padded">
+
+      <h2 class="block">Step 1<span>APPLY NOW</span></h2>
+        <form action="https://formspree.io/hello@instituteofcode.com"
+            method="POST" class="enrol">
+
+          <label for="name"> Your Name </label>
+          <input type="text" name="name" id="name" placeholder="Name">
+
+          <label for="email"> Your Email </label>
+          <input type="email" name="_replyto"  id="email" placeholder="Email">
+
+          <label for="phone"> Your Phone Number </label>
+          <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number">
+
+          <label for="location"> Your Current Location </label>
+          <input type="text" name="location" id="location" placeholder="City, Country">
+
+          <label for="name"> When do you want to attend? </label>
+          <input type="text" name="date" id="date" placeholder="Nov 14 - 23 / Nov 26 - Dec 5 / Other">
+
+          <label for="name"> Why do you want to attend our program? </label>
+          <textarea name="message" id="message" placeholder="Because... "></textarea>
+          <input type="submit" value="Submit" class="button">
+
+          <!-- These are hidden fields -->
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_next" value="/thanks.html" />
+        </form>
+
+    </div>
+</section>
+<section class="featured">
+  <h2 class="block"> BOOTCAMP <span> DATES & DETAILS </span> </h2>
+  <div class="four-wide">
+      <h3> What's Included: </h3>
+      <ul class="no-bullets">
+          <li class="editable"><i class="fa fa-check"></i>100+ hours practical coursework</li>
+          <li class="editable"><i class="fa fa-check"></i>9 nights accommodation </li>
+          <li class="editable"><i class="fa fa-check"></i>All meals by an in-house chef</li>
+          <li class="editable"><i class="fa fa-check"></i>Daily yoga & mindfulness meditation</li>
+          <li class="editable"><i class="fa fa-check"></i>Excursions & activities</li>
+          <li class="editable"><i class="fa fa-check"></i>Airport transfer</li>
+          <li class="editable"><i class="fa fa-check"></i>Course materials</li>
+          <li class="editable"><i class="fa fa-check"></i>Ongoing support & Video Tutorials</li>
+          <li class="editable"><i class="fa fa-check"></i>12 months web hosting</li>
+      </ul>
+  </div><!--
+  --><div class="four-wide">
+            <h3> Where & When </h3>
+            <p> Our campus is a private pool villa in beautiful Canngu, Bali (just 20 minutes from Seminyak) nestled in the rice paddies </p>
+            <p> Nov 14 - Nov 23:     $2950US </p>
+            <p> Nov 14 - Nov 23:     $2950US </p>
+            <p> Feb  4 - Feb 13:     $3450US </p>
+            <p> Feb 17 - Feb 26:     $3450US </p>
+            <p> Payment plans, scholarships and financial support are available.. Apply above and we'll send you more information </p>
+  </div><!--
+  --><div class="four-wide">
+          <h3> What you'll learn </h3>
+          <ul class="no-bullets">
+            <li><i class="fa fa-check"></i> talk-the-talk with developers</li>
+            <li><i class="fa fa-check"></i> HTML, CSS & basic Javascript</li>
+            <li><i class="fa fa-check"></i> how to build a responsive website</li>
+            <li><i class="fa fa-check"></i> how to create a blog </li>
+            <li><i class="fa fa-check"></i> setup a basic ecommerce store</li>
+            <li><i class="fa fa-check"></i> create galleries, contact forms & sliders</li>
+            <li><i class="fa fa-check"></i> embed videos & interactive maps</li>
+            <li><i class="fa fa-check"></i> how to set up hosting & domain names</li>
+            <li><i class="fa fa-check"></i> optimising your site for google</li>
+          </ul>
+  </div>
+</section>
+{% include instagram.html %}

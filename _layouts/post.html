@@ -1,0 +1,47 @@
+---
+layout: default
+---
+{% include header.html %}
+<section class="post">
+    <h1 class="centered"> {{page.title}}</h1>
+    <div class="post-info centered">
+          <p class="date"> {{page.date | date: '%B %d, %Y'}} </p>
+    </div>
+
+    <div class="three-wide author-bio circles mob-hide">
+        <img src="{{page.author-image_path}}">
+        <h4> {{page.author-name}}</h4>
+        <p> {{page.author-bio}}</p>
+        <!-- Add social icons of author -->
+    </div><!--
+    --><div class="nine-wide">
+        <p class="intro"> {{ page.intro }}</p>
+        {{page.first-content}}
+    </div>
+</section>
+<section class="no-padding">
+  <div class="bg-image" style="background-image:url('{{page.banner-image_path}}');">
+    <div class="bg-text">
+      <p> {{page.banner-image-blurb}} </p>
+    </div>
+  </div>
+</section>
+<section class="post">
+    {{content}}
+
+    <div class="share-page centered post-info">
+            <hr>
+            <h4> Share on ... </h4>
+            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">TWITTER</a>
+            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">FACEBOOK</a>
+            <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">GOOGLE+</a>
+    </div>
+
+    <div class="mob-show">
+      <hr>
+      <h4> Written by: {{page.author-name}}</h4>
+      <p> {{page.author-bio}}</p>
+    </div>
+</section>
+
+{% include instagram.html %}
