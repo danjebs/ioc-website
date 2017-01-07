@@ -251,7 +251,7 @@ header nav ul a:hover {
   background-color: rgb(250,250,252);
 }
 */
-
+/*
 .featured .header-block.left,
 .featured .header-block.right,
 .featured .vertical-line {
@@ -271,7 +271,7 @@ header nav ul a:hover {
   text-align : left;
 }
 /* Image styles */
-img.full-width {
+/*img.full-width {
   width: 98%;
   max-width: 1280px;
   margin: 1vh 1%;
@@ -280,17 +280,17 @@ img.half-width {
   width: 48%;
   display: inline-block;
   margin: 1vh 1%;
-}
+}*/
+/*
 
-
-svg.mask /* this controls the triangles */ {
+svg.mask /* this controls the triangles * {
   position : absolute;
   bottom   : 0;
   left     : 0;
   width    : 100%;
 }
 
-/* these are hacks to target internet explorer */
+/* these are hacks to target internet explorer *
 .ie svg.mask ,
 .ie .arrow-left,
 .ie .arrow-right {
@@ -337,7 +337,7 @@ svg.mask /* this controls the triangles */ {
   color: #41414D;
 }
 
-/* This fixes the 1px transparent border on safari and IE */
+/* This fixes the 1px transparent border on safari and IE *
 polygon.white {
   stroke-width: 2px;
   stroke: white;
@@ -357,8 +357,8 @@ polygon.teal {
   background-color: #41414D;
   color: white;
 }
-
-
+*/*/
+/*
 img.full {
   width  : 100%;
   height : 15em;
@@ -387,10 +387,10 @@ img.first {
 img.second {
   margin-left : 1%;
 }
-
+*/
 
 /* two-col equal height grid */
-
+/*
 .two-box {
   position: relative;
   padding: 0;
@@ -418,10 +418,10 @@ img.second {
 
 .testimonials .box-text {
     min-height: 350px;
-}
+}*/
 
 /* --- Typography -- */
-
+/*
 h1,
 h2,
 h3,
@@ -462,16 +462,14 @@ a {
 
 .fa {
   padding: 0 1em;
-}
+}*/
 /* Whats included sections */
-
- .inclusions ul {
+ /*.inclusions ul {
    list-style:none;
- }
-
+ }*/
 
 /* -- BLOCK HEADINGS --- */
-
+/*
 .header-block {
   padding        : 0 10px;
   text-transform : uppercase;
@@ -575,10 +573,10 @@ a {
 
 .bump-down {
   padding-top : 1em;
-}
+}*/
 
 /* --- Other elements -- */
-
+/*
 .button {
   display       : inline-block;
   font-size: 14px;
@@ -629,11 +627,11 @@ img.enrol {
 
 .fa-chevron-down {
   font-size: 3em;
-}
+}*/
 
 /* --- Video Banner -- */
 
-.video-banner {
+/*.video-banner {
   position         : relative;
   height           : 100vh;
   min-height: 450px;
@@ -672,7 +670,7 @@ img.enrol {
 .banner-inner h2 {
   text-transform : uppercase;
   font-size      : 3em;
-}
+}*/
 
 /* ----------------------- HOME PAGE ------------------------------ */
 
@@ -710,7 +708,6 @@ img.enrol {
 
 
 /* ---- Social Grid ----- */
-
 /*
   .social-grid {
   padding: 0;
@@ -752,7 +749,7 @@ img.enrol {
 
 
 /* ---- Social take 2 ---------- */
-
+/*
 .social {
   color            : white;
   background-color : #41414D;
@@ -783,10 +780,10 @@ img.enrol {
   display    : inline-block;
   margin-top : -40px;
   font-size  : 100px;
-}
+}*/
 
 /* --- Enrolment table ---- */
-
+/*
 table.enrol {
   width          : 100%;
   border-spacing : 0 1.5em;
@@ -838,13 +835,12 @@ td:nth-child(3) span.teal {
 p.teal,
 span.teal {
   color : #00A9BF;
-}
+}*/
 
 
 
 /* ---- Footer --- */
-
-footer div:not(:first-child) {
+/*footer div:not(:first-child) {
   padding     : 0 1em;
   border-left : 2px solid white;
 }
@@ -856,9 +852,10 @@ footer nav a {
 
 footer a:hover {
   color: #00A9BF;
-}
+}*/
 
-.social-proof .col {
+/* more social*/
+/*.social-proof .col {
   display             : inline-block;
   position            : relative;
   width               : 33.33%;
@@ -911,9 +908,9 @@ footer a:hover {
   padding          : 1em;
   background-color : white;
   color: #41414D;
-}
+}*/
 
-.our-story {
+/*.our-story {
   background-image: url("/assets/images/our-story.jpg");
   background-size: cover;
   background-position: bottom;
@@ -927,16 +924,16 @@ footer a:hover {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
+}*/
+/*
 .mob-show {
   display: none!important;
-}
+}*/
 
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-input[type="email"],
+/*input[type="email"],
 input[type="number"],
 input[type="search"],
 input[type="text"],
@@ -946,7 +943,7 @@ input[type="password"],
 textarea,
 select {
   font-size: 0.8em;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit *
   background-color: #fff;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
@@ -972,7 +969,7 @@ form input[type="submit"] {
   margin: auto;
 }
 
-/* Removes awkward default styles on some inputs for iOS */
+/* Removes awkward default styles on some inputs for iOS *
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -1015,7 +1012,7 @@ label > .label-body {
   margin-left: .3rem;
   font-weight: normal; }
 
-  /* Enrolment Form */
+  /* Enrolment Form *
 
 .enrol ::-webkit-input-placeholder {
   color: rgb(150,150,150);
@@ -1065,10 +1062,10 @@ form.enrol input[type="submit"]:hover {
   form.enrol textarea {
       font-size: 1rem;
   }
-}
+}*/
 
 /* ------- MD Pages --------- */
-
+/*
 .md-page h2 {
     text-transform : uppercase;
     line-height    : 1.2em;
@@ -1082,9 +1079,9 @@ form.enrol input[type="submit"]:hover {
 .md-page ol {
   list-style:decimal;
   list-style-position: outside;
-}
+}*/
 /* ----------------------- MEDIA QUERIES ------------------------------ */
-
+/*
 @media (max-width: 967px) {
   .twocol .col,
   .ten-wide,
@@ -1184,9 +1181,9 @@ form.enrol input[type="submit"]:hover {
 }
 
 
-/* TEMP */
+/* TEMP *
 @media screen and (max-width: 700px)
 form.enrol input {
     font-size: 0.8rem !important;
     color:
-}
+}*/

@@ -1,0 +1,52 @@
+
+.button {
+  display       : inline-block;
+  font-size: 14px;
+  margin        : 1em 0;
+  padding       : 0.6em 1em 0.8em;
+  text-transform: uppercase;
+  color         : #00A9BF;
+  border        : 1px solid #00A9BF;
+  border-radius : 2em;
+  line-height   : 1em;
+}
+.button:hover {
+  font-weight: bold;
+  border-width: 2px;
+}
+
+
+.featured .button,
+.white.button {
+  color        : white;
+  border-color : white;
+}
+
+.vert-text {
+  height : 23em;
+}
+img.enrol {
+  height: 30em;
+}
+
+.text-mask {
+  position : absolute;
+}
+
+.vert-center > * {
+  vertical-align: middle;
+}
+
+.curl span {
+  font-family : "Lato";
+  font-size   : 15em;
+  font-weight : 100;
+}
+.highlight-box  {
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.fa-chevron-down {
+  font-size: 3em;
+}

@@ -1,0 +1,49 @@
+/* Image styles */
+img.full-width {
+  width: 98%;
+  max-width: 1280px;
+  margin: 1vh 1%;
+}
+img.half-width {
+  width: 48%;
+  display: inline-block;
+  margin: 1vh 1%;
+}
+
+
+img.full {
+  width  : 100%;
+  height : 15em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+img.square {
+  width  : 49%;
+  height : 10em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tall-grid .full {
+  height: 30em;
+}
+.tall-grid .square {
+  height: 20em;
+}
+
+
+img.first {
+  margin-right : 1%;
+}
+
+img.second {
+  margin-left : 1%;
+}
+
+.circles img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

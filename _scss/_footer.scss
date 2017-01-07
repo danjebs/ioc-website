@@ -1,0 +1,14 @@
+
+footer div:not(:first-child) {
+  padding     : 0 1em;
+  border-left : 2px solid white;
+}
+
+footer nav a {
+  display     : block;
+  font-weight : 200;
+}
+
+footer a:hover {
+  color: #00A9BF;
+}

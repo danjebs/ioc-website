@@ -95,14 +95,40 @@ section {
 .left {
   text-align : left;
 }
-/* Image styles */
-img.full-width {
-  width: 98%;
-  max-width: 1280px;
-  margin: 1vh 1%;
+
+
+// two box with equal heights
+
+
+.two-box {
+  position: relative;
+  padding: 0;
 }
-img.half-width {
-  width: 48%;
+.box-img {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top:0;
+  background-size: cover;
+  background-position: center;
+}
+.box-text {
   display: inline-block;
-  margin: 1vh 1%;
+  width: 50%;
+  margin: 0;
+  padding: 5% 10%;
+}
+.box-img.right {
+  left: 50%;
+}
+.box-text.right {
+  margin-left: 50%;
+}
+
+.testimonials .box-text {
+    min-height: 350px;
+}
+
+.mob-show {
+  display: none!important;
 }
