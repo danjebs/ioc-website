@@ -3,38 +3,6 @@ title: Book Now Institute of Code
 layout: default
 ---
 
-<!-- this script is for tapfiliate -->
-
-<script src="//static.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
-<script type="text/javascript">
-    window['TapfiliateObject'] = i = 'tap';
-    window[i] = window[i] || function () {
-          (window[i].q = window[i].q || []).push(arguments);
-    };
-    tap('create', '2467-fb8e17');
-    ctr = 0;
-    function overrideXolaCheckoutSuccess() {
-        if(!window.xola) {
-            if(++ctr < 1000) {
-                // Wait for the xola object to get initialized
-                setTimeout(overrideXolaCheckoutSuccess, 100);
-            } else {
-                // We've waited long enough; something is wrong, so give up
-            }
-            return;
-        }
-        xola.checkoutSuccess = function(a) {
-            if (!a.order) return;
-            tap('conversion', a.order.id, a.order.amount, {meta_data: {
-                name: a.order.customerName,
-                email: a.order.customerEmail
-            }});
-            if (typeof ga == "function") { this.sendToGoogleAnalytics(a.order) }
-        };
-    }
-    overrideXolaCheckoutSuccess();
-</script>
-
 <!--- end of tapfiliate --->
 <section class="grid">
   <div class="col-8">
