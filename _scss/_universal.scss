@@ -1,0 +1,108 @@
+
+body {
+  color: $color-body;
+  font-family : $font-body;
+}
+
+li {
+  list-style-position: inside;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+footer,
+header,
+section {
+  padding : 5vh 10%;
+}
+
+div.padded {
+  padding : 5vh 5%;
+}
+
+.no-padding {
+  margin  : 0;
+  padding : 0;
+}
+
+section {
+  position       : relative;
+  top            : 0;
+  left           : 0;
+  min-height     : 30vh;
+  padding-top    : 5%;
+  padding-bottom : 5%;
+  overflow       : hidden;
+}
+
+.banner {
+  padding : 8vh 10%;
+}
+.image-banner {
+  padding: 8vh 10%;
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+.padded-bottom {
+  padding-bottom: 12%;
+}
+
+
+.no-bullets {
+  list-style : none;
+}
+
+.capped-width {
+  max-width: 1080px;
+}
+
+.inline-block {
+  display: inline-block;
+  margin: 1em;
+}
+
+.featured {
+  color            : $color-featured-f;
+  border-color     : #fff !important;
+  background-color : $color-featured;
+}
+.dark {
+  color: $color-dark-f;
+  background-color: $color-dark;
+}
+.light {
+  color: $color-light-f;
+  background-color: $color-light;
+}
+
+
+.featured .header-block.left,
+.featured .header-block.right,
+.featured .vertical-line {
+  border-color : white;
+}
+
+.centered {
+  text-align : center;
+}
+
+.right {
+  margin-left : auto;
+  text-align  : right;
+}
+
+.left {
+  text-align : left;
+}
+/* Image styles */
+img.full-width {
+  width: 98%;
+  max-width: 1280px;
+  margin: 1vh 1%;
+}
+img.half-width {
+  width: 48%;
+  display: inline-block;
+  margin: 1vh 1%;
+}

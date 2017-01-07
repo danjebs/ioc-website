@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-variant-numeric: lining-nums; }
+
+img {
+  max-width: 100%; }
+
+li {
+  list-style-position: inside;
+  font-weight: 300;
+  font-size: 17px; }
+
+body {
+  color: #41414D;
+  font-family: "macho", sans-serif; }
+
+li {
+  list-style-position: inside;
+  font-weight: 300;
+  font-size: 17px; }
+
+footer,
+header,
+section {
+  padding: 5vh 10%; }
+
+div.padded {
+  padding: 5vh 5%; }
+
+.no-padding {
+  margin: 0;
+  padding: 0; }
+
+section {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-height: 30vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: hidden; }
+
+.banner {
+  padding: 8vh 10%; }
+
+.image-banner {
+  padding: 8vh 10%;
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center; }
+
+.padded-bottom {
+  padding-bottom: 12%; }
+
+.no-bullets {
+  list-style: none; }
+
+.capped-width {
+  max-width: 1080px; }
+
+.inline-block {
+  display: inline-block;
+  margin: 1em; }
+
+.featured {
+  color: white;
+  border-color: #fff !important;
+  background-color: #00A9BF; }
+
+.dark {
+  color: white;
+  background-color: #5a5a5a; }
+
+.light {
+  color: #505050;
+  background-color: #fafafc; }
+
+.featured .header-block.left,
+.featured .header-block.right,
+.featured .vertical-line {
+  border-color: white; }
+
+.centered {
+  text-align: center; }
+
+.right {
+  margin-left: auto;
+  text-align: right; }
+
+.left {
+  text-align: left; }
+
+/* Image styles */
+img.full-width {
+  width: 98%;
+  max-width: 1280px;
+  margin: 1vh 1%; }
+
+img.half-width {
+  width: 48%;
+  display: inline-block;
+  margin: 1vh 1%; }
+
+.col,
+.ten-wide,
+.nine-wide,
+.eight-wide,
+.seven-wide,
+.six-wide,
+.five-wide,
+.four-wide,
+.three-wide,
+.two-wide,
+.one-wide {
+  display: inline-block;
+  margin: 1%;
+  vertical-align: top; }
+
+.one-wide {
+  width: 6.333%; }
+
+.two-wide {
+  width: 14.66%; }
+
+.fourcol .col,
+.three-wide {
+  width: 23%; }
+
+.four-wide,
+.threecol .col {
+  width: 31.33%; }
+
+.five-wide {
+  width: 39.66%; }
+
+.six-wide,
+.twocol .col {
+  width: 48%; }
+
+.seven-wide {
+  width: 56.33%; }
+
+.eight-wide {
+  width: 64.66%; }
+
+.nine-wide {
+  width: 73%; }
+
+.ten-wide {
+  width: 81.33%; }
+
+.grid {
+  display: block;
+  position: relative;
+  margin: 0; }
+
+.grid .vert-center,
+.grid div {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  height: 60vh;
+  margin: 0;
+  vertical-align: top; }
+
+.grid.large div {
+  height: 80vh; }
+
+.grid .image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+.grid .vert-center {
+  padding: 5%;
+  text-align: center; }
+
+header {
+  padding: 2vh 5%;
+  color: #41414D;
+  background-color: white;
+  vertical-align: top;
+  height: 80px;
+  text-align: right; }
+
+header .logo {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width: 250px;
+  margin: 5px; }
+
+header nav {
+  display: inline-block;
+  width: 75%;
+  margin: 0;
+  text-align: right;
+  vertical-align: middle; }
+
+header nav li {
+  display: inline-block;
+  min-width: 60px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 16px; }
+
+header nav a {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  text-align: left;
+  font-weight: 400; }
+
+header nav a:last-child {
+  border: none; }
+
+header ul,
+header ul li {
+  position: relative; }
+
+header ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  text-align: left; }
+
+header ul li ul li {
+  display: block;
+  width: 250px;
+  margin: 0;
+  background-color: white;
+  text-transform: none; }
+
+header ul li:hover ul {
+  display: block; }
+
+header ul ul a {
+  padding: 5px 10px; }
+
+header nav ul a:hover {
+  color: #00A9BF;
+  font-weight: 400; }
+
+.ie svg.mask,
+.ie .arrow-left,
+.ie .arrow-right {
+  display: none !important; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  svg.mask,
+  .arrow-left,
+  .arrow-right {
+    display: none !important; } }

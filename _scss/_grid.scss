@@ -1,0 +1,67 @@
+
+.col,
+.ten-wide,
+.nine-wide,
+.eight-wide,
+.seven-wide,
+.six-wide,
+.five-wide,
+.four-wide,
+.three-wide,
+.two-wide,
+.one-wide {
+  display        : inline-block;
+  margin         : 1%;
+  vertical-align : top;
+}
+
+.one-wide {     width : 6.333%; }
+.two-wide { width : 14.66%;   }
+
+.fourcol .col,
+.three-wide {     width : 23%;    }
+
+.four-wide,
+.threecol .col {  width : 31.33%; }
+
+.five-wide {  width : 39.66%;}
+
+.six-wide,
+.twocol .col {  width : 48%;    }
+
+.seven-wide {   width : 56.33%; }
+.eight-wide {   width : 64.66%;   }
+.nine-wide {    width: 73%; }
+.ten-wide {  width : 81.33%;  }
+
+.grid {
+  display  : block;
+  position : relative;
+  margin   : 0;
+}
+
+.grid .vert-center,
+.grid div {
+  display        : inline-block;
+  position       : relative;
+  width          : 50%;
+  height         : 60vh;
+  margin         : 0;
+  vertical-align : top;
+}
+
+.grid.large div {
+  height: 80vh;
+}
+
+.grid .image img {
+  display    : block;
+  width      : 100%;
+  height     : 100%;
+  -o-object-fit : cover;
+     object-fit : cover;
+}
+
+.grid .vert-center {
+  padding    : 5%;
+  text-align : center; }
