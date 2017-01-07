@@ -105,11 +105,21 @@ layout: default
         <label for="#"> Laptop Rental - $140 </label>
         <input type="checkbox" name="vehicle" value="Car" checked>
 
-        <label for="#"> Private Room Upgrade - $350 </label>
-        <input type="checkbox" name="vehicle" value="Car" checked>
+        <h3> Payment </h3>
+        <label for="room"> How would you like to pay for your course fees?</label>
+        <p class="subtitle"> Pay Upfront for a $100 discount. Credit card payments incur a 1.6% fee. ZipMoney is available to eligible Australian Residents.</p>
+        <select multiple name="room">
+            <option value="feb-4-16">Pay Upfront via Credit Card</option>
+            <option value="feb-17-16"> Pay Upfront via Bank Transfer</option>
+            <option value="mar-3-16">Payment Plan</option>
+            <option value="mar-3-16">Zip Money - Pay Nothing Upfront</option>
+        </select>
 
         <label for="#"> Any other questions or comments? </label>
         <textarea name="message"></textarea>
+
+        <label for="#"> Please confirm that you have read and accepted the terms and conditions </label>
+        <input type="checkbox" name="vehicle" value="Bike">
 
         <input type="submit" value="Submit" class="button">
 
