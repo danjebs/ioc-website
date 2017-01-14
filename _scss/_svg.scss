@@ -1,9 +1,18 @@
-
 svg.mask /* this controls the triangles */ {
   position : absolute;
   bottom   : 0;
   left     : 0;
   width    : 100%;
+}
+
+polygon {
+  stroke-width: 2px;
+}
+
+.top {
+  top    : 0;
+  bottom : auto;
+  left   : 0;
 }
 
 /* these are hacks to target internet explorer */
@@ -16,12 +25,6 @@ svg.mask /* this controls the triangles */ {
 	svg.mask,
   .arrow-left,
   .arrow-right  { display: none!important; }
-}
-
-.top {
-  top    : 0;
-  bottom : auto;
-  left   : 0;
 }
 
 .arrow-left,
@@ -41,23 +44,18 @@ svg.mask /* this controls the triangles */ {
   left : -1px;
 }
 
-.teal {
+.teal-bottom .bottom, .teal-top .top, .teal-left .left, .teal-right .right {
   fill: $color-featured;
   color: $color-featured;
   stroke: $color-featured;
-
+}
+.grey-bottom .bottom, .grey-top .top, .grey-left .left, .grey-right .right {
+  fill: $color-body;
+  color: $color-body;
+  stroke: $color-body;
 }
 
-.grey {
-  fill: #41414D;
-  background-color: #41414D;
-  color: white;
-}
-
-polygon {
-  stroke-width: 2px;
-}
-.white {
+.white-bottom .bottom ,.white-right .right, .white-left .left, .white-top .top{
   stroke:white;
   fill:white;
 }

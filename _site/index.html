@@ -13,10 +13,11 @@
 
 <!-- Link to Stylesheet -->
 <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
-<link href="/css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/gridlex.css">
 <link href="/css/style.css" rel="stylesheet">
 <link href="/css/blog.css" rel="stylesheet">
 <link href="/css/pure-drawer.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
 
 
 <!-- To load adobe typekit -->
@@ -124,7 +125,7 @@ document.addEventListener('DOMContentLoaded', event => {
     </div>
     <div class="pure-pusher-container">
         <div class="pure-pusher">
-            <section class="video-banner" style="background-image:url(/assets/images/still_sandra_rice.jpg);">
+            <section class="video-banner white-bottom" style="background-image:url(/assets/images/still_sandra_rice.jpg);">
 
     <header>
     <a href="/index.html"><img src="/assets/images/ioc-logo-med-long.svg" alt="Institute of Code" class="logo"></a>
@@ -149,19 +150,27 @@ document.addEventListener('DOMContentLoaded', event => {
         <source class="lazy-load" src="" data-src="/assets/website-video-home-banner.mp4" type="video/mp4">
         your browser does not support video
     </video>
-<!--    <img src="/assets/shapes/triangle.svg" class="mask teal">-->
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-            <polygon class="white" points="600,250 0,350 1200,350" />
-    </svg>
+    <svg class="mask bottom" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
+        <polygon class="bottom" points="0,100 600,10 1200,100" />
+</svg>
+
+    <!-- <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
+            <polygon class="white" points="600,250 0,350 1200,353" />
+    </svg> -->
 </section>
 
 <!---------------------- SECTION 2 --------------------------->
-<section class="centered">
+<section class="centered  teal-bottom">
     <img src="/assets/text/banner.svg" class="mob-hide capped-width" />
     <!-- This is the upsidedown triangle -->
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="teal" points="1200,350 1200,250 600,350 0,250 0,350" />
+
+    <svg class="mask bottom" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
+    <polygon points="0,2, 0,100 1200,100 1200,2 600,100" />
 </svg>
+
+    <!-- <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
+        <polygon class="teal" points="1200,353 1200,250 600,350 0,250 0,353" />
+</svg> -->
 <div class="mob-show">
     <h3 class="block"> Learn Fast </h3>
     <p> Just like learning any new language, the best way to learn to code is to dive in deep. Step away from the stress of everyday life and immerse yourself in the perfect learning environment.</p>
@@ -178,7 +187,8 @@ document.addEventListener('DOMContentLoaded', event => {
 <!---------------------- SECTION 3 --------------------------->
 <section class="centered featured">
     <h4>OUR COURSES </h4>
-    <div class="five-wide left">
+    <div class="grid-s-1">
+    <div class="col grow left">
         <div class="header-block left">
             <h2 class="block left"> Web Development <span> Bootcamp</span></h2>
         </div>
@@ -186,10 +196,10 @@ document.addEventListener('DOMContentLoaded', event => {
             <img src="/assets/images/WebDev-flowstate.jpg" class="full editable" />
             <a href="/courses/web-dev" class="button"> Learn More </a>
     </div><!--
-    --><div class="two-wide">
+    --><div class="col-1-s-0 two-wide">
             <div class="vertical-line"></div>
     </div><!--
-    --><div class="five-wide left">
+    --><div class="col grow left">
             <div class="header-block right">
             <h2 class="block">Digital Marketing <span> Bootcamp</span></h2>
         </div>
@@ -204,30 +214,37 @@ document.addEventListener('DOMContentLoaded', event => {
 
 </section>
 
-<section class="video-banner small padded-bottom" style="background-image:url(/assets/images/still_sandra_forest.jpg);">
-        <svg class="mask top" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
+<section class="video-banner small padded-bottom teal-top white-bottom" style="background-image:url(/assets/images/still_sandra_forest.jpg);">
+
+<svg class="mask top" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
+<polygon class="teal" points="0,0 1200,0 0,96 " />
+</svg>
+
+        <!-- <svg class="mask top" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
         <polygon class="teal" points="0,0 1200,0 0,100 " />
-        </svg>
+        </svg> -->
 
     <video autoplay loop>
         <source class="lazy-load" src="" data-src="/assets/website-video-banner2.mp4" />
         your browser does not support video
     </video>
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="white" points="0,250 1200,350 0,350" />
-    </svg>
+    <svg class="mask bottom" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
+    <polygon points="0,3 1200,100 0,100" />
+</svg>
+
+
 </section>
 
 <section>
-   <div class="vert-center mob-hide">
-        <img class="vert-text two-wide editable" src="../assets/text/Flow.svg" /><!--
-        --><div class="five-wide">
+   <div class="grid-middle mob-hide">
+        <img class="vert-text col-2 editable" src="../assets/text/Flow.svg" /><!--
+        --><div class="col-5">
             <p class="editable">We know when people are in their 'flow' state - when they are inspired, motivated, supported and eager to learn - they can accomplish so much more than an uninspired day. So we created an environment that helps get people into a state of mind that fosters accelerated learning.</p>
         </div><!--
-        --><div class="two-wide curl">
+        --><div class="col-2 curl">
             <span class="teal"> } </span>
         </div><!--
-        --><div class="three-wide">
+        --><div class="col-3">
             <p class="teal editable emphasis">An accelerated learning environment</p>
         </div>
      </div>
@@ -235,16 +252,10 @@ document.addEventListener('DOMContentLoaded', event => {
        <h2> Getting you in the FLOW state </h2>
        <p class="editable">We know when people are in their 'flow' state - when they are inspired, motivated, supported and eager to learn - they can accomplish so much more than an uninspired day. So we created an environment that helps get people into a state of mind that fosters accelerated learning.</p>
      </div>
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-            <polygon class="white" points="1200,350 0,350 1200,250" />
-        </svg>
+
 </section>
 
 <section class="social-proof no-padding">
-    <svg class="mask top" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
-        <polygon class="white" points="0,0 1200,0 0,100 " />
-        </svg>
-
 
     <div class="col first">
             <p class="editable">"It was straight out of the brochure, so happy I attended." - Claire, 2016</p>
@@ -290,6 +301,10 @@ document.addEventListener('DOMContentLoaded', event => {
 
         </ul>
     </div>
+    <svg class="mask bottom" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100">
+    <polygon points="0,0 0,100 1200,100" />
+</svg>
+
     <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
         <polygon class="teal" points="1200,350 1200,250 600,350 0,250 0,350" />
 </svg>
@@ -303,10 +318,11 @@ document.addEventListener('DOMContentLoaded', event => {
 </section>
 
 <section class="two-box">
-    <div class="box-img" style="background-image:url('/assets/images/C7DX8766.jpg')">
-      <svg class="arrow-right" x="0px" y="0px" viewbox="0 0 100 600" enable-background="new 0 0 100 600">
-          <polygon class="white" points="0,0 100,600 100,0" />
-      </svg>
+    <div class="box-img white-right" style="background-image:url('/assets/images/C7DX8766.jpg')">
+      <svg class="arrow-right right" x="0px" y="0px" viewbox="0 0 100 600" enable-background="new 0 0 100 600">
+    <polygon points="0,0 100,600 100,0" />
+</svg>
+
     </div><!--
 --><div class="box-text right">
       <div class="header-horiz">
@@ -327,10 +343,11 @@ document.addEventListener('DOMContentLoaded', event => {
       </div>
       <p class="editable">After enjoying a chef-prepared lunch in the shade, get back to it for another 1-2 hours of practical work. Then you are free to spend some one-on-one time with your experienced mentors working on your portfolio, or explore all that the town has to offer. Join us to wander through exotic markets, explore ancient rainforests, hit the surf or just relax with a cocktail by the pool. At night we'll gather back together in the villa for an indulgent 3+ course meal and some great company.&nbsp;</p>
    </div><!--
-   --><div class="box-img mob-hide right" style="background-image:url('/assets/images/girls-beach.jpg')">
-         <svg class="arrow-left" x="0px" y="0px" viewbox="0 0 100 600" enable-background="new 0 0 100 600">
-             <polygon class="white" points="0,600 0,0 100,600" />
-         </svg>
+   --><div class="box-img mob-hide right white-left" style="background-image:url('/assets/images/girls-beach.jpg')">
+         <svg class="arrow-left left" x="0px" y="0px" viewbox="0 0 100 600" enable-background="new 0 0 100 600">
+    <polygon points="0,600 0,0 100,600" />
+</svg>
+
       </div>
 
 </section>

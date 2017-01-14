@@ -47,3 +47,29 @@ img.second {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.pic{
+  background-position: center;
+  background-size: cover;
+}
+
+.pic.top{
+  background-position: top;
+}
+.pic.bottom{
+    background-position: bottom;
+}
+.pic.right{
+    background-position: right;
+}
+.pic.left{
+    background-position: left;
+}
+
+
+
+// page specific
+
+.testimonials .pic {
+  min-height: 450px;
+}
