@@ -122,81 +122,8 @@ section {
 .mob-show {
   display: none !important; }
 
-.col,
-.ten-wide,
-.nine-wide,
-.eight-wide,
-.seven-wide,
-.six-wide,
-.five-wide,
-.four-wide,
-.three-wide,
-.two-wide,
-.one-wide {
-  display: inline-block;
-  margin: 1%;
-  vertical-align: top; }
-
-.one-wide {
-  width: 6.333%; }
-
-.two-wide {
-  width: 14.66%; }
-
-.fourcol .col,
-.three-wide {
-  width: 23%; }
-
-.four-wide,
-.threecol .col {
-  width: 31.33%; }
-
-.five-wide {
-  width: 39.66%; }
-
-.six-wide,
-.twocol .col {
-  width: 48%; }
-
-.seven-wide {
-  width: 56.33%; }
-
-.eight-wide {
-  width: 64.66%; }
-
-.nine-wide {
-  width: 73%; }
-
-.ten-wide {
-  width: 81.33%; }
-
-.grid {
-  display: block;
-  position: relative;
-  margin: 0; }
-
-.grid .vert-center,
-.grid div {
-  display: inline-block;
-  position: relative;
-  width: 50%;
-  height: 60vh;
-  margin: 0;
-  vertical-align: top; }
-
-.grid.large div {
-  height: 80vh; }
-
-.grid .image img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover; }
-
-.grid .vert-center {
-  padding: 5%;
-  text-align: center; }
+.col.padded {
+  padding: 4%; }
 
 header {
   padding: 2vh 5%;
@@ -283,6 +210,14 @@ svg.mask {
   left: 0;
   width: 100%; }
 
+polygon {
+  stroke-width: 2px; }
+
+.top {
+  top: 0;
+  bottom: auto;
+  left: 0; }
+
 /* these are hacks to target internet explorer */
 .ie svg.mask,
 .ie .arrow-left,
@@ -294,11 +229,6 @@ svg.mask {
   .arrow-left,
   .arrow-right {
     display: none !important; } }
-.top {
-  top: 0;
-  bottom: auto;
-  left: 0; }
-
 .arrow-left,
 .arrow-right {
   z-index: 1;
@@ -313,20 +243,17 @@ svg.mask {
 .arrow-left {
   left: -1px; }
 
-.teal {
+.teal-bottom .bottom, .teal-top .top, .teal-left .left, .teal-right .right {
   fill: #00A9BF;
   color: #00A9BF;
   stroke: #00A9BF; }
 
-.grey {
+.grey-bottom .bottom, .grey-top .top, .grey-left .left, .grey-right .right {
   fill: #41414D;
-  background-color: #41414D;
-  color: white; }
+  color: #41414D;
+  stroke: #41414D; }
 
-polygon {
-  stroke-width: 2px; }
-
-.white {
+.white-bottom .bottom, .white-right .right, .white-left .left, .white-top .top {
   stroke: white;
   fill: white; }
 
@@ -336,6 +263,135 @@ polygon {
   color: white;
   stroke: #41414D; }
 
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  font-size: 0.8em;
+  padding: 6px 10px;
+  /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  vertical-align: top;
+  font-family: "Macho";
+  position: relative; }
+
+form input {
+  width: 48%;
+  margin: 1%; }
+
+form textarea {
+  display: block;
+  width: 98%;
+  margin: 1%; }
+
+form input[type="submit"] {
+  background: none;
+  width: auto;
+  margin: auto; }
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+textarea {
+  min-height: 8rem;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+
+label,
+legend {
+  display: block;
+  margin-bottom: .3rem;
+  font-weight: 600; }
+
+fieldset {
+  padding: 0;
+  border-width: 0; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+
+label > .label-body {
+  display: inline-block;
+  margin-left: .3rem;
+  font-weight: normal; }
+
+/* Enrolment Form */
+.enrol ::-webkit-input-placeholder {
+  color: #969696; }
+
+.enrol ::-moz-placeholder {
+  color: #969696; }
+
+.enrol :-ms-input-placeholder {
+  color: #969696; }
+
+.enrol :-moz-placeholder {
+  color: #969696; }
+
+form.enrol label {
+  color: #00A9BF; }
+
+form.enrol input, form.enrol textarea {
+  background-color: transparent;
+  color: #3c3c3c;
+  border: 1px solid #00A9BF;
+  padding: 0.5rem;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 300;
+  vertical-align: bottom;
+  margin: 0 0 1em;
+  display: inline-block; }
+
+form.enrol input[type="submit"] {
+  background-color: #00A9BF;
+  color: white;
+  font-weight: bold;
+  padding: 1em; }
+
+form.enrol input[type="submit"]:hover {
+  background-color: white;
+  color: #00A9BF;
+  border: 2px solid #00A9BF;
+  font-weight: bold;
+  padding: 1em; }
+
+@media (max-width: 700px) {
+  form.enrol input,
+  form.enrol textarea {
+    font-size: 1rem; } }
 /* Image styles */
 img.full-width {
   width: 98%;
@@ -377,6 +433,25 @@ img.second {
   height: 150px;
   -o-object-fit: cover;
   object-fit: cover; }
+
+.pic {
+  background-position: center;
+  background-size: cover; }
+
+.pic.top {
+  background-position: top; }
+
+.pic.bottom {
+  background-position: bottom; }
+
+.pic.right {
+  background-position: right; }
+
+.pic.left {
+  background-position: left; }
+
+.testimonials .pic {
+  min-height: 450px; }
 
 h1,
 h2,

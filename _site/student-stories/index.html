@@ -13,10 +13,11 @@
 
 <!-- Link to Stylesheet -->
 <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
-<link href="/css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/gridlex.css">
 <link href="/css/style.css" rel="stylesheet">
 <link href="/css/blog.css" rel="stylesheet">
 <link href="/css/pure-drawer.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
 
 
 <!-- To load adobe typekit -->
@@ -124,7 +125,7 @@ document.addEventListener('DOMContentLoaded', event => {
     </div>
     <div class="pure-pusher-container">
         <div class="pure-pusher">
-            <section class="video-banner">
+            <section class="video-banner grey-bottom">
 
     <header>
     <a href="/index.html"><img src="/assets/images/ioc-logo-med-long.svg" alt="Institute of Code" class="logo"></a>
@@ -149,9 +150,10 @@ document.addEventListener('DOMContentLoaded', event => {
         <source src="/assets/website-video-activities.mp4" />
         your browser does not support video
     </video>
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="grey" points="0,250 1200,350 0,350" />
-    </svg>
+    <svg class="mask bottom" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
+    <polygon points="0,3 1200,100 0,100" />
+</svg>
+
 </section>
 
 <!-- <script src="/live.js" type="text/javascript"></script> -->
@@ -162,22 +164,39 @@ document.addEventListener('DOMContentLoaded', event => {
   <p> We're proud of the fact that we regularly receive 5 star reviews from students around the world. Our focus is on helping our students suceed, during the retreat but also long after it ends. </p>
 </section>
 <section class="no-padding testimonials">
-    <div class="two-box">
-        <div class="box-img" style="background-image:url('/assets/images/students-christina.jpg')"></div><!--
-    --><div class="box-text right"> <p class="editable">The IOC mentors were patient and very willing to take time out of their breaks to help you figure out how to add a specific feature to your site. Not only did they teach us how to do things, but they went over how to trouble shoot and how to find the help we may need once we graduate. In 10 days I was able to build two sites completely and develop skills that I'll never forget.&nbsp;<br /><br />Apart from the curriculum we were also given the opportunity to visit landmarks and participate in water sports and other activities with the team. I highly recommend this course to anyone who wants to learn how to code in a relaxed environment!! Don't hesitate to apply or even ask the IOC team for more information! &nbsp; -Christine</p> </div>
+  
+    <div class='grid-reverse_md-1'>
+        <div class="col-6_md-12 pic " style="background-image:url('/assets/images/students-christina.jpg')"></div><!--
+    --><div class="col padded"> <p class="editable">The IOC mentors were patient and very willing to take time out of their breaks to help you figure out how to add a specific feature to your site. Not only did they teach us how to do things, but they went over how to trouble shoot and how to find the help we may need once we graduate. In 10 days I was able to build two sites completely and develop skills that I'll never forget.&nbsp;<br /><br />Apart from the curriculum we were also given the opportunity to visit landmarks and participate in water sports and other activities with the team. I highly recommend this course to anyone who wants to learn how to code in a relaxed environment!! Don't hesitate to apply or even ask the IOC team for more information! &nbsp; -Christine</p> </div>
     </div>
-    <div class="two-box">
+    
+    <div class='grid_md-1'>
+        <div class="col-6_md-12 pic top" style="background-image:url('/assets/images/students-ibo.jpg')"></div><!--
+    --><div class="col padded"> <p class="editable">I expected the mentors to be more like teachers in a high school where they would probably just teach us some skills and go back to whatever they decide to do in their own time. Instead, they were such nice people that went out of their way to make connections with you and teach you not just what they knew but how to find the resources for yourself.<br /><br />The whole experience in itself will open your mind and teach you how to take any skill, business idea or even just a hobby or interest you have and use it in conjunction with the world of Web Development to take it to a whole new level, connect with new people and turn it into something you had no idea was even possible beforehand.<br />- Ibrahim&nbsp;</p> </div>
+    </div>
+    
+    <div class='grid-reverse_md-1'>
+        <div class="col-6_md-12 pic " style="background-image:url('/assets/images/students-sharns.png')"></div><!--
+    --><div class="col padded"> <p class="editable">The IOC Coding bootcamp was absolutely brilliant. What an incredible way to gain a new skill. It was paradise to be removed from everyday life and focus on growth. The amazing staff orchestrated everything for us so all we had to do was relax, soak in new things and have fun. Plus, so grateful for the chance to meet new friends from all over the world. Would 100% recommend.<br />-Sharny</p> </div>
+    </div>
+    
+    <div class='grid_md-1'>
+        <div class="col-6_md-12 pic top" style="background-image:url('/assets/images/students-jo.jpg')"></div><!--
+    --><div class="col padded"> <p class="editable">I had gone from not knowing anything about how to create a website to creating one that I was proud of, for a cause that I was passionate about. I felt like I could go out into the world and achieve anything if I put my mind to it. Thanks to the IOC for giving me this opportunity, for always being supportive through my journey and for teaching me some awesome skills that I will definitely help me in my future endeavours.&nbsp;<br />-Jo</p> </div>
+    </div>
+    
+    <!-- <div class="two-box">
         <div class="box-text mob-dark"> <p class="editable">I expected the mentors to be more like teachers in a high school where they would probably just teach us some skills and go back to whatever they decide to do in their own time. Instead, they were such nice people that went out of their way to make connections with you and teach you not just what they knew but how to find the resources for yourself.<br /><br />The whole experience in itself will open your mind and teach you how to take any skill, business idea or even just a hobby or interest you have and use it in conjunction with the world of Web Development to take it to a whole new level, connect with new people and turn it into something you had no idea was even possible beforehand.<br />- Ibrahim&nbsp;</p> </div><!--
-        --><div class="box-img right" style="background-image:url('/assets/images/students-ibo.jpg')"></div>
-    </div>
-    <div class="two-box">
+        --<div class="box-img right" style="background-image:url('/assets/images/students-ibo.jpg')"></div>
+    </div> -->
+    <!-- <div class="two-box">
         <div class="box-img" style="background-image:url('/assets/images/students-sharns.png')"></div><!--
-    --><div class="box-text right"> <p class="editable">The IOC Coding bootcamp was absolutely brilliant. What an incredible way to gain a new skill. It was paradise to be removed from everyday life and focus on growth. The amazing staff orchestrated everything for us so all we had to do was relax, soak in new things and have fun. Plus, so grateful for the chance to meet new friends from all over the world. Would 100% recommend.<br />-Sharny</p> </div>
-    </div>
-    <div class="two-box">
+    --<div class="box-text right"> <p class="editable">The IOC Coding bootcamp was absolutely brilliant. What an incredible way to gain a new skill. It was paradise to be removed from everyday life and focus on growth. The amazing staff orchestrated everything for us so all we had to do was relax, soak in new things and have fun. Plus, so grateful for the chance to meet new friends from all over the world. Would 100% recommend.<br />-Sharny</p> </div>
+    </div> -->
+    <!-- <div class="two-box">
         <div class="box-text mob-dark"> <p class="editable">I had gone from not knowing anything about how to create a website to creating one that I was proud of, for a cause that I was passionate about. I felt like I could go out into the world and achieve anything if I put my mind to it. Thanks to the IOC for giving me this opportunity, for always being supportive through my journey and for teaching me some awesome skills that I will definitely help me in my future endeavours.&nbsp;<br />-Jo</p> </div><!--
-        --><div class="box-img right" style="background-image:url('/assets/images/students-jo.jpg')"></div>
-    </div>
+        --<div class="box-img right" style="background-image:url('/assets/images/students-jo.jpg')"></div>
+    </div> -->
 </section>
 <section class="featured">
     <div class="six-wide">

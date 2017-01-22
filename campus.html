@@ -4,7 +4,7 @@ layout: default
 background-1_path: /assets/images/still_pool_sunrise.jpg
 background-2_path: /assets/images/still_para_up.jpg
 ---
-<section class="video-banner" style="background-image:url({{page.background-1_path}});">
+<section class="video-banner white-bottom" style="background-image:url({{page.background-1_path}});">
 
     {% include header.html %}
 
@@ -16,12 +16,10 @@ background-2_path: /assets/images/still_para_up.jpg
         <source class="lazy-load" src="" data-src="/assets/website-video-villa-life.mp4" >
         your browser does not support video
     </video>
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="white" points="1200,350 1200,250 600,350 0,250 0,350" />
-</svg>
+    {% include reverse-triangle-down.html %}
 </section>
 <!---------------------- SECTION 2 --------------------------->
-<section class="no-padding">
+<section class="no-padding white-bottom">
       <div class="banner-inner">
       <h3 class="block centered"> AN ACCELERATED LEARNING <span> ENVIRONMENT </span></h3>
       <div class="six-wide">
@@ -37,9 +35,8 @@ background-2_path: /assets/images/still_para_up.jpg
         </div>
       </div>
         <img class="large editable" id="cms-identifiable-725" data-cms-cid="725" src="/assets/images/new-villa-1.jpg" />
-        <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="white" points="1200,350 1200,250 600,350 0,250 0,350" />
-    </svg>
+        {% include reverse-triangle-down.html %}
+
 </section>
 
 <!---------- SECTION 3 - Yoga & Food -------------->
@@ -62,7 +59,8 @@ background-2_path: /assets/images/still_para_up.jpg
 </section>
 
 
-<section class="video-banner" style="background-image:url({{page.background-2_path}});">
+<section class="video-banner white-top teal-bottom" style="background-image:url({{page.background-2_path}});">
+    {% include reverse-triangle-up.html %}
        <svg class="mask top" x="0px" y="0px" viewbox="0 0 600 50" enable-background="new 0 250 1200 100" xml:space="preserve">
         <polygon class="white" points="600,50 300,0 0,50 0,0 600,0" />
     </svg>
@@ -70,9 +68,7 @@ background-2_path: /assets/images/still_para_up.jpg
         <source class="lazy-load" src="" data-src="/assets/website-video-activities.mp4" />
         your browser does not support video
     </video>
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="teal" points="1200,350 1200,250 600,350 0,250 0,350" />
-</svg>
+  {% include reverse-triangle-down.html %}
 </section>
 
 <!---------- WHATS INCLUDED -------------->
@@ -121,10 +117,8 @@ background-2_path: /assets/images/still_para_up.jpg
     </div>
 </section>
 <section class="two-box">
-    <div class="box-img" style="background-image:url('/assets/images/C7DX8766.jpg')">
-      <svg class="arrow-right" x="0px" y="0px" viewbox="0 0 100 600" enable-background="new 0 0 100 600">
-          <polygon class="white" points="0,0 100,600 100,0" />
-      </svg>
+    <div class="box-img white-right" style="background-image:url('/assets/images/C7DX8766.jpg')">
+      {% include right-slanted-top.html %}
     </div><!--
 --><div class="box-text right">
       <div class="header-horiz">
@@ -145,10 +139,8 @@ background-2_path: /assets/images/still_para_up.jpg
       </div>
       <p class="editable">After enjoying a chef-prepared lunch in the shade, get back to it for another 1-2 hours of practical work. Then you are free to spend some one-on-one time with your experienced mentors working on your portfolio, or explore all that the town has to offer. Join us to wander through exotic markets, explore ancient rainforests, hit the surf or just relax with a cocktail by the pool. At night we'll gather back together in the villa for an indulgent 3+ course meal and some great company.&nbsp;</p>
    </div><!--
-   --><div class="box-img mob-hide right" style="background-image:url('/assets/images/girls-beach.jpg')">
-         <svg class="arrow-left" x="0px" y="0px" viewbox="0 0 100 600" enable-background="new 0 0 100 600">
-             <polygon class="white" points="0,600 0,0 100,600" />
-         </svg>
+   --><div class="box-img mob-hide right white-left" style="background-image:url('/assets/images/girls-beach.jpg')">
+         {% include left-slanted-bottom.html %}
       </div>
 
 </section>
