@@ -13,9 +13,12 @@
 
 <!-- Link to Stylesheet -->
 <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/gridlex.css">
 <link href="/css/style.css" rel="stylesheet">
 <link href="/css/blog.css" rel="stylesheet">
 <link href="/css/pure-drawer.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
+
 
 <!-- To load adobe typekit -->
 <script src="https://use.typekit.net/ttf5gax.js"></script>
@@ -67,7 +70,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <script>
 const instance = Layzr()
-document.addEventListener('DOMContentLoaded', event => {
+document.addEventListener('DOMContentLoaded', event = {
   instance
     .update()           // track initial elements
     .check()            // check initial elements
@@ -93,7 +96,7 @@ document.addEventListener('DOMContentLoaded', event => {
         <nav class="mobile-nav">
     <a href="/index.html">Home</a>
     <a href="/our-story">Our Story</a>
-    <a href="/courses/web-dev">Courses</a>
+    <a href="/courses/web-dev" >Courses</a>
     <a href="/campus">Our Campus</a>
     <a href="/student-stories">Student Stories</a>
     <a href="/enrol">Enroll Now</a>
@@ -122,7 +125,7 @@ document.addEventListener('DOMContentLoaded', event => {
     </div>
     <div class="pure-pusher-container">
         <div class="pure-pusher">
-            <section class="our-story video-banner">
+            <section class="our-story video-banner white-bottom">
     <header>
     <a href="/index.html"><img src="/assets/images/ioc-logo-med-long.svg" alt="Institute of Code" class="logo"></a>
     <!-- <nav class="mob-hide">
@@ -141,9 +144,10 @@ document.addEventListener('DOMContentLoaded', event => {
         <h2 class="editable"> Our Story  </h2>
         <p class="editable emphasis"> Why we're trying to reinvent tech education </p>
     </div>
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="white" points="0,250 1200,350 0,350" />
-    </svg>
+    <svg class="mask bottom" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100">
+    <polygon points="0,0 0,100 1200,100" />
+</svg>
+
 </section>
 
 <!---------------------- SECTION 2 --------------------------->

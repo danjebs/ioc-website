@@ -1,0 +1,69 @@
+svg.mask /* this controls the triangles */ {
+  position : absolute;
+  bottom   : 0;
+  left     : 0;
+  width    : 100%;
+}
+
+polygon {
+  stroke-width: 2px;
+}
+
+.top {
+  top    : 0;
+  bottom : auto;
+  left   : 0;
+}
+
+/* these are hacks to target internet explorer */
+.ie svg.mask ,
+.ie .arrow-left,
+.ie .arrow-right {
+  display: none!important;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	svg.mask,
+  .arrow-left,
+  .arrow-right  { display: none!important; }
+}
+
+.arrow-left,
+.arrow-right {
+  z-index  : 1;
+  position : absolute;
+  top      : 0;
+  bottom   : 0;
+  height   : 100%;
+}
+
+.arrow-right {
+  right : -1px;
+}
+
+.arrow-left {
+  left : -1px;
+}
+
+.teal-bottom .bottom, .teal-top .top, .teal-left .left, .teal-right .right {
+  fill: $color-featured;
+  color: $color-featured;
+  stroke: $color-featured;
+}
+.grey-bottom .bottom, .grey-top .top, .grey-left .left, .grey-right .right {
+  fill: $color-body;
+  color: $color-body;
+  stroke: $color-body;
+}
+
+.white-bottom .bottom ,.white-right .right, .white-left .left, .white-top .top{
+  stroke:white;
+  fill:white;
+}
+
+.grey {
+  fill: #41414D;
+  background-color: #41414D;
+  color: white;
+  stroke: $color-body;
+
+}

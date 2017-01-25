@@ -1,1 +1,5 @@
 permalink: pretty
+
+
+sass:
+    sass_dir: _scss

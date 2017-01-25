@@ -13,9 +13,12 @@
 
 <!-- Link to Stylesheet -->
 <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/gridlex.css">
 <link href="/css/style.css" rel="stylesheet">
 <link href="/css/blog.css" rel="stylesheet">
 <link href="/css/pure-drawer.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
+
 
 <!-- To load adobe typekit -->
 <script src="https://use.typekit.net/ttf5gax.js"></script>
@@ -67,7 +70,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <script>
 const instance = Layzr()
-document.addEventListener('DOMContentLoaded', event => {
+document.addEventListener('DOMContentLoaded', event = {
   instance
     .update()           // track initial elements
     .check()            // check initial elements
@@ -93,7 +96,7 @@ document.addEventListener('DOMContentLoaded', event => {
         <nav class="mobile-nav">
     <a href="/index.html">Home</a>
     <a href="/our-story">Our Story</a>
-    <a href="/courses/web-dev">Courses</a>
+    <a href="/courses/web-dev" >Courses</a>
     <a href="/campus">Our Campus</a>
     <a href="/student-stories">Student Stories</a>
     <a href="/enrol">Enroll Now</a>
@@ -122,7 +125,7 @@ document.addEventListener('DOMContentLoaded', event => {
     </div>
     <div class="pure-pusher-container">
         <div class="pure-pusher">
-            <section class="video-banner" style="background-image:url(/assets/images/still_coding_1.jpg);">
+            <section class="video-banner white-bottom" style="background-image:url(/assets/images/still_coding_1.jpg);">
 
     <header>
     <a href="/index.html"><img src="/assets/images/ioc-logo-med-long.svg" alt="Institute of Code" class="logo"></a>
@@ -147,69 +150,73 @@ document.addEventListener('DOMContentLoaded', event => {
         <source class="lazy-load" src="" data-src="/assets/website-video-coding1.mp4" />
         your browser does not support video
     </video>
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="white" points="0,250 1200,350 0,350" />
-    </svg>
+<svg class="mask bottom" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100">
+    <polygon points="0,0 0,100 1200,100" />
+</svg>
+
 </section>
 
 <!---------------------- SECTION 2 --------------------------->
-<section class="padded-bottom">
+<section class="padded-bottom white-bottom">
     <h2 class="block">WEB DEVELOPMENT<span>BOOTCAMP</span></h2>
     <p class="emphasis editable">No coding experience? No worries! </p>
     <p class="editable">No coding experience? No worries! Our 10 day bootcamp will take you from little or no experience to creating your very own beautiful, responsive websites in no time! You will learn how to use HTML, CSS and Javascript to design, create and build websites for scratch. There is no prior experience or skills required before joining this bootcamp! Whether you are a freelance creative, entrepreneur, business owner or marketer we make sure our mentors know exactly what you want to get out of the program so they can help you achieve your goals!</p>
     <p class="editable"> By the end of the program you will have built a <strong>portfolio of 1 - 2 live responsive websites!</strong> </p>
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="teal" points="1200,350 0,350 1200,250" />
+    <svg class="mask bottom" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
+    <polygon points="0,3 1200,100 0,100" />
 </svg>
+
 </section>
 
 
 <!----------- SECTION 3 --------------------------->
-<section class="featured centered padded circles padded-bottom">
+<section class="featured centered padded circles padded-bottom white-bottom">
     <h2 class="editable"> Who this is perfect for...</h2>
-    <div class="four-wide">
-        <img class="editable" src="/assets/images/students-sharns.png" />
-        <h3 class="editable"> Marketers </h3>
-        <p class="editable">Learn to talk-the-talk with developers, and accelerate your career.</p>
-    </div><!--
-    --><div class="four-wide">
-        <img class="editable" src="/assets/images/students-christina.jpg" />
-        <h3 class="editable">Entrepreneurs</h3>
-        <p class="editable">Discover how to build websites for businesses without the need of a developer.</p>
-    </div><!--
-    --><div class="four-wide">
-        <img class="editable" src="/assets/images/students-claire.jpg" />
-        <h3 class="editable">Graphic Designers</h3>
-        <p class="editable">Combine your design skills with web development to stand out from the crowd.</p>
-    </div><!--
-    --><div class="four-wide">
-        <img class="editable" src="/assets/images/students-josh.jpg" />
-        <h3 class="editable">Start-up Owners</h3>
-        <p class="editable">Take control of your own web development process.</p>
-    </div><!--
-    --><div class="four-wide">
-        <img class="editable" src="/assets/images/students-ibo.jpg" />
-        <h3 class="editable">Project Managers</h3>
-        <p class="editable">Optimise operations and know how to hire a strong team</p>
-    </div><!--
-    --><div class="four-wide">
-        <img class="editable" src="/assets/images/students-jo.jpg" />
-        <h3 class="editable">Digital Nomads</h3>
-        <p class="editable">Create, style and build your own blog or website.</p>
+    <div class="grid-3_s-2">
+      <div class="col">
+          <img class="editable" src="/assets/images/students-sharns.png" />
+          <h3 class="editable"> Marketers </h3>
+          <p class="editable">Learn to talk-the-talk with developers, and accelerate your career.</p>
+      </div><!--
+      --><div class="col">
+          <img class="editable" src="/assets/images/students-christina.jpg" />
+          <h3 class="editable">Entrepreneurs</h3>
+          <p class="editable">Discover how to build websites for businesses without the need of a developer.</p>
+      </div><!--
+      --><div class="col">
+          <img class="editable" src="/assets/images/students-claire.jpg" />
+          <h3 class="editable">Graphic Designers</h3>
+          <p class="editable">Combine your design skills with web development to stand out from the crowd.</p>
+      </div><!--
+      --><div class="col">
+          <img class="editable" src="/assets/images/students-josh.jpg" />
+          <h3 class="editable">Start-up Owners</h3>
+          <p class="editable">Take control of your own web development process.</p>
+      </div><!--
+      --><div class="col">
+          <img class="editable" src="/assets/images/students-ibo.jpg" />
+          <h3 class="editable">Project Managers</h3>
+          <p class="editable">Optimise operations and know how to hire a strong team</p>
+      </div><!--
+      --><div class="col">
+          <img class="editable" src="/assets/images/students-jo.jpg" />
+          <h3 class="editable">Digital Nomads</h3>
+          <p class="editable">Create, style and build your own blog or website.</p>
+      </div>
     </div>
-        <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
+    <svg class="mask bottom" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
+    <polygon points="0,3 1200,100 0,100" />
+</svg>
 
-        <polygon class="white" points="0,250 1200,350 0,350" />
-    </svg>
 </section>
 
 <!---------------------- SECTION 4 --------------------------->
 
 <section>
-   <div class="vert-center">
-        <h2 class="mob-show block">WHAT YOU WILL<span>LEARN</span></h2>
-        <img class="vert-text two-wide editable mob-hide" src="/assets/text/Learn.svg" /><!--
-        --><div class="five-wide">
+   <div class="vert-center grid-middle-spaceBetween">
+        <h2 class="block col-0_lg-0_md-0_sm-12_xs-12">WHAT YOU WILL<span>LEARN</span></h2>
+        <img class="vert-text col-2_sm-0 editable" src="/assets/text/Learn.svg" /><!--
+        --><div class="col-5">
             <ul>
               <li>+ web fundamentals </li>
               <li>+ talk-the-talk with developers</li>
@@ -224,10 +231,10 @@ document.addEventListener('DOMContentLoaded', event => {
               <li>+ optimising your site for google</li>
             </ul>
         </div><!--
-        --><div class="two-wide curl mob-hide">
+        --><div class="col-2_sm-0 curl">
             <span class="teal"> } </span>
         </div><!--
-        --><div class="three-wide">
+        --><div class="col-3_sm-0">
             <p class="teal editable emphasis">how to build kickass websites from scratch</p>
             <p> </p>
         </div>
@@ -235,18 +242,20 @@ document.addEventListener('DOMContentLoaded', event => {
 </section>
 
 <!-------------- SECTION 5 - VIDEO  ---------------->
-<section class="video-banner small">
+<section class="video-banner small white-bottom white-top">
         <svg class="mask top" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
-        <polygon class="white" points="0,0 1200,0 0,100 " />
-        </svg>
+<polygon class="teal" points="0,0 1200,0 0,96 " />
+</svg>
+
 
     <video autoplay loop>
         <source class="lazy-load" src="" data-src="/assets/website-video-coding2.mp4"/>
         your browser does not support video
     </video>
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="white" points="0,250 1200,350 0,350" />
-    </svg>
+    <svg class="mask bottom" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
+    <polygon points="0,3 1200,100 0,100" />
+</svg>
+
 </section>
 
 
@@ -269,10 +278,11 @@ document.addEventListener('DOMContentLoaded', event => {
       <p class="editable"> By removing people from the stress of their everyday lives, creating an environment that inspires, and taking care of every one of our students needs then they are able to focus all of their mental energy on learning a new skill.</p>
       <!-- <p class="editable"> We hire only experienced professionals actually working in the industry not full-time academics and we make sure they are inspired and ready to teach because we provide them with all the same ammenities that the students receive. With 3 mentors for only 12 students, you know you'll get the one-on-one attention you need to thrive </p> -->
      </div><!--
-    --><div class="box-img right" style="background-image:url('/assets/images/WebDev-flowstate.jpg');">
-        <svg class="arrow-left" x="0px" y="0px" viewbox="0 0 100 600" enable-background="new 0 0 100 600">
-          <polygon class="teal" points="0,600 0,0 100,600" />
-        </svg>
+    --><div class="box-img right teal-left" style="background-image:url('/assets/images/WebDev-flowstate.jpg');">
+        <svg class="arrow-left left" x="0px" y="0px" viewbox="0 0 100 600" enable-background="new 0 0 100 600">
+    <polygon points="0,600 0,0 100,600" />
+</svg>
+
     </div>
 </section>
 
@@ -330,10 +340,11 @@ document.addEventListener('DOMContentLoaded', event => {
 
 <!------ SECTION 6 --------------------------->
 <section class="two-box featured">
-    <div class="box-img" style="background-image:url('/assets/images/webdev-need-help.jpg');">
-      <svg class="arrow-right" x="0px" y="0px" viewbox="0 0 100 600" enable-background="new 0 0 100 600">
-<polygon class="teal" points="0,0 100,600 100,0" />
+    <div class="box-img teal-right" style="background-image:url('/assets/images/webdev-need-help.jpg');">
+      <svg class="arrow-right right" x="0px" y="0px" viewbox="0 0 100 600" enable-background="new 0 0 100 600">
+    <polygon points="0,0 100,600 100,0" />
 </svg>
+
     </div><!--
 --><div class="box-text right">
         <h2 class="editable"> Need Help? </h2>

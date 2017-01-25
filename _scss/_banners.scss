@@ -1,0 +1,55 @@
+
+/* --- Video Banner -- */
+
+
+
+.video-banner {
+  position         : relative;
+  height           : 100vh;
+  min-height: 450px;
+  padding          : 0;
+  color            : white;
+  font-size        : 120%;
+  z-index: -5;
+}
+
+.video-banner video {
+  z-index  : -1;
+  position : absolute;
+  top      : 0;
+  left     : 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border: 1px solid white;
+}
+
+.video-banner.small {
+  height : 80vh;
+}
+
+.video-banner.small video {
+  height : 80vh;
+}
+
+.banner-inner {
+  padding : 10vh 10%;
+}
+
+.banner-inner h2 {
+  text-transform : uppercase;
+  font-size      : 3em;
+}
+
+
+.our-story {
+  background-image: url("/assets/images/our-story.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.our-story .banner-inner {
+    color: rgb(80,80,85);
+}

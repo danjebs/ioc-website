@@ -3,7 +3,7 @@ title: Institute of Code
 layout: default
 
 ---
-<section class="video-banner" style="background-image:url({{page.background-1_path}});">
+<section class="video-banner white-bottom" style="background-image:url({{page.background-1_path}});">
 
     {% include header.html %}
 
@@ -15,28 +15,25 @@ layout: default
         <source class="lazy-load" src="" data-src="/assets/website-video-coding4.mp4">
         your browser does not support video
     </video>
-    <svg class="mask" x="0px" y="0px"
-	 viewBox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="white" points="1200,350 1200,250 600,350 0,250 0,350"/>
-</svg>
+    {% include reverse-triangle-down.html %}
 </section>
 
 <section class="blog">
     {% for post in site.posts %}
     <article> <!-- Blog Excert -->
-        <div class="two-wide border-right right mob-hide">
+        <a class="grid" href="{{ post.url }}">
+        <div class="col-2_sm-0 border-right right mob-hide">
             <span class="month"> {{post.month}} </span>
             <span class="date">{{post.day}}</span>
-        </div><!--
-        --><a href="{{ post.url }}">
-        <div class="five-wide large">
+        </div>
+        <div class="col large">
             <img src="{{post.image_path}}" alt="{{post.alt}}">
                 <svg class="arrow-right" x="0px" y="0px"
 	 viewBox="0 0 100 600" enable-background="new 0 0 100 600">
-        <polygon class="white" points="100,600 100,0 0,0 100,300 0,600"/>
+        <polygon class="white" points="100,600 100,0 0,0 78,300 0,600"/>
 </svg>
-        </div><!--
-        --><div class="five-wide">
+        </div>
+        <div class="col">
             <h2> {{ post.title }}</h2>
             <p> {{post.excerpt}} </p>
         </div>

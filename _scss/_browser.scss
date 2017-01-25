@@ -1,0 +1,11 @@
+.ie svg.mask ,
+.ie .arrow-left,
+.ie .arrow-right {
+  display: none!important;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	svg.mask,
+  .arrow-left,
+  .arrow-right  { display: none!important; }
+}

@@ -1,0 +1,81 @@
+
+header {
+  padding          : 2vh 5%;
+  color            : #41414D;
+  background-color : rgb(255,255,255);
+  vertical-align   : top;
+  height:            80px;
+  text-align: right;
+}
+
+header .logo {
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  width          : 250px;
+  margin         : 5px;
+}
+
+header nav {
+  display    : inline-block;
+  width      : 75%;
+  margin     : 0;
+  text-align : right;
+  vertical-align: middle;
+}
+
+header nav li {
+  display        : inline-block;
+  min-width      : 60px;
+  margin         : 0;
+  padding        : 0;
+  text-transform : uppercase;
+  font-size      : 16px;
+}
+
+header nav a {
+  display      : block;
+  width        : 100%;
+  padding      : 0.5em;
+  text-align   : left;
+  font-weight  : 400;
+}
+
+header nav a:last-child {
+  border : none;
+}
+
+header ul,
+header ul li {
+  position : relative;
+}
+
+header ul ul {
+  display    : none;
+  position   : absolute;
+  top        : 100%;
+  left       : 0;
+  padding    : 0;
+  text-align : left;
+}
+
+header ul li ul li {
+  display          : block;
+  width            : 250px;
+  margin           : 0;
+  background-color : white;
+  text-transform   : none;
+}
+
+header ul li:hover ul {
+  display : block;
+}
+
+header ul ul a {
+  padding : 5px 10px;
+}
+
+header nav ul a:hover {
+  color       : #00A9BF;
+  font-weight : 400;
+}

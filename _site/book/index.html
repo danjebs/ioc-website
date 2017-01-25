@@ -13,9 +13,12 @@
 
 <!-- Link to Stylesheet -->
 <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/gridlex.css">
 <link href="/css/style.css" rel="stylesheet">
 <link href="/css/blog.css" rel="stylesheet">
 <link href="/css/pure-drawer.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
+
 
 <!-- To load adobe typekit -->
 <script src="https://use.typekit.net/ttf5gax.js"></script>
@@ -67,7 +70,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <script>
 const instance = Layzr()
-document.addEventListener('DOMContentLoaded', event => {
+document.addEventListener('DOMContentLoaded', event = {
   instance
     .update()           // track initial elements
     .check()            // check initial elements
@@ -93,7 +96,7 @@ document.addEventListener('DOMContentLoaded', event => {
         <nav class="mobile-nav">
     <a href="/index.html">Home</a>
     <a href="/our-story">Our Story</a>
-    <a href="/courses/web-dev">Courses</a>
+    <a href="/courses/web-dev" >Courses</a>
     <a href="/campus">Our Campus</a>
     <a href="/student-stories">Student Stories</a>
     <a href="/enrol">Enroll Now</a>
@@ -122,10 +125,7 @@ document.addEventListener('DOMContentLoaded', event => {
     </div>
     <div class="pure-pusher-container">
         <div class="pure-pusher">
-            <!-- This is the javascript for Xola buttons -->
-<script type="text/javascript"> (function() { var co=document.createElement("script"); co.type="text/javascript"; co.async=true; co.src="https://xola.com/checkout.js"; var s=document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(co, s); })(); </script>
-
-<!-- this script is for tapfiliate -->
+            <!-- this script is for tapfiliate -->
 
 <script src="//static.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
 <script type="text/javascript">
@@ -158,34 +158,126 @@ document.addEventListener('DOMContentLoaded', event => {
 </script>
 
 <!--- end of tapfiliate --->
-<section class="video-banner">
+<section class="grid">
+  <div class="col-8">
+      <h1> Accept Your Enrollment </h1>
+      <h3> and formally book your spot in the 10 day coding bootcamp </h3>
+      <p> Welcome to the Institute of Code family. We're excited for you to join us soon in beautiful Bali and learn to code. </p>
+      <hr>
 
-    <header>
-    <a href="/index.html"><img src="/assets/images/ioc-logo-med-long.svg" alt="Institute of Code" class="logo"></a>
-    <!-- <nav class="mob-hide">
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/our-story">Our Story</a></li>
-            <li><a href="/courses/web-dev">Our Course</a>
-            <li><a href="/campus">Our Campus</a></li>
-            <li><a href="/student-stories">Student Stories</a></li>
-            <li><a href="/enrol">Enroll</a></li>
-        </ul>
-    </nav> -->
-</header>
+      <form action="https://formspree.io/hello@instituteofcode.com"
+          method="POST">
+        <h2> Personal Details </h2>
+        <label for="name"> Your Name </label>
+        <input type="text" name="name" id="name" placeholder="Name">
+
+        <label for="email"> Your Email </label>
+        <input type="email" name="_replyto"  id="email" placeholder="Email">
+
+        <label for="phone"> Your Phone Number </label>
+        <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number">
+
+        <label for="email"> Your Date of Birth </label>
+        <input type="email" name="_replyto"  id="email" placeholder="Email">
+
+        <label for="email"> Your Home Address </label>
+        <input type="email" name="_replyto"  id="email" placeholder="Email">
+
+        <h2> Preferences & Important Information </h2>
+        <label for="email"> Emergency Contact </label>
+        <input type="email" name="_replyto"  id="email" placeholder="Name | Relationship | Contact Information">
+
+        <label for="email"> Dietary Requirements </label>
+        <input type="email" name="_replyto"  id="email" placeholder="Eg Vegetarian, don't like cilantro, allergic to peanuts.">
+
+        <label for="email"> Relevant Medical Information </label>
+        <input type="email" name="_replyto"  id="email" placeholder="Anything medical that we should know about?">
+
+        <h2> Course Options </h2>
+
+        <label for="course-date"> Which session would you like to attend?</label>
+        <select multiple name="course-date">
+            <option value="feb-4-16">Febraury 4th - 13th</option>
+            <option value="feb-17-16">February 17th - 26th</option>
+            <option value="mar-3-16">March 3rd - 12th</option>
+            <option value="apr-1-16">Apr 1st - Apr 10th</option>
+            <option value="apr-28-16">Apr 28th - May 7th</option>
+            <option value="may-24-16">May 24th - June 2nd</option>
+        </select>
+
+        <label for="room"> What is your room preference</label>
+        <select multiple name="room">
+            <option value="feb-4-16">Standard Twin or Tripe Room</option>
+            <option value="feb-17-16">Private Room offsite +$350</option>
+            <option value="mar-3-16">Quad Share Bunk Room -$100</option>
+        </select>
 
 
-    <div class="banner-inner">
-        <h2 class="editable"> Confirm your enrollment </h2>
-    </div>
-    <video autoplay loop poster="/assets/images/still_coding_1.jpg">
-        <source src="/assets/website-video-coding1.mp4" />
-        your browser does not support video
-    </video>
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="white" points="0,250 1200,350 0,350" />
-    </svg>
-</section>
+        <h3> Optional Extras </h3>
+
+        <label for="#"> Night before accomodation - $45 </label>
+        <input type="checkbox" name="vehicle" value="Bike">
+
+        <label for="#"> Night After Accomodation - $45 </label>
+        <input type="checkbox" name="vehicle" value="Car" checked>
+
+        <label for="#"> Local Sim Card - $15 </label>
+        <input type="checkbox" name="vehicle" value="Car" checked>
+
+        <label for="#"> Laptop Rental - $140 </label>
+        <input type="checkbox" name="vehicle" value="Car" checked>
+
+        <h3> Payment </h3>
+        <label for="room"> How would you like to pay for your course fees?</label>
+        <p class="subtitle"> Pay Upfront for a $100 discount. Credit card payments incur a 1.6% fee. ZipMoney is available to eligible Australian Residents.</p>
+        <select multiple name="room">
+            <option value="feb-4-16">Pay Upfront via Credit Card</option>
+            <option value="feb-17-16"> Pay Upfront via Bank Transfer</option>
+            <option value="mar-3-16">Payment Plan</option>
+            <option value="mar-3-16">Zip Money - Pay Nothing Upfront</option>
+        </select>
+
+        <label for="#"> Any other questions or comments? </label>
+        <textarea name="message"></textarea>
+
+        <label for="#"> Please confirm that you have read and accepted the terms and conditions </label>
+        <input type="checkbox" name="vehicle" value="Bike">
+
+        <input type="submit" value="Submit" class="button">
+
+        <!-- These are hidden fields -->
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_next" value="/thanks" />
+      </form>
+  </div>
+  <div class="sidebar col-4">
+  </div>
+  <section class="dark">
+    <h2> You're in good company. </h2>
+    <h3> We've been featured in...</h3>
+    <div class="grid pr-logos">
+  <div class="three-wide">
+      <a href="https://www.youtube.com/watch?v=ub3H3xgFrAY" target="_blank">
+        <img src="/uploads/pr-logos/cnn-logo.png">
+      </a>
+  </div><!--
+  --><div class="three-wide">
+    <a href="http://www.huffingtonpost.com/entry/5841ff37e4b04587de5de9ea?timestamp=1480876744898" target="_blank">
+      <img src="/uploads/pr-logos/huffington-post-logo.png">
+    </a>
+  </div><!--
+  --><div class="three-wide">
+    <a href="http://thehustle.co/interview-with-institute-of-code" target="_blank">
+      <img src="/uploads/pr-logos/thehustle.svg">
+    </a>
+  </div><!--
+  --><div class="three-wide">
+    <a href="http://www.mamamia.com.au/institute-of-code/" target="_blank">
+      <img src="/uploads/pr-logos/New-Mamamia-Logo.jpg">
+    </a>
+  </div>
+</div>
+
 <section>
       <h3> Need any help? Click on live chat or email us at hello@instituteofcode.com </h3>
         <div class="event">

@@ -1,0 +1,89 @@
+
+.social {
+  color            : white;
+  background-color : #41414D;
+  vertical-align   : top;
+}
+
+.social .author {
+  display    : inline-block;
+  width      : 10%;
+  text-align : center;
+}
+
+.social .author img {
+  display       : block;
+  width         : 60px;
+  height        : 60px;
+  border-radius : 50%;
+}
+
+.social p {
+  display        : inline-block;
+  width          : 90%;
+  padding-left   : 1.5em;
+  vertical-align : top;
+}
+
+.quote-mark {
+  display    : inline-block;
+  margin-top : -40px;
+  font-size  : 100px;
+}
+
+
+
+.social-proof .col {
+  display             : inline-block;
+  position            : relative;
+  width               : 33.33%;
+  min-height          : 350px;
+  margin              : 0;
+  background-position : center;
+  background-size     : cover;
+}
+
+.social-proof .first,
+.social-proof .second,
+.social-proof .third {
+  min-height : 400px;
+}
+
+.social-proof p {
+  font-size: 14px;
+  line-height: 1.1em;
+}
+
+.social-proof .first {
+  background-image : url("/assets/images/students-claire.jpg");
+}
+
+.social-proof .second {
+  background-image : url("/assets/images/students-jo.jpg");
+}
+
+.social-proof .third {
+  background-image : url("/assets/images/students-ibo.jpg");
+}
+
+.social-proof .fourth {
+  background-image : url("/assets/images/students-christina.jpg");
+}
+
+.social-proof .fifth {
+  background-image : url("/assets/images/students-josh.jpg");
+}
+
+.social-proof .sixth {
+  background-image : url("/assets/images/students-sharns.png");
+}
+
+.social-proof .col p {
+  position         : absolute;
+  bottom           : 0;
+  left             : -30px;
+  margin           : 10px 40px;
+  padding          : 1em;
+  background-color : white;
+  color: #41414D;
+}
