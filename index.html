@@ -24,7 +24,7 @@ background-2_path: /assets/images/still_sandra_forest.jpg
 </section>
 
 <!---------------------- SECTION 2 --------------------------->
-<section class="centered  teal-bottom">
+<section class="centered  teal-bottom padded-bottom">
     <img src="/assets/text/banner.svg" class="mob-hide capped-width" />
     <!-- This is the upsidedown triangle -->
 
@@ -75,7 +75,7 @@ background-2_path: /assets/images/still_sandra_forest.jpg
 
 </section>
 
-<section class="video-banner small padded-bottom teal-top white-bottom" style="background-image:url({{page.background-2_path}});">
+<section class="video-banner small padded-bottom teal-top white-bottom">
 
 {% include slanted-down-left.html %}
         <!-- <svg class="mask top" x="0px" y="0px" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
@@ -110,38 +110,38 @@ background-2_path: /assets/images/still_sandra_forest.jpg
 
 </section>
 
-<section class="social-proof no-padding">
+<section class="social-proof no-padding grid">
 
-    <div class="col first">
+    <div class="col-4_sm-6 first">
             <p class="editable">"It was straight out of the brochure, so happy I attended." - Claire, 2016</p>
-    </div><!--
-    --><div class="col second">
+    </div>
+    <div class="col-4_sm-6 second">
             <p class="editable">"Thanks to the IOC for giving me this opportunity, for always being supportive through my journey and for teaching me some awesome skills that I will definitely help me in my future endeavours." - Jo, 2016</p>
-    </div><!--
-    --><div class="col third mob-hide">
+    </div>
+    <div class="col-4_sm-6 third">
             <p class="editable">"I'd definitely recommend the trip to anyone I know thats even slightly interested in WebDev to take the course and learn some new skills, meet some great people and have an experience that you won't ever forget.." - Ibrahim, 2016</p>
     </div>
-    <div class="col fourth">
+    <div class="col-4_sm-6 fourth">
             <p class="editable">"The mentors were great, always there when you needed them and were so encouraging." - Christine, 2016</p>
-    </div><!--
-    --><div class="col fifth">
+    </div>
+    <div class="col-4_sm-6 fifth">
             <p class="editable">"My eyes and heart have been opened by all the new experiences I have had and all the new people I have met, thank you IOC." - Josh, 2016</p>
-    </div><!--
-    --><div class="col sixth mob-hide">
+    </div>
+    <div class="col-4_sm-6 sixth">
             <p class="editable">"The amazing staff orchestrated everything for us so all we had to do was relax, soak in new things and have fun." - Sharny, 2016</p>
     </div>
 </section>
 
 
 <!---------- WHATS INCLUDED -------------->
-<section class="grey inclusions padded-bottom">
-    <div class="five-wide">
+<section class="grey inclusions padded-bottom grid white-bottom">
+    <div class="col-5_sm-12">
         <h2 class="block"> WHATS <span> INCLUDED</span></h2>
         <p class="editable">We make our programs all-inclusive so you can kick back, relax and focus on learning.</p>
         <a class="button" data-sumome-listbuilder-id="5e3c2317-54d6-4c1c-845d-29f9f14fd5ed"> Download a Course Guide </a>
     </div><!--
-    --><div class="two-wide"><!-- spacer--></div><!--
-    --><div class="five-wide">
+    --><div class="col-1"><!-- spacer--></div><!--
+    --><div class="col-6_sm-12">
         <ul class="no-bullets">
             <li class="editable"><i class="fa fa-check"></i>100+ hours practical coursework</li>
             <li class="editable"><i class="fa fa-check"></i>9 nights accommodation </li>
@@ -156,12 +156,13 @@ background-2_path: /assets/images/still_sandra_forest.jpg
 
         </ul>
     </div>
-    {% include slanted-up-right.html %}
-    <svg class="mask" x="0px" y="0px" viewbox="0 250 1200 100" enable-background="new 0 250 1200 100" xml:space="preserve">
-        <polygon class="teal" points="1200,350 1200,250 600,350 0,250 0,350" />
+    {% include reverse-triangle-down.html %}
 </svg>
 </section>
-
+<section class="border-top centered">
+  <h2 class="block"> In the <span> Media </h2>
+    {% include pr.html %}
+</section>
 
 <section class="banner featured centered">
     <h2 class="block"> What are you waiting for? </h2>

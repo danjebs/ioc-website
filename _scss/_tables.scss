@@ -23,7 +23,6 @@ td:first-child span {
   display: block;
   font-size: 3em;
   line-height: 0.9em;
-  font-family: "Proxima Nova";
   font-weight: 200;
 }
 
@@ -43,10 +42,6 @@ td:nth-child(3) span.teal {
   display     : block;
   color       : #00A9BF;
   font-weight : bold;
-}
-
-.padded div {
-  padding : 7vh 5%;
 }
 
 p.teal,

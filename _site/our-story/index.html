@@ -81,10 +81,9 @@ document.addEventListener('DOMContentLoaded', event = {
 
 
 
-    <!--<script src="live.js" type="text/javascript"></script>-->
 </head>
 <!--[if IE ]><body class="ie"><![endif]-->
-<!--[if !IE]>--><body><!--<![endif]-->
+<!--[if !IE]>--><body class=""><!--<![endif]-->
 
 <div class="pure-container" data-effect="pure-effect-slide">
     <input type="checkbox" id="pure-toggle-right" class="pure-toggle" data-toggle="right">
@@ -164,25 +163,12 @@ document.addEventListener('DOMContentLoaded', event = {
     <p> ( Co-Founders of Institute of Code ) </p>
 
 </section>
-<section class="featured">
-    <h2 class="block centered">GET IN<span>TOUCH</span></h2>
-    <div class="six-wide">
-      <p> Have a few questions before you are ready to take the plunge? Just send us through a message or live chat with us (that adorable icon in the bottom right hand corner) and one of our team will help you figure out the program that's right for you. </p>
-    </div><!--
-    --><div class="six-wide">
-        <form action="https://formspree.io/hello@instituteofcode.com"
-            method="POST">
-          <input type="text" name="name" placeholder="Name"><!--
-          --><input type="email" name="_replyto" placeholder="Email">
-          <input type="tel" name="phone" placeholder="Phone Number"><!--
-          --><input type="text" name="date" placeholder="Date Interested in">
-          <textarea name="message" placeholder="Message"></textarea>
-          <input type="submit" value="Send" class="button">
-          <input type="text" name="_gotcha" style="display:none" />
-          <input type="hidden" name="_next" value="thanks.html" />
-        </form>
-    </div>
+
+<section>
+  <!-- Our Story Video --> 
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/193453620' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 </section>
+
 <section>
     <h2 class="block"> WHAT WE BELIEVE </h2>
     <p class="editable emphasis">
@@ -199,17 +185,39 @@ document.addEventListener('DOMContentLoaded', event = {
 
     <p> - Emilio & Tina, Co-Founders of Institute of Code </p>
 </section>
-<section class="no-padding">
-  <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/2f73d0c0268851b9adf833b29686c0c0.html" id="lightwidget_2f73d0c026" name="lightwidget_2f73d0c026"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+<section class="border-top centered">
+  <h2 class="block"> In the <span> Media </h2>
+    <div class="grid-middle pr-logos">
+  <div class="col-3_sm-6">
+      <a href="https://www.youtube.com/watch?v=ub3H3xgFrAY" target="_blank">
+        <img src="/uploads/pr-logos/cnn-logo.png">
+      </a>
+  </div><!--
+  --><div class="col-3_sm-6">
+    <a href="http://www.huffingtonpost.com/entry/5841ff37e4b04587de5de9ea?timestamp=1480876744898" target="_blank">
+      <img src="/uploads/pr-logos/huffington-post-logo.png">
+    </a>
+  </div><!--
+  --><div class="col-3_sm-6">
+    <a href="http://thehustle.co/interview-with-institute-of-code" target="_blank">
+      <img src="/uploads/pr-logos/thehustle.svg">
+    </a>
+  </div><!--
+  --><div class="col-3_sm-6">
+    <a href="http://www.mamamia.com.au/institute-of-code/" target="_blank">
+      <img src="/uploads/pr-logos/New-Mamamia-Logo.jpg">
+    </a>
+  </div>
+</div>
+
 </section>
 
-
-            <footer class="grey">
-    <div class="five-wide">
-    <h3> The Institute of Code</h3>
-    <p class="editable">Institute of Code runs 10 day immersive coding bootcamps in beautiful locations around the world. We create an environment of accelerated learning, so you can learn in demand digital skills while having an experience of a lifetime. </p>
-    </div><div class="one-wide"></div><!--
-    --><div class="three-wide">
+            <footer class="grey grid">
+    <div class="col-6_sm-12 padded-right">
+      <h3> The Institute of Code</h3>
+      <p class="editable">Institute of Code runs 10 day immersive coding bootcamps in beautiful locations around the world. We create an environment of accelerated learning, so you can learn in demand digital skills while having an experience of a lifetime. </p>
+    </div>
+    <div class="col-3_sm-12">
         <nav>
             <a href="/index.html">Home</a><!--
         --><a href="/our-story">Our Story</a><!--
@@ -218,8 +226,8 @@ document.addEventListener('DOMContentLoaded', event = {
         --><a href="/courses/help">Help me choose</a><!--
         --><a href="/enrol">Enroll Now</a>
         </nav>
-    </div><!--
-    --><div class="three-wide">
+    </div>
+    <div class="col-3_sm-12">
         <nav>
             <a href="/payment">Financial Support</a><!--
         --><a href="/sponsorship">Sponsor a Student</a><!--
@@ -286,25 +294,5 @@ $(function() {
 })
 
 </script>
-
-<!-- End Facebook Pixel Code -->
-
-<!-- Chatra {literal} -->
-<script>
-    ChatraID = '3i4DvpHpHp7Hrs9YK';
-    (function(d, w, c) {
-        var n = d.getElementsByTagName('script')[0],
-            s = d.createElement('script');
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
-        };
-        s.async = true;
-        s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
-            + '//call.chatra.io/chatra.js';
-        n.parentNode.insertBefore(s, n);
-    })(document, window, 'Chatra');
-</script>
-<!-- /Chatra {/literal} -->
 </body>
-
 </html>

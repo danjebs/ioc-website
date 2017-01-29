@@ -43,25 +43,15 @@ student-stories:
   <h2> Love from our past students </h2>
   <p> We're proud of the fact that we regularly receive 5 star reviews from students around the world. Our focus is on helping our students suceed, during the retreat but also long after it ends. </p>
 </section>
+
 <section class="no-padding testimonials">
   {% for person in page.student-stories %}
-    <div class='grid{% if person.pic-side == "right" %}-reverse{% endif %}_md-1'>
-        <div class="col-6_md-12 pic {{person.image-class}}" style="background-image:url('{{person.image_path}}')"></div><!--
-    --><div class="col padded"> <p class="editable">{{person.text}}</p> </div>
+    <div class='grid{% if person.pic-side == "right" %}-reverse{% endif %}'>
+        <div class="col-6_md-12 pic {{person.image-class}}" style="background-image:url('{{person.image_path}}')"></div>
+        <div class="col-6_md-12-middle padded"> <p class="editable">{{person.text}}</p> </div>
     </div>
     {% endfor %}
-    <!-- <div class="two-box">
-        <div class="box-text mob-dark"> <p class="editable">I expected the mentors to be more like teachers in a high school where they would probably just teach us some skills and go back to whatever they decide to do in their own time. Instead, they were such nice people that went out of their way to make connections with you and teach you not just what they knew but how to find the resources for yourself.<br /><br />The whole experience in itself will open your mind and teach you how to take any skill, business idea or even just a hobby or interest you have and use it in conjunction with the world of Web Development to take it to a whole new level, connect with new people and turn it into something you had no idea was even possible beforehand.<br />- Ibrahim&nbsp;</p> </div><!--
-        --<div class="box-img right" style="background-image:url('/assets/images/students-ibo.jpg')"></div>
-    </div> -->
-    <!-- <div class="two-box">
-        <div class="box-img" style="background-image:url('/assets/images/students-sharns.png')"></div><!--
-    --<div class="box-text right"> <p class="editable">The IOC Coding bootcamp was absolutely brilliant. What an incredible way to gain a new skill. It was paradise to be removed from everyday life and focus on growth. The amazing staff orchestrated everything for us so all we had to do was relax, soak in new things and have fun. Plus, so grateful for the chance to meet new friends from all over the world. Would 100% recommend.<br />-Sharny</p> </div>
-    </div> -->
-    <!-- <div class="two-box">
-        <div class="box-text mob-dark"> <p class="editable">I had gone from not knowing anything about how to create a website to creating one that I was proud of, for a cause that I was passionate about. I felt like I could go out into the world and achieve anything if I put my mind to it. Thanks to the IOC for giving me this opportunity, for always being supportive through my journey and for teaching me some awesome skills that I will definitely help me in my future endeavours.&nbsp;<br />-Jo</p> </div><!--
-        --<div class="box-img right" style="background-image:url('/assets/images/students-jo.jpg')"></div>
-    </div> -->
+
 </section>
 <section class="featured">
     <div class="six-wide">
@@ -80,6 +70,29 @@ student-stories:
           <input type="text" name="_gotcha" style="display:none" />
         </form>
     </div>
+</section>
+<section class="centered">
+  <h2 class="block"> Our Student <span>Stories </span> <br></h2>
+  <div class="grid">
+
+      <!-- ROW 1 -->
+      <div class="col-6_sm-12">
+
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/jNEN9vHsruM' frameborder='0' allowfullscreen></iframe></div>
+
+      </div>
+      <div class="col-6_sm-12">
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/C7NHaPqmMFU' frameborder='0' allowfullscreen></iframe></div>
+
+      </div>
+      <!-- ROW 3 -->
+      <div class="col-6_sm-12">
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/FkXYGp0GoZo' frameborder='0' allowfullscreen></iframe></div>
+      </div>
+      <div class="col-6_sm-12">
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/sHJXVz_d498' frameborder='0' allowfullscreen></iframe></div>
+      </div>
+  </div>
 </section>
 
 {% include instagram.html %}

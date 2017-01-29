@@ -54,6 +54,12 @@ polygon {
   color: $color-body;
   stroke: $color-body;
 }
+.light-bottom .bottom,
+.light-top .top {
+  fill: $color-light;
+  color: $color-light;
+  stroke: $color-light;
+}
 
 .white-bottom .bottom ,.white-right .right, .white-left .left, .white-top .top{
   stroke:white;

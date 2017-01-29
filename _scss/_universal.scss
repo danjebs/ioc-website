@@ -10,6 +10,10 @@ li {
   font-size: 17px;
 }
 
+.no-bullets li {
+  list-style: none;
+}
+
 footer,
 header,
 section {
@@ -76,6 +80,14 @@ section {
   background-color: $color-light;
 }
 
+.featured h2,
+.dark h2 {
+  color: white;
+}
+
+.border-top {
+  border-top: 1px solid rgb(245,245,245);
+}
 
 .featured .header-block.left,
 .featured .header-block.right,
@@ -96,8 +108,11 @@ section {
   text-align : left;
 }
 
+.padded-right {
+  padding-right: 5%;
+}
 
-// two box with equal heights
+/* two box with equal heights*/
 
 
 .two-box {

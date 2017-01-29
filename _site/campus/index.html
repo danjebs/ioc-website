@@ -81,10 +81,9 @@ document.addEventListener('DOMContentLoaded', event = {
 
 
 
-    <!--<script src="live.js" type="text/javascript"></script>-->
 </head>
 <!--[if IE ]><body class="ie"><![endif]-->
-<!--[if !IE]>--><body><!--<![endif]-->
+<!--[if !IE]>--><body class=""><!--<![endif]-->
 
 <div class="pure-container" data-effect="pure-effect-slide">
     <input type="checkbox" id="pure-toggle-right" class="pure-toggle" data-toggle="right">
@@ -159,18 +158,20 @@ document.addEventListener('DOMContentLoaded', event = {
 <section class="no-padding white-bottom">
       <div class="banner-inner">
       <h3 class="block centered"> AN ACCELERATED LEARNING <span> ENVIRONMENT </span></h3>
-      <div class="six-wide">
-        <h3 class="editable"> A private pool villa nestled between the rice paddies </h3>
-            <p class="editable">We've tried to forget everything we knew about what a school was and reimagined what a school could be. The result is multiple campuses that can be found in incredible locations around the world.</p>
-            <p class="editable">We believe the best learning happens in an exciting and stimulating environment that allows you to take your mind of everyday living.</p>
-      </div><!--
-      --><div class="six-wide">
+      <div class="grid">
+        <div class="col-6_sm-12">
+          <h3 class="editable"> A private pool villa nestled between the rice paddies </h3>
+              <p class="editable">We've tried to forget everything we knew about what a school was and reimagined what a school could be. The result is multiple campuses that can be found in incredible locations around the world.</p>
+              <p class="editable">We believe the best learning happens in an exciting and stimulating environment that allows you to take your mind of everyday living.</p>
+        </div>
+        <div class="col-6_sm-12">
 
         <h3 class="editable">Everything you need to help you thrive</h3>
               <p class="editable">Apart from being set in beautiful locations, we take care of all the small stuff that usually clogs up your spare time. Our private chef makes sure all your meals are nutritious and most importantly taste amazing.</p>
               <p class="editable">You don't have to worry about dishes or washing and all your transport needs are taken care of. It's our job to make sure you're in the best frame of mind for learning.</p>
         </div>
       </div>
+    </div>
         <img class="large editable" id="cms-identifiable-725" data-cms-cid="725" src="/assets/images/new-villa-1.jpg" />
         <svg class="mask bottom" viewbox="0 0 1200 100" enable-background="new 0 0 1200 100" xml:space="preserve">
     <polygon points="0,2, 0,100 1200,100 1200,2 600,100" />
@@ -181,20 +182,19 @@ document.addEventListener('DOMContentLoaded', event = {
 
 <!---------- SECTION 3 - Yoga & Food -------------->
 
-<section class="twocol">
-    <div class="col">
+<section class="grid">
+    <div class="col-6_sm-12">
         <img src="/assets/text/Yoga-01-01.svg" class="header-text editable" />
         <p class="editable">Rejuvenate the body and mind with daily yoga. Our trained yoga instructor caters for all levels of 'enthusiasm'.</p>
         <img class="editable" id="cms-identifiable-786" data-cms-cid="782" src="/uploads/versions/ac7dx8556---x0-0-5184-3456-5760-3840x---.jpg" />
     </div><!--
-    --><div class="col">
+    --><div class="col-6_sm-12">
             <div class="right">
                 <img src="/assets/text/Food-02-02.svg" class="header-text right editable" />
             </div>
         <p class="editable">Fuel your body with nutritious meals, snacks and smoothies prepared by our private on-site chef.</p>
         <img src="/assets/images/campus-food.jpg" class="editable" />
     </div>
-
 
 </section>
 
@@ -218,14 +218,14 @@ document.addEventListener('DOMContentLoaded', event = {
 </section>
 
 <!---------- WHATS INCLUDED -------------->
-<section class="featured inclusions">
-  <div class="five-wide">
+<section class="featured inclusions grid">
+  <div class="col-6_sm-12">
       <img src="/assets/text/what-included.svg" class="header-text editable" />
       <p class="editable">We make our programs all-inclusive so you can kick back, relax and focus on learning.&nbsp;</p>
       <a data-sumome-listbuilder-id="5e3c2317-54d6-4c1c-845d-29f9f14fd5ed" class="button"> Download a Course Guide </a>
   </div><!--
-  --><div class="two-wide"><!-- spacer--></div><!--
-  --><div class="five-wide">
+  --><div class="col-1_sm-0"><!-- spacer--></div><!--
+  --><div class="col-5_sm-12 no-bullets">
         <ul>
             <li class="editable"><i class="fa fa-check"></i>100+ hours practical coursework</li>
             <li class="editable"><i class="fa fa-check"></i>9 nights accomodation </li>
@@ -241,19 +241,26 @@ document.addEventListener('DOMContentLoaded', event = {
   </div>
 </section>
 
-<section>
-  <div class="six-wide">
-      <h3 class="editable block">UPCOMING<span>CODING RETREATS </span></h4>
+<section class="grid">
+  <div class="col-12 centered">
+        <h3 class="editable block">UPCOMING<span>CODING RETREATS </span></h4>
+  </div>
+
+  <div class="col-6_sm-12 padded">
+      <img src="/assets/images/new-villa-1.png">
       <p class="editable"> All accommodation, meals, coursework and daily activities (like yoga) are included in the price. </p>
       <a class="button" href="/enrol"> Apply Now </a>
-      <img src="/assets/images/new-villa-1.png">
-
-  </div><!--
-  --><div class="six-wide bump-down">
+  </div>
+  <div class="col-6_sm-12 padded">
       <table class="enrol">
       <tr>
           <td>FEB <span>4</span></td>
           <td><span> FEB 4 - FEB 13 </span>Bali</td>
+          <td><a href="/enrol" title="Enroll Now"><span>ALMOST FULL</span>$3450 US</a></td>
+      </tr>
+      <tr>
+          <td>FEB <span>17</span></td>
+          <td><span> FEB 17 - FEB 26 </span>Bali</td>
           <td><a href="/enrol" title="Enroll Now"><span>FILLING FAST</span>$3450 US</a></td>
       </tr>
        <tr>
@@ -328,12 +335,12 @@ document.addEventListener('DOMContentLoaded', event = {
 </section>
 
 
-            <footer class="grey">
-    <div class="five-wide">
-    <h3> The Institute of Code</h3>
-    <p class="editable">Institute of Code runs 10 day immersive coding bootcamps in beautiful locations around the world. We create an environment of accelerated learning, so you can learn in demand digital skills while having an experience of a lifetime. </p>
-    </div><div class="one-wide"></div><!--
-    --><div class="three-wide">
+            <footer class="grey grid">
+    <div class="col-6_sm-12 padded-right">
+      <h3> The Institute of Code</h3>
+      <p class="editable">Institute of Code runs 10 day immersive coding bootcamps in beautiful locations around the world. We create an environment of accelerated learning, so you can learn in demand digital skills while having an experience of a lifetime. </p>
+    </div>
+    <div class="col-3_sm-12">
         <nav>
             <a href="/index.html">Home</a><!--
         --><a href="/our-story">Our Story</a><!--
@@ -342,8 +349,8 @@ document.addEventListener('DOMContentLoaded', event = {
         --><a href="/courses/help">Help me choose</a><!--
         --><a href="/enrol">Enroll Now</a>
         </nav>
-    </div><!--
-    --><div class="three-wide">
+    </div>
+    <div class="col-3_sm-12">
         <nav>
             <a href="/payment">Financial Support</a><!--
         --><a href="/sponsorship">Sponsor a Student</a><!--
@@ -410,25 +417,5 @@ $(function() {
 })
 
 </script>
-
-<!-- End Facebook Pixel Code -->
-
-<!-- Chatra {literal} -->
-<script>
-    ChatraID = '3i4DvpHpHp7Hrs9YK';
-    (function(d, w, c) {
-        var n = d.getElementsByTagName('script')[0],
-            s = d.createElement('script');
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
-        };
-        s.async = true;
-        s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
-            + '//call.chatra.io/chatra.js';
-        n.parentNode.insertBefore(s, n);
-    })(document, window, 'Chatra');
-</script>
-<!-- /Chatra {/literal} -->
 </body>
-
 </html>

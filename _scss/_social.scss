@@ -31,9 +31,7 @@
   font-size  : 100px;
 }
 
-
-
-.social-proof .col {
+.social-proof div {
   display             : inline-block;
   position            : relative;
   width               : 33.33%;
@@ -41,12 +39,6 @@
   margin              : 0;
   background-position : center;
   background-size     : cover;
-}
-
-.social-proof .first,
-.social-proof .second,
-.social-proof .third {
-  min-height : 400px;
 }
 
 .social-proof p {
@@ -78,7 +70,7 @@
   background-image : url("/assets/images/students-sharns.png");
 }
 
-.social-proof .col p {
+.social-proof div p {
   position         : absolute;
   bottom           : 0;
   left             : -30px;

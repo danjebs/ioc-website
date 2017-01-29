@@ -35,17 +35,7 @@ form input[type="submit"] {
 }
 
 /* Removes awkward default styles on some inputs for iOS */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none; }
+
 textarea {
   min-height: 8rem;
   padding-top: 6px;
@@ -121,6 +111,32 @@ form.enrol input[type="submit"]:hover {
   font-weight: bold;
   padding: 1em;
 }
+
+/* Book Now Blogging Form */
+.blog-form input,
+.blog-form select,
+.blog-form textarea {
+    margin: 0.5em 0 1.5em;
+    width: 100%;
+}
+.blog-form .padded {
+  padding: 2%;
+}
+
+.blog-form input[type="checkbox"]{
+  margin: 0 1em;
+  width: auto;
+  display:inline-block;
+}
+
+.checkboxes p {
+  margin:0;
+}
+.checkboxes {
+  margin: 0 0 1.5em;
+  padding:0!important;
+}
+
 
 @media(max-width:700px) {
   form.enrol input,

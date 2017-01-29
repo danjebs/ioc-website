@@ -50,3 +50,45 @@ img.enrol {
 .fa-chevron-down {
   font-size: 3em;
 }
+
+
+/* Kiersten Blogging Collab */
+.pink {
+  color: #E91E63;
+}
+
+.blogger .featured {
+  background-color: #E91E63;
+
+    h2 {
+      color: white;
+    }
+}
+.blogger .dark h2 {
+  color: white;
+}
+
+
+.blogger .button {
+  color: #E91E63;
+  border-color: #E91E63;
+}
+
+.blogger h2,
+.blogger label  {
+  color: #E91E63;
+}
+
+
+/* PR Logos */
+.pr-logos img {
+  max-width: 90%;
+  margin: auto;
+  display: block;
+}
+
+/* Blog Page */
+
+.blog .padded {
+  padding: 1vh 5%;
+}

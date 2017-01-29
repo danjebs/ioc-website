@@ -1,16 +1,18 @@
-
 /* --- Video Banner -- */
 
-
-
-.video-banner {
+.video-banner,
+.image-banner {
   position         : relative;
   height           : 100vh;
-  min-height: 450px;
+  min-height       : 450px;
   padding          : 0;
   color            : white;
   font-size        : 120%;
   z-index: -5;
+}
+
+.capped-width {
+  max-width: 1200px;
 }
 
 .video-banner video {
@@ -42,6 +44,7 @@
 .banner-inner h2 {
   text-transform : uppercase;
   font-size      : 3em;
+  color: white;
 }
 
 
@@ -52,4 +55,21 @@
 }
 .our-story .banner-inner {
     color: rgb(80,80,85);
+}
+
+
+/* Grid of images in a banner */
+.activity-grid > div {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 30%;
+  background-image: url("/assets/images/our-story.jpg");
+}
+
+.activity-grid {
+
+  .image-1 {
+    background-image: url("/assets/images/our-story.jpg");
+  }
+
 }
