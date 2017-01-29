@@ -74,7 +74,7 @@ section {
 
 .dark {
   color: white;
-  background-color: #5a5a5a; }
+  background-color: #41414D; }
 
 .light {
   color: #505050;
@@ -751,7 +751,17 @@ img.enrol {
   background-image: url("/assets/images/our-story.jpg"); }
 
 .activity-grid .image-1 {
-  background-image: url("/assets/images/our-story.jpg"); }
+  background-image: url("/assets/images/tba/tba-1.jpg"); }
+.activity-grid .image-2 {
+  background-image: url("/assets/images/tba/tba-2.jpg"); }
+.activity-grid .image-3 {
+  background-image: url("/assets/images/tba/tba-3.jpg"); }
+.activity-grid .image-4 {
+  background-image: url("/assets/images/tba/tba-4.jpg"); }
+.activity-grid .image-5 {
+  background-image: url("/assets/images/tba/tba-5.jpg"); }
+.activity-grid .image-6 {
+  background-image: url("/assets/images/tba/tba-6.jpg"); }
 
 .social {
   color: white;
