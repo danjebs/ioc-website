@@ -418,6 +418,18 @@ form.enrol input[type="submit"]:hover {
   margin: 0 0 1.5em;
   padding: 0 !important; }
 
+/* Book Now Form */
+form.book-now h2 {
+  margin-top: 3em; }
+form.book-now .subtitle {
+  color: #3c3c3c;
+  margin-top: 0;
+  line-height: 1.2; }
+form.book-now select {
+  margin: 1%; }
+form.book-now input {
+  margin: 1% 0; }
+
 @media (max-width: 700px) {
   form.enrol input,
   form.enrol textarea {

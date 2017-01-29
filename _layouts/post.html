@@ -8,15 +8,17 @@ layout: default
           <p class="date"> {{page.date | date: '%B %d, %Y'}} </p>
     </div>
 
-    <div class="three-wide author-bio circles mob-hide">
-        <img src="{{page.author-image_path}}">
-        <h4> {{page.author-name}}</h4>
-        <p> {{page.author-bio}}</p>
-        <!-- Add social icons of author -->
-    </div><!--
-    --><div class="nine-wide">
-        <p class="intro"> {{ page.intro }}</p>
-        {{page.first-content}}
+    <div class="grid">
+      <div class="col-3 author-bio circles mob-hide">
+          <img src="{{page.author-image_path}}">
+          <h4> {{page.author-name}}</h4>
+          <p> {{page.author-bio}}</p>
+          <!-- Add social icons of author -->
+      </div><!--
+      --><div class="col-9_sm-12">
+          <p class="intro"> {{ page.intro }}</p>
+          {{page.first-content}}
+      </div>
     </div>
 </section>
 <section class="no-padding">

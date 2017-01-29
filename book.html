@@ -3,91 +3,143 @@ title: Book Now Institute of Code
 layout: default
 ---
 
-<!--- end of tapfiliate --->
-<section class="grid">
-  <div class="col-8">
-      <h1> Accept Your Enrollment </h1>
-      <h3> and formally book your spot in the 10 day coding bootcamp </h3>
-      <p> Welcome to the Institute of Code family. We're excited for you to join us soon in beautiful Bali and learn to code. </p>
+<section class="featured">
+    <h2 class="block"> Let's <span>Do This</span></h2>
+
+</section>
+<section>
+      <h2 class="block"> Accept Your <span>Enrollment</span></h2>
+      <p> Welcome to the Institute of Code family. We're excited for you to join us soon in beautiful Bali and learn to code. To accept your place in the program please fill out your details below. </p>
       <hr>
 
       <form action="https://formspree.io/hello@instituteofcode.com"
-          method="POST">
-        <h2> Personal Details </h2>
-        <label for="name"> Your Name </label>
-        <input type="text" name="name" id="name" placeholder="Name">
+          method="POST" class="book-now">
+        <h2> 1. Personal Details </h2>
+        <label for="name" required> Your Name </label>
+        <input type="text" name="name" id="name" placeholder="Name" required>
 
         <label for="email"> Your Email </label>
-        <input type="email" name="_replyto"  id="email" placeholder="Email">
+        <input type="email" name="email"  id="email" placeholder="Email" required>
 
         <label for="phone"> Your Phone Number </label>
-        <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number">
+        <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number" required>
 
-        <label for="email"> Your Date of Birth </label>
-        <input type="email" name="_replyto"  id="email" placeholder="Email">
+        <label for="birthday"> Your Date of Birth </label>
+        <input type="text" name="birthday"  id="birthday" placeholder="dd/mm/yy" required>
 
-        <label for="email"> Your Home Address </label>
-        <input type="email" name="_replyto"  id="email" placeholder="Email">
+        <label for="homeDetAdress"> Your Home Address </label>
+        <input type="text" name="homeDetAdress"  id="homeDetAdress" placeholder="10 Main St, Melbourne" required>
+        <input type="text" name="postcode"  id="postcode" placeholder="Zipcode" required>
+        <input type="text" name="state"  id="state" placeholder="State" required>
+        <input type="text" name="country"  id="country" placeholder="Country" required>
 
-        <h2> Preferences & Important Information </h2>
-        <label for="email"> Emergency Contact </label>
-        <input type="email" name="_replyto"  id="email" placeholder="Name | Relationship | Contact Information">
+        <h2> 2. Preferences & Important Information </h2>
+        <label for="eContact"> Emergency Contact </label>
+        <input type="text" name="eContact"  id="eContact" placeholder="Name | Relationship | Contact Information" required>
 
-        <label for="email"> Dietary Requirements </label>
-        <input type="email" name="_replyto"  id="email" placeholder="Eg Vegetarian, don't like cilantro, allergic to peanuts.">
+        <label for="diet"> Dietary Requirements </label>
+        <input type="text" name="diet"  id="diet" placeholder="Eg Vegetarian, allergic to peanuts, etc." required>
 
-        <label for="email"> Relevant Medical Information </label>
-        <input type="email" name="_replyto"  id="email" placeholder="Anything medical that we should know about?">
+        <label for="medicalInfo"> Relevant Medical Information </label>
+        <input type="text" name="medicalInfo"  id="medicalInfo" placeholder="Anything medical that we should know about?" required>
 
-        <h2> Course Options </h2>
+        <h2> 3. Course Options </h2>
 
         <label for="course-date"> Which session would you like to attend?</label>
-        <select multiple name="course-date">
+        <select name="course-date" required>
             <option value="feb-4-16">Febraury 4th - 13th</option>
             <option value="feb-17-16">February 17th - 26th</option>
             <option value="mar-3-16">March 3rd - 12th</option>
             <option value="apr-1-16">Apr 1st - Apr 10th</option>
-            <option value="apr-28-16">Apr 28th - May 7th</option>
+            <option value="apr-28-16">Apr 23th - May 2th</option>
             <option value="may-24-16">May 24th - June 2nd</option>
         </select>
 
+        <h2> 4. Room Options </h2>
+
         <label for="room"> What is your room preference</label>
-        <select multiple name="room">
-            <option value="feb-4-16">Standard Twin or Tripe Room</option>
-            <option value="feb-17-16">Private Room offsite +$350</option>
-            <option value="mar-3-16">Quad Share Bunk Room -$100</option>
+        <select name="room" required>
+            <option value="standard">Standard Twin or Triple Room</option>
+            <option value="bunk">Quad Share Bunk Room -$100</option>
+            <option value="offsite">Twin Room offsite</option>
+            <option value="private">Private Room offsite +$450</option>
         </select>
 
+        <div class="grid">
+            <div class="col-3_sm-6_xs-12">
+                <img src="/assets/images/villa/twin.jpg">
+                <h4> Standard Room</h4>
+                <p> A beautiful room with private ensuite and <strong>single beds</strong>. Rooms are twin or triple share with students of the same gender</p>
+            </div>
+            <div class="col-3_sm-6_xs-12">
+                <img src="/assets/images/villa/bunk-room.jpg">
+                <h4> Bunk Room -$100</h4>
+                <p> Save $100 off the course price and stay in this four bunk female room. Kids toys will be removed before you arrive :P </p>
+            </div>
+            <div class="col-3_sm-6_xs-12">
+                <img src="/assets/images/villa/jela1.jpeg">
+                <h4> Twin-Share Offsite</h4>
+                <p> A quiet twin room at a second private villa less than 200m (3 minute walk) from the main villa. </p>
+            </div>
+            <div class="col-3_sm-6_xs-12">
+                <img src="/assets/images/villa/jela2.jpeg">
+                <h4> Private Offsite +$450</h4>
+                <p> A private room all to yourself at our quiet second villa just a few minutes walk away. </p>
+            </div>
+        </div>
 
-        <h3> Optional Extras </h3>
 
-        <label for="#"> Night before accomodation - $45 </label>
-        <input type="checkbox" name="vehicle" value="Bike">
 
-        <label for="#"> Night After Accomodation - $45 </label>
-        <input type="checkbox" name="vehicle" value="Car" checked>
 
-        <label for="#"> Local Sim Card - $15 </label>
-        <input type="checkbox" name="vehicle" value="Car" checked>
+        <h2> 5. Optional Extras </h2>
 
-        <label for="#"> Laptop Rental - $140 </label>
-        <input type="checkbox" name="vehicle" value="Car" checked>
+        <label class="checkbox" for="nBefore"> Night before accomodation - $45
+          <input type="checkbox" name="nBefore" value="nBefore" id="nBefore" checked>
+        </label>
+        <p class="subtitle"> We recommend staying in Bali the night before the course starts so that you can settle in. </p>
 
-        <h3> Payment </h3>
-        <label for="room"> How would you like to pay for your course fees?</label>
-        <p class="subtitle"> Pay Upfront for a $100 discount. Credit card payments incur a 1.6% fee. ZipMoney is available to eligible Australian Residents.</p>
-        <select multiple name="room">
-            <option value="feb-4-16">Pay Upfront via Credit Card</option>
-            <option value="feb-17-16"> Pay Upfront via Bank Transfer</option>
-            <option value="mar-3-16">Payment Plan</option>
-            <option value="mar-3-16">Zip Money - Pay Nothing Upfront</option>
+
+        <label class="checkbox" for="nAfter"> Night After Accomodation - $45
+            <input type="checkbox" name="nAfter" value="nAfter" id="nAfter" checked>
+        </label>
+        <p class="subtitle"> The program ends at 5pm on the last day. Many students stay to stay an extra night and celebrate with their peers. </p>
+
+
+        <label class="checkbox" for="sim"> Local Sim Card - $15
+            <input type="checkbox" name="sim" value="sim" id="sim" checked>
+        </label>
+
+        <p class="subtitle"> Receive a local sim card loaded with calling credit and 2GB data. This is really handy for all the times you are out of the villa! </p>
+
+
+        <label class="checkbox" for="laptopRental"> Laptop Rental - $140
+            <input type="checkbox" name="laptopRental" value="laptopRental" id="laptopRental">
+        </label>
+
+        <p class="subtitle"> If you don't have a laptop or would prefer not to bring it we can rent a 2013 Macbook Air to you. </p>
+
+
+        <h2> 6. Payment </h2>
+        <label for="payment"> How would you like to pay for your course fees?</label>
+        <p class="subtitle"> We have a number of options available. Pay Upfront for a $100 discount. Credit card payments incur a 1.6% fee. ZipMoney is available to eligible Australian Residents.</p>
+        <select name="payment" required>
+            <option value="creditCard">Pay Upfront via Credit Card</option>
+            <option value="bank"> Pay Upfront via Bank Transfer</option>
+            <option value="paymentPlan">Payment Plan</option>
+            <option value="zipMoney">Zip Money - Pay Nothing Upfront</option>
+            <option value="unsure">Not sure - Call me to discuss</option>
         </select>
 
-        <label for="#"> Any other questions or comments? </label>
-        <textarea name="message"></textarea>
+        <label for="coupon"> Coupon or Scholarship </label>
+        <input type="text" name="coupon"  id="coupon" placeholder="Coupon">
 
-        <label for="#"> Please confirm that you have read and accepted the terms and conditions </label>
-        <input type="checkbox" name="vehicle" value="Bike">
+        <label for="message"> Any other questions or comments? </label>
+        <textarea name="message" id="message"></textarea>
+
+        <label for="tc" class="checkbox"> Please confirm that you have read and accepted the terms and conditions
+            <input type="checkbox" name="tc" value="true" required>
+        </label>
+
 
         <input type="submit" value="Submit" class="button">
 
@@ -95,18 +147,35 @@ layout: default
         <input type="text" name="_gotcha" style="display:none" />
         <input type="hidden" name="_next" value="/thanks" />
       </form>
-  </div>
-  <div class="sidebar col-4">
-  </div>
-  <section class="dark">
+
+  </section>
+  <section class="featured grid">
+      <div class="col-6_sm-12">
+            <img src="/assets/images/tina-becky-6238.jpg">
+      </div>
+      <div class="col-6_sm-12 padded">
+          <h2>Get ready for the experience of a lifetime </h2>
+          <h3> What happens next </h3>
+          <p> After we have received your enrollment we'll give you a call to confirm any details. Then we'll send you through the pre-course information with everything you need to know about Bali, visas, the course, etc. We'll also share the pre-coursework so you can start learning the basics of coding before you arrive. Our mentors will be available via email or skype before the course so we'll be ready to help you if you need a hand with anything. </p>
+          <p> You'll send us through your flight details when you have booked it, so that our driver knows exactly when to pick you up. </p>
+          <p> In the lead up to the course we'll be in close communication to help make the process as seamless as possible. </p>
+      </div>
+
+  </section>
+  <section class="light centered">
+          <h2>What past students have thought </h2>
+          <a href="https://www.coursereport.com/schools/institute-of-code" target="_blank"> <!-- 5 stars -->
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          <p> "The entire program is absolutely fantastic. Coding seemed daunting but the mentors made learning code easy. It was so nice to have a small class with access to highly-qualified mentors..If you are thinking of investing in yourself, I couldn't recommend a better way to do it than with the Institute of Code.</p>
+          <p> - Haley, IOC Student</p>
+          <a class="button" href="https://www.coursereport.com/schools/institute-of-code" target="_blank"> Read More Reviews at Course Report </a>
+  </section>
+  <section>
     <h2> You're in good company. </h2>
     <h3> We've been featured in...</h3>
     {% include pr.html %}
-<section>
-      <h3> Need any help? Click on live chat or email us at hello@instituteofcode.com </h3>
-        <div class="event">
-            <h2> 10 day Code Retreat: Bali </h2>
-            <p> Enrollment open for:   </p>
-            <div class="xola-checkout" id="563a70e1926705c1538b45ce"></div>
-        </div>
 </section>

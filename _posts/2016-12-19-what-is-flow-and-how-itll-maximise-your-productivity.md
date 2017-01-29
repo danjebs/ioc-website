@@ -23,7 +23,7 @@ Have you ever been working and felt as though the rest of the world had melted a
 
 Chances are you experienced the 'flow state'. The state of flow often goes by other names, such as being 'in the zone', but is always characterised by a feeling a full immersion and enjoyment in a certain activity. People often even describe it as a transcendent, spiritual experience, as the effects of being 'in the zone' last long beyond the work itself, producing a fuzzy, warm 'afterglow' effect.
 
-***Sound like a bit of mythological quack?***
+### Sound like a bit of mythological quack?
 
 Well actually, flow state has been extensively studied and is deeply rooted in our neuropsychology. It's a common misconception that when we're working well, our brains are fully switched on and firing - I blame the Hollywood movies about the crazy people with telekinetic powers because they're able to harness 110% of their brain function.
 
@@ -47,7 +47,7 @@ All of these work in tandem to create a deeper sense of connection and 'oneness'
 
 So now that we understand how it works, how do we attain the state of flow? Here are 5 ways to effectively get into the zone.
 
-**1. The task at hand to be intrinsically rewarding and challenging (prioritising the important stuff over the urgent!)**
+## 1. The task at hand to be intrinsically rewarding and challenging (prioritising the important stuff over the urgent!)
 
 Kicking off the list is one that might seem pretty obvious. Rewarding yourself after you've completed a task is one thing, but often not enough to keep you focused. The task itself needs to be rewarding - for example, if you're training to do a marathon, you should at least enjoy running. One of the key foundations of flow state is immediate feedback, which could be you getting instant gratification from what you do.
 
@@ -59,7 +59,7 @@ Urgent work is usually work that has deadlines. It is characterised by the 'now'
 
 If you learn how to categorise tasks between these two baskets, and spend more time tackling the important tasks, perhaps even kicking off your day with them, you'll feel more renewed, and in a better position to tackle tasks that are less 'fun'.
 
-**2. Focus on the present moment (mindfulness, anyone?)**
+## 2. Focus on the present moment (mindfulness, anyone?)
 
 Wherever we go, things are always vying for our attention. Distractions are absolute flow breakers. In fact, little things like responding to an email notification can have a more significant impact on our focus than we think - research shows after getting distracted, it can take anywhere between 15-25 minutes to get back into the swing of things, especially things that are completely unrelated to the task at hand. A couple of these distractions a day equals a lot of lost productivity!
 
@@ -69,19 +69,19 @@ Another way to stay focused on the present is daily mindfulness meditation. Shor
 
 Lastly, many studies have shown multi-tasking can have adverse affects on your effectiveness, so make sure you close down all those internet tabs!
 
-**3. Setting a Goal**
+## 3. Setting a Goal
 
 To achieve a flow state, the task must have a set end-point. This would give you a sense of progress, i.e. if you were writing a blog like this, finishing the blog post would be the goal, and so the paragraphs tumbling by would tell you that you are getting things done. This ties in with the immediate sense of feedback and gratification that motivates you to keep going.
 
 Working without a lack of clear goals, markers of progress or a tangible endpoint is like putting a ladder up a wall to reach a window without knowing which wall is the right one. Therefore, it's critical to know exactly what you're working towards and to have mini-goals along the way to help you measure progress.
 
-**4. Forget the fear of failing and getting immediate feedback**
+## 4. Forget the fear of failing and getting immediate feedback
 
 Fear and anxiety are some of the biggest hurdles to achieving a flow state. Taking on a challenge is one of the cornerstones of getting in the zone, &nbsp;fear of failure prevents people from taking on even moderately challenging tasks. In fact, even if the job is rewarding, research shows people do not attain the same enjoyment from being in the flow state if they show a high level of concern for the possible consequences of doing the job incorrectly.
 
 One way to prevent fear from getting in the way is to have constant feedback on how you're going. Just as having mini-goals helps you measure progress, getting immediate feedback from your work also ensures you're doing things right, and that you're on the right track.
 
-**5. Block stimuli and get repetitive**
+## 5. Block stimuli and get repetitive
 
 Whacking on a pair of headphones and putting on music is an excellent way to drown out the outside world and knuckle down. However, people can find the music itself to be distracting, which would defeat the purpose!
 
