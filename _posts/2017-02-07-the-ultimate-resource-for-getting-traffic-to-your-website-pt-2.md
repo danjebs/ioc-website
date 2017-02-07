@@ -23,7 +23,7 @@ Out of the 19 channels we listed, all you need is one channel to work for you. F
 
 The best way to effectively work through the channels is by using *the bullseye framework*. It's a three-step process, where you work through all the channels to find the one(s) that work for you - that channel is **the bullseye**.
 
-###
+## &nbsp;
 
 ### What is Possible - The Outer Ring
 
@@ -59,7 +59,7 @@ The key would be to find the common metrics you can measure both channels with. 
 
 Don't forget this step is to determine would move the needle forward for your business. Many founders make the mistake of scaling too early, too fast, and don't correctly measure their experiments.
 
-###
+## &nbsp;
 
 ### The Bullseye - What is Working
 
@@ -72,6 +72,8 @@ The reasoning behind concentrated focus on that if quick, cheap, early tests sho
 One thing to remember is eventually all channels will hit a saturation point - a point where they are no longer as effective as they were. You will see results taper off, at which point it will become increasingly expensive to acquire customers.
 
 When this happens, you will then need to refer to your inner circle, and promote another promising channel to your bullseye.
+
+--
 
 That's the bullseye framework! Hope this gives you a structured way of working out what the most effective way of bringing customers to your website. 19 channels might seem like a lot to work through, but the end results are well worth it.
 
