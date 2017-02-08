@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -684,6 +685,12 @@ img.enrol {
 .blogger label {
   color: #E91E63; }
 
+/* This is the testimonial box */
+.white-box {
+  background-color: white;
+  padding: 5%;
+  margin: 4vh 0; }
+
 /* PR Logos */
 .pr-logos img {
   max-width: 90%;
@@ -738,7 +745,7 @@ img.enrol {
 .our-story {
   background-image: url("/assets/images/our-story.jpg");
   background-size: cover;
-  background-position: bottom; }
+  background-position: 80% 50%; }
 
 .our-story .banner-inner {
   color: #505055; }
@@ -894,6 +901,158 @@ footer a:hover {
   list-style: decimal;
   list-style-position: outside; }
 
+/* ----------------------- BLOG ------------------------------ */
+.blog div {
+  background-size: cover;
+  min-height: 15em;
+  position: relative; }
+
+hr {
+  margin: 1em 0 2em;
+  border: 2px solid #78787d; }
+
+.blog .date,
+.blog .month {
+  padding: 0 10px;
+  text-align: right; }
+
+.blog .date {
+  display: block;
+  margin: -0.6em 0 0;
+  font-size: 3.5em; }
+
+.blog h2 {
+  margin-top: 0;
+  line-height: 1.3em; }
+
+.blog article {
+  margin: 1em 0; }
+
+.blog-post h1 {
+  text-align: center;
+  font-size: 3rem; }
+
+.blog-post p {
+  font-size: 1.1rem; }
+
+.blog-post a {
+  color: #00A9BF; }
+
+.blog-post a:hover {
+  color: #CC0C4C; }
+
+.blog-post .intro {
+  font-size: 1.5rem; }
+
+/* POST Page */
+section.post {
+  padding-bottom: 5%; }
+
+.post hr {
+  border: 1px solid #c8c8c8;
+  margin: 3rem 0; }
+
+.post h2,
+.post h3 {
+  margin: 1.5em 0 0.8em; }
+
+/* -- Author Bio --*/
+.author-bio {
+  padding-top: 2vh;
+  padding-right: 5%;
+  text-align: center; }
+
+.author-bio h4 {
+  font-size: 1rem;
+  margin: 2rem 0 0; }
+
+.author-bio p {
+  font-size: 0.9rem; }
+
+.author-bio img {
+  border-radius: 100%; }
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.post ul {
+  list-style: circle inside; }
+
+.post ol {
+  list-style: decimal inside; }
+
+.post ol,
+.post ul {
+  padding-left: 0;
+  margin-top: 0; }
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1rem 0 1rem 2rem;
+  font-size: 90%; }
+
+li {
+  margin-bottom: 0.5rem; }
+
+/* Post Page */
+.share-page {
+  padding-bottom: 3rem; }
+
+.post-info p,
+.post-info a {
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: #5a5a5f; }
+
+.share-page a {
+  padding: 0.2rem 2rem;
+  margin: 0.5rem;
+  border: 1px solid grey;
+  border-radius: 2em;
+  display: inline-block; }
+
+.share-page a:hover {
+  color: #00A9BF; }
+
+.post h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem; }
+
+/* This styles the large banner image in the blog */
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  height: 40vw;
+  width: 100%;
+  padding: 2rem; }
+
+.bg-text {
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 200px;
+  min-height: 180px; }
+
+.bg-text p {
+  font-size: 14px;
+  font-family: "Lora";
+  font-style: italic; }
+
+.post:first-of-type {
+  border-top: 1px solid gainsboro; }
+
+.intro {
+  font-size: 1.3rem; }
+
+blockquote {
+  font-family: "Lora";
+  font-size: 1.5rem;
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 0.8em 0 1em;
+  margin: 1em 0;
+  font-weight: bold; }
+
 @media (max-width: 967px) {
   .twocol .col,
   .ten-wide,
@@ -916,7 +1075,7 @@ footer a:hover {
     height: auto; }
 
   div.padded {
-    padding: 2vh 1%; }
+    padding: 2vh 2%; }
 
   .pr-logos .three-wide {
     width: 48%;
