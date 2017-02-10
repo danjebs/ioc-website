@@ -16,7 +16,7 @@ title: Enroll Now | Institute of Code
 </section>
 <section id="enrol">
       <h2 class="block">APPLY NOW<span>WEB DEVELOPMENT RETREAT</span></h2>
-      <form action="https://formspree.io/hello@instituteofcode.com"
+      <form action="http://localhost:3000/webform_enquiry/create"
           method="POST" class="enrol-form">
 
         <label for="name"> Your Name </label>
@@ -42,7 +42,25 @@ title: Enroll Now | Institute of Code
         <input type="text" name="_gotcha" style="display:none" />
         <input type="hidden" name="_next" value="/thanks.html" />
       </form>
-</section>
+
+      <!-- Google Maps -->
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9m-SiYb-AXaiPQzQ6hgcbJ12j30t69Ug&libraries=places"></script>
+      <script>
+        var input = document.getElementById('location');
+          var options = {
+            types: ['(regions)']
+          };
+
+        google.maps.event.addDomListener(input, 'keydown', function(e) {
+          if (e.keyCode == 13) {
+              e.preventDefault();
+          }
+        });
+
+        autocomplete = new google.maps.places.Autocomplete(input, options);
+      </script>
+    </section>
+
 <!-- This is the table with dates and details -->
 {% include instagram.html %}
 
