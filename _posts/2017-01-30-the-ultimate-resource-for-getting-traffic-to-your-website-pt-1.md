@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Ultimate Resource for Getting Traffic to Your Website (pt.1)
-description: IOC Blog Post
+description: Part one of our web-traffic building guide discusses 19 channels you can use to bring traffic to your website and acquire new customers.
 image_path: /assets/images/nswcrlbt_74-cathryn-lavery-compressor.jpg
 alt: Best Coding Bootcamp
 month: JAN
@@ -35,16 +35,16 @@ There's also the fact getting traffic back to your website is not enough. If tra
 We call getting that initial demand 'traction'.
 {: .present-before-paste}
 
-The good news however! There are a lot of ways to get traffic to your site and gain traction. In fact, according to author of [Traction](http://tractionbook.com/), Gabriel Weinberg, &nbsp;there are 19 ways to do it.
+The good news however! There are a lot of ways to get traffic to your site and gain traction. In fact, according to author of [Traction](http://tractionbook.com/), Gabriel Weinberg,  there are 19 ways to do it.
 {: .present-before-paste}
 
 You'll have heard of most, if not all of these channels. The best thing about this particular list is that most, if not all of these, could work for your business! So whether you've been running your business for a while, or you've just launched, this is a great way to see what opportunities exist.
 {: .present-before-paste}
 
-So **here are** **19 channels** you can use to bring traffic to your website and acquire new customers.&nbsp;
+So **here are** **19 channels** you can use to bring traffic to your website and acquire new customers.
 {: .present-before-paste}
 
-### &nbsp;
+###
 
 ### Viral Marketing
 
@@ -54,7 +54,7 @@ Everyone knows viral marketing. It's the videos of silly cats, Vine videos, and 
 However, it's not as easy as that. We usually define 'viral' as something that spreads exponentially due to a high share rate. However, despite what some experts will purport, there is no reliable formula to reproducing virality, and therefore, should not be relied upon as a marketing channel. In other words, you can't just make something go viral, unless you have big bank.
 {: .present-before-paste}
 
-Yet sharing via social media forms the backbone of viral marketing, and this is something you should encourage. &nbsp;There are certain tools, such as [Kick Off Labs](https://kickofflabs.com) and [Gleam.io](Gleam.io), that encourage visitors to take certain actions in exchange for small rewards. While this isn't necessarily organic, it can be an effective strategy to help you meet other marketing targets, such as building an email list.
+Yet sharing via social media forms the backbone of viral marketing, and this is something you should encourage.  There are certain tools, such as [Kick Off Labs](https://kickofflabs.com) and [Gleam.io](Gleam.io), that encourage visitors to take certain actions in exchange for small rewards. While this isn't necessarily organic, it can be an effective strategy to help you meet other marketing targets, such as building an email list.
 {: .present-before-paste}
 
 Viral marketing also often speaks of unconventional, guerrilla campaigns. For example, false flags videos that show a news segment, but in reality, is an ad for an upcoming movie. You could consider this as just clever content marketing (see content marketing).
@@ -66,7 +66,7 @@ A third way to look at viral marketing is baking a sharing mechanism into your p
 One thing to keep in mind about viral marketing is the best campaigns are steeped in marketing research. You need to be finding out how users currently consume the industry, where they normally hang out, and how they interact with existing products. Viral marketing needs to fit right in with these, while enhancing users' emotional connection with your brand and their experience in this industry.
 {: .present-before-paste}
 
-### &nbsp;
+###
 
 ### PR
 
@@ -82,7 +82,7 @@ It's recommended therefore, to do things yourself in the beginning. To get your 
 Building good PR is just like making good friends. You don't usually meet someone and ask them for a favour straight away. Make sure you nurture the relationship by doing them favours (on your own initiative), sharing their content, and just striking up conversation with them. When the time comes, don't be afraid to ask for what you need. It's important to keep in mind journalists too need to good stories (like yours!) to tell.
 {: .present-before-paste}
 
-### &nbsp;
+###
 
 ### Unconventional PR
 
@@ -95,21 +95,21 @@ We’re definitely not asking you to [graffiti](http://www.smh.com.au/articles/2
 Unconventional PR ties in with viral marketing. It’s a dash of creativity mixed in with marketing research. In the case of blenders, one of the most common questions consumers might ask is, ‘How strong is your blender?’. If you can come up with novel ways to produce content around what people are asking questions about, then you might be onto a winner.
 {: .present-before-paste}
 
-### &nbsp;
+###
 
 ### Search Engine Marketing
 
 Search Engine Marketing (SEM) refers to the ads placed in search results (think the sponsored Google results). SEM is a great traction channel, especially if people are actively searching for what you're selling. By placing your ads exactly where people are searching ensures you're getting visited by people who looking for businesses just like yours.
 {: .present-before-paste}
 
-However, you may have heard SEM ads are expensive, and this can be true. Because of how successful SEM could be, some keywords can be quite competitive, and competition drives up the price. The key to doing well here is to target 'long tail keywords' - longer, more specific phrases. For example, &nbsp;a long tail keyword is: 'buy brown leather women's boots Melbourne', rather than 'women's boots'. Long-tail keywords show user intent, as the user has narrowed down what they're looking for. As a result, they’re more likely to convert.
+However, you may have heard SEM ads are expensive, and this can be true. Because of how successful SEM could be, some keywords can be quite competitive, and competition drives up the price. The key to doing well here is to target 'long tail keywords' - longer, more specific phrases. For example,  a long tail keyword is: 'buy brown leather women's boots Melbourne', rather than 'women's boots'. Long-tail keywords show user intent, as the user has narrowed down what they're looking for. As a result, they’re more likely to convert.
 {: .present-before-paste}
 
-### &nbsp;
+###
 
 ### Social & Display Ads
 
-Social and Display ads are the ads &nbsp;you get in your Facebook feed, and in the banners on the websites you visit. Display ads are relatively cheap (compared to SEM and other paid advertising methods), and if targeted correctly, can be quite effective.
+Social and Display ads are the ads  you get in your Facebook feed, and in the banners on the websites you visit. Display ads are relatively cheap (compared to SEM and other paid advertising methods), and if targeted correctly, can be quite effective.
 {: .present-before-paste}
 
 Usually, display advertisements are shown to designated audiences, i.e. people who have displayed some type of interest in what you're targeting. Where display ads really shine however, is retargeting, where you show ads to people who have already visited your website. Dynamic retargeting is often also available, where you show ads based on the specific products visitors show interest in.
@@ -118,7 +118,6 @@ Usually, display advertisements are shown to designated audiences, i.e. people w
 The great thing about social and display ads is they're channel is scalable. If you're getting a certain result with a certain budget, increasing budget would often mean an increase in results. That means you can often start on a small budget, and increase if you see results.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Offline Ads
@@ -129,7 +128,6 @@ Billboards, flyers and posters. Offline ads are your old school type of advertis
 The one thing to remember is implementing ways to track how effective your offline efforts have been. A popular way to do so is to use a discount code people quote when making a purchase. This code will then show you how many people have come to you as a result of something they saw.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### SEO
@@ -155,10 +153,10 @@ The reality is however, SEO takes time. Age of a website plays a factor - the lo
 {: .present-before-paste}
 
 One last thing: a lot of people believe SEO is for free because it's organic, and therefore, place it high on the priorities list. However, to do SEO well, you'll likely have to invest in relatively expensive tools which help you search for keywords and analyse competitors (we recommend [Moz](justreachout.io)). Also, it's likely you'll need to hire someone to do it for you professionally. While SEO is great, don't operate under the assumption you won't need to spend a cent to get up there.
-<br>&nbsp;
+<br>
 {: .present-before-paste}
 
-### &nbsp;
+###
 
 ### Content Marketing
 
@@ -177,15 +175,14 @@ Content is also great at supporting your other channels, such as SEO - you build
 Content, similar to SEO, is playing the long game. It often takes a while for your efforts to pay dividends, but companies that persevere will reap the benefits.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Email Marketing
 
-For many businesses, the email list is one of the most valuable assets, and building one should always &nbsp;be a new business's first priority.
+For many businesses, the email list is one of the most valuable assets, and building one should always  be a new business's first priority.
 {: .present-before-paste}
 
-Many people turn away from email marketing as they see it as spammy. &nbsp;Email campaigns reign as one of the most highest converting marketing channels, with a purported [3800%](https://www.campaignmonitor.com/blog/email-marketing/2016/01/70-email-marketing-stats-you-need-to-know/) ROI.
+Many people turn away from email marketing as they see it as spammy.  Email campaigns reign as one of the most highest converting marketing channels, with a purported [3800%](https://www.campaignmonitor.com/blog/email-marketing/2016/01/70-email-marketing-stats-you-need-to-know/) ROI.
 {: .present-before-paste}
 
 It's also important to note customers who are in your email list have already given you their details. This in itself, is an investment in your business and a display of trust. Having this touchpoint means they are interested in what you have to say, and are far more likely to purchase further down the track.
@@ -200,7 +197,7 @@ To manage your email list, you'll need a CRM or email handling service. Here at 
 To build an email list, you'll most likely need a website first. It's your job to build that email list as fast as possible with any and all new traffic coming to your site to make the most out of this channel.
 {: .present-before-paste}
 
-### &nbsp;
+###
 {: .present-before-paste}
 
 ### Engineering as Marketing
@@ -215,7 +212,6 @@ These tools are often called 'lead magnets', as they provide a lot of attractive
 You don't necessarily need an engineer to put something together - in many cases, all it requires is a dash of resourcefulness. [Typeform](typeform.com) for example, is a great way to build a simple survey that produces advice based on the user's input. After using the lead magnet, it is up to you with how you draw people to your site!
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Target Market Blogs
@@ -236,19 +232,17 @@ Finding blogs that will accept guest posts might take a bit of simple Googling -
 One important thing to remember is duplicate content is bad for everyone, so make sure you're pitching and writing content that is genuinely unique.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Business Development
 {: .present-before-paste}
 
-Business Development is striking up strategic partnerships with other businesses. It could be promoting each others' products, sharing ad space, or packaged deals. The partnership is one that is mutually beneficial, without major costs on both parties. &nbsp;&nbsp;
+Business Development is striking up strategic partnerships with other businesses. It could be promoting each others' products, sharing ad space, or packaged deals. The partnership is one that is mutually beneficial, without major costs on both parties.
 {: .present-before-paste}
 
 The best partnerships are with companies that do not compete with you, but you users also use, and provide additional value to your customers. This just comes down to a bit research and observation. A cool way to get started is going on Facebook and searching 'Pages liked by people who like my page'. While this usually leads to massive, established pages and companies, it might give you some ideas about how some people interact with your niche.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Sales
@@ -263,7 +257,6 @@ Usually, sales implies picking up the phone and calling prospects up. However, t
 On a side note, it's important not to get sales confused with marketing. If your first port-of-call is sales, or you find you're relying on hard-sales, high-pressure tactics, then chances are your product doesn't quite fit the market. While you might be getting sales on the spot, you aren't doing much for general user experience, possibly leading to higher rates of post-purchase dissonance and user churn.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Affiliate Programs
@@ -278,7 +271,6 @@ Affiliate programs are big drivers of traffic to many e-commerce websites, inclu
 By flipping this model the other way, you can also use affiliate programs to draw traffic to your website, as well as make a little bit of startup cash. By writing reviews for products in your niche, you could potentially draw traffic to your website from people who are looking for information about these products.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Existing Platforms
@@ -290,7 +282,6 @@ Many successful products have used another platform to jumpstart their business.
 However, there are ways to be less intrusive. The Apple and Android Play stores are of course, the obvious places to partner with if you're launching an app. Other things to think about are using Youtube to post your videos, or blogging platforms such as Medium to post your articles, and drawing the existing audience back to your site.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Trade Shows
@@ -302,7 +293,6 @@ Trade shows are another form of old-school, face-to-face marketing. However, the
 Many niches still run conferences and trade shows, where businesses are able to hire booths and show people what they do. As with all offline efforts, try to pair it with online analytics to measure your results. For instance, if you're handing out flyers with your website (or a QR code people can scan), try to use shortened links (such as [Bit.ly](Bit.ly)), where you can exactly measure how many people visited your website after receiving your brochure. It's also handy to keep a tablet or laptop nearby, where people can leave their email addresses behind so you can contact them further.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Offline Events
@@ -317,7 +307,6 @@ The great thing about events is you're able to meet your audience members and gr
 As with many other items on this list though, be careful of hard selling people. If people don't like being hard-sold to on the internet, they like getting pressured in real life even less. The key is to provide heaps of value, whichever even format you choose.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Speaking Engagements
@@ -335,7 +324,6 @@ When it comes to speaking engagements, try to bring some simple slides along. No
 Can't find anywhere to talk? Why not start your own series of events or podcasts? Sharing knowledge, inviting other guests and building a network is the offline equivalent of guest posting, and can be extremely effective for your business.
 {: .present-before-paste}
 
-&nbsp;
 {: .present-before-paste}
 
 ### Community Building
@@ -359,7 +347,7 @@ The problem with many communities is they die over time. Communities take time t
 "Whoa!", you say, "That's a big list! How do I possible tackle them all?
 {: .present-before-paste}
 
-Well, you don't! Keep tuned for part 2 of this guide, where we'll talk through how to best work with these 19 channels, and how to make the most out of your resources.&nbsp;
+Well, you don't! Keep tuned for part 2 of this guide, where we'll talk through how to best work with these 19 channels, and how to make the most out of your resources.
 {: .present-before-paste}
 
 Make sure you're subscribed to our newsletter to be the first to know when part 2 comes out!
