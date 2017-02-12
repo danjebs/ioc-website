@@ -2,7 +2,7 @@
 layout: post
 date: 2016-11-27 11:00:00
 title: 5 Tips for Landing Your First Paid Web Development Job
-description: IOC Blog Post
+description: "Once you've accumulated coding skills and are ready to start building your portfolio, it's time to get your first client. We're discussing five best practices for acquiring your first paid web development job."
 image_path: /uploads/bali_2016-5-1024x681.jpg
 alt: 5 Tips for Landing Your First Paid Web Development Job
 month: NOV
