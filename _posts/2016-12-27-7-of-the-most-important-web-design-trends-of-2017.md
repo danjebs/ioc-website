@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 7 of the Most Important Web Design Trends of 2017
-description: IOC Blog Post
+description: 'While chatbots came to the fore in 2016 and continue to grow in popularity this year, micro-interactions and an emphasis on collaboration are other UI elements that we expect to trend in 2017.'
 image_path: /uploads/screen-shot-2017-01-16-at-4-26-16-pm.png
 alt: web design trends
 month: JAN
@@ -58,7 +58,7 @@ We've seen a continued shift towards clean, big, bold font. However, if you thin
 
 ![](/uploads/versions/screen-shot-2017-01-16-at-3-35-50-pm---x----1444-898x---.png)
 
-One of the most important things in web copy writing is to be as concise as possible. Research shows people only take [***50 milliseconds***](https://conversionxl.com/first-impressions-matter-the-importance-of-great-visual-design/)&nbsp;to form a first impression about a website, if they don't quite understand what you do or where they're meant to go, they'll leave, often for good. Clear statements in clean fonts help communicate that information.
+One of the most important things in web copy writing is to be as concise as possible. Research shows people only take [***50 milliseconds***](https://conversionxl.com/first-impressions-matter-the-importance-of-great-visual-design/) to form a first impression about a website, if they don't quite understand what you do or where they're meant to go, they'll leave, often for good. Clear statements in clean fonts help communicate that information.
 
 It's important to note when we say 'bold', we aren't referring the weight of the type, rather, the design.
 
