@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3 Surefire Ways to Help You Keep Your NY Resolution
-description: IOC Blog Post
+description: "Don't let naysayers keep you from setting new year resolutions. We're sharing three foolproof ways to keep your resolutions fresh well into the new year."
 image_path: /uploads/PR-Photos--3-compressor.jpg
 alt: new year resolutions
 month: JAN
