@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is 'Flow' and How It'll Maximise Your Productivity"
-description: IOC Blog Post
+description: 'Learn how to tap into your most productive state so that you can breeze through your to-do list. The flow state allows you to immerse yourself in your work and enjoy it, too.'
 image_path: /uploads/pexels-photo-70232-compressor.jpeg
 alt: The Flow State
 month: DEC
@@ -64,7 +64,7 @@ If you learn how to categorise tasks between these two baskets, and spend more t
 
 Wherever we go, things are always vying for our attention. Distractions are absolute flow breakers. In fact, little things like responding to an email notification can have a more significant impact on our focus than we think - research shows after getting distracted, it can take anywhere between 15-25 minutes to get back into the swing of things, especially things that are completely unrelated to the task at hand. A couple of these distractions a day equals a lot of lost productivity!
 
-An obvious fix for this is turning off your notifications, and scheduling in certain email/text responding times for when you want to get focused. For example, you can check your emails and tell your friends you're going offline for a bit first thing before you start work, check them again when you grab lunch, and then at 4 pm before you finish work. The world has never ended if you don't respond to a text within an hour, and 24 hours is the usual professional courtesy extended to email replies, so you're in the clear there. If that doesn't allay your concerns, just remember, if something was truly urgent, people would call you! &nbsp;No-one communicates something life-threatening through text messages.
+An obvious fix for this is turning off your notifications, and scheduling in certain email/text responding times for when you want to get focused. For example, you can check your emails and tell your friends you're going offline for a bit first thing before you start work, check them again when you grab lunch, and then at 4 pm before you finish work. The world has never ended if you don't respond to a text within an hour, and 24 hours is the usual professional courtesy extended to email replies, so you're in the clear there. If that doesn't allay your concerns, just remember, if something was truly urgent, people would call you!  No-one communicates something life-threatening through text messages.
 
 Another way to stay focused on the present is daily mindfulness meditation. Short sessions every day are like taking your brain to the gym, training it not to chase distracting thoughts, and being aware of what you're doing in the present. Even simple things like focusing on your breathing and posture can gently bring your mind back to the task at hand.
 
@@ -78,7 +78,7 @@ Working without a lack of clear goals, markers of progress or a tangible endpoin
 
 ## 4. Forget the fear of failing and getting immediate feedback
 
-Fear and anxiety are some of the biggest hurdles to achieving a flow state. Taking on a challenge is one of the cornerstones of getting in the zone, &nbsp;fear of failure prevents people from taking on even moderately challenging tasks. In fact, even if the job is rewarding, research shows people do not attain the same enjoyment from being in the flow state if they show a high level of concern for the possible consequences of doing the job incorrectly.
+Fear and anxiety are some of the biggest hurdles to achieving a flow state. Taking on a challenge is one of the cornerstones of getting in the zone,  fear of failure prevents people from taking on even moderately challenging tasks. In fact, even if the job is rewarding, research shows people do not attain the same enjoyment from being in the flow state if they show a high level of concern for the possible consequences of doing the job incorrectly.
 
 One way to prevent fear from getting in the way is to have constant feedback on how you're going. Just as having mini-goals helps you measure progress, getting immediate feedback from your work also ensures you're doing things right, and that you're on the right track.
 
