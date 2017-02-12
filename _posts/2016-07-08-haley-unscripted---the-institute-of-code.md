@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-07-08T11:00:00.000Z
+date: 2016-07-08 11:00:00
 title: Haley Unscripted - The Institute of Code
-description: IOC Blog Post
+description: Haley from Haley Unscripted discusses why she joined us in Bali to learn how to code.
 subtitle: 'After packing up her life in the US to move to New Zealand and start on a travelling journey - Haley approached The IOC as a potential intern and decided to take the course herself after learning more!'
 image_path: /assets/images/beach-shot.png
 alt: Haley Unscripted - The Institute of Code
