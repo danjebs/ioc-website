@@ -2,7 +2,7 @@
 layout: post
 date: 2016-10-25 00:00:00
 title: The 5 Most Common Misconceptions About Learning To Code
-description: IOC Blog Post
+description: "Scared that HTML and CSS are incredibly difficult to learn? We're demystifying five common misconceptions that many have about learning how to code."
 subtitle: The 5 underlying reasons I never bothered learning to code.
 image_path: /assets/images/still_coding_1.jpg
 alt: The 5 underlying reasons I never bothered learning to code.
@@ -18,8 +18,6 @@ banner-image_path: /uploads/bali_2016-5-1024x681.jpg
 banner-image-blurb: Coding in the rice paddies
 ---
 
-
-&nbsp;
 
 This opinion has shifted somewhat since I started working with IOC. It's hard not to see its value when every day you see past and current students applying it to all industries and careers to get ahead. It's becoming increasingly apparent that it’s time for me to pull my socks up and work past the excuses I've been giving myself to avoid learning.
 
@@ -42,7 +40,7 @@ For a more in-depth introduction to code, short one or two day intensives are a 
 
 I will be the first to admit I am far from the most computer savvy person. I thought coding was reserved for the most computer-literate kings of the technological world. The thought of learning to code seemed like a million mile journey.
 <br>
-<br>Something I didn’t realise is that you don’t need pre-existing computer skills to learn to code. None at all.&nbsp; You can write code on any ordinary text editor.
+<br>Something I didn’t realise is that you don’t need pre-existing computer skills to learn to code. None at all.  You can write code on any ordinary text editor.
 <br>
 <br>I’ve seen people who don’t know what a sim card is build a website from scratch. Someone else who I had seen once hold down the ‘escape’ key instead of power to turn their laptop on. It isn’t a test of your technological prowess, it is simply typing instructions that a computer can understand and action.
 <br>
