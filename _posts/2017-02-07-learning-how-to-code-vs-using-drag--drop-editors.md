@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Learning how to Code vs Using Drag & Drop Editors'
-description: IOC Blog Post
+description: We break down five reasons why you should learn how to code despite the ease of use of drag-and-drop editors.
 image_path: /assets/images/derxvssqndm-artem-sapegin (1).jpg
 alt: Best Coding Bootcamp
 month: FEB
@@ -26,14 +26,14 @@ So if these platforms are so versatile and easy, why would you need to learn to 
 
 Well, there are a few good reasons why you should still learn coding 'the old fashioned way,' even if you use a drag-and-drop editor. Here are 5 reasons why you should do so!
 
-###
+## #
 
 ### 1. You don't paint yourself into a corner
 
 <br>Drag-and-drop editors come in really shiny packaging. With slick websites telling you all the benefits you'll receive, it's easy to get sucked in.
 <br>However, everyone's needs are different, and often you'll build 90% of your project, only to realise your platform can't do the rest of what you need. Whether it's slightly more complex analytics implementation, interactive elements, e-commerce functions or more, there's a very high chance you'll come across something you won't be able to do because the developer of the tool hadn't built it in.
 
-###
+## #
 
 ### 2. Messy Code
 
@@ -42,7 +42,7 @@ Well, there are a few good reasons why you should still learn coding 'the old fa
 <br>Also, if all goes well, there will come a time you will need to grow your website along with your business. When you give this code to a web developer to build on, or if you decide to work on it yourself, you'll have a much harder time trying to sort through lumps of code
 <br>Think of it like having a house built on shaky foundations. While you might be able to keep the house nice, shiny and clean on the outside, the foundations hidden away at the bottom might not provide the right support. Don't forget as well, after you build a house, it's impossible to come back to fix the foundations.
 
-###
+## #
 
 ### 3. You are paying to have less control
 
@@ -52,7 +52,7 @@ Platforms often even lock you into their own hosting solutions, resulting in hig
 
 What you're paying for is often the convenience of using templated solutions. When you do want to break the mold, however, it can often be exceedingly hard to migrate away.
 
-###
+## #
 
 ### 4. Understanding code allows you to fix things
 
