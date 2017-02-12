@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Digital Nomad's Toolbox"
-description: IOC Blog Post
+description: 'Long gone are days of being tied to working in one location. Today, professionals are picking up and deciding to work while traveling. Read our guide of how you, too, can be a digital nomad.'
 image_path: /uploads/pexels-photo-1.jpg
 alt: "The Digital Nomad's Toolbox"
 month: NOV
