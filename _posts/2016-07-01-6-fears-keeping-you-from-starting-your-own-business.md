@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-07-01T11:00:00.000Z
+date: 2016-07-01 11:00:00
 title: 6 Fears Keeping You From Starting Your Own Business
-description: IOC Blog Post
+description: "Fear of failure isn't the only thing keeping many aspiring entrepreneurs from starting their own business. Stepping out in confidence with an adaptive mindset will ease the transition to becoming a successful business owner."
 subtitle:
 image_path: /assets/images/ioc blog post-running.jpg
 alt: Fears of starting a business
