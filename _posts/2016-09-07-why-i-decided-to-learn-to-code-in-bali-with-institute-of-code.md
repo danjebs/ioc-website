@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why I decided to learn to code in Bali with Institute of Code
+description: IOC Blog Post
 image_path: /uploads/img-8756-1.jpg
 alt: Best Coding Bootcamp
 month: SEPT

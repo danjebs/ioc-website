@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 10 CSS Tips that everyone should know
+description: IOC Blog Post
 image_path: /assets/images/tina-becky-6238.jpg
 alt: CSS TIPS
 month: DEC
@@ -11,7 +12,7 @@ author-bio: Co Founder of Institute of Code
 author-image_path: /assets/images/tina-profile.jpg
 intro: CSS (aka cascading stylesheets) is what controls the visual aspects of the web.
 first-content: |
-    <p> While parts of CSS can be tricky (we're looking at you positioning!), the basics are pretty easy to understand. The basic css structure looks like this:</p> 
+    <p> While parts of CSS can be tricky (we're looking at you positioning!), the basics are pretty easy to understand. The basic css structure looks like this:</p>
     <pre><code class="language-css">selector { property: value; }</code></pre>
     <p> Where we select the elements that we want to style and then apply various properties to them. </p>
 banner-image_path: /assets/images/bali_2016-5-1024x681.jpg

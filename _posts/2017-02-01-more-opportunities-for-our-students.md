@@ -1,6 +1,7 @@
 ---
 layout: post
 title: More Opportunities for Our Students
+description: IOC Blog Post
 image_path: /uploads/10303163-0-pr-photos-6072-compressor-1.jpg
 alt: Best Coding Bootcamp
 month: FEB

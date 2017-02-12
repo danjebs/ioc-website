@@ -2,6 +2,7 @@
 layout: post
 date: 2016-07-22T11:00:00.000Z
 title: "Want a career in graphic design? Here's why you need to learn to code."
+description: IOC Blog Post
 subtitle: As a graphic designer learning to code can make you more employable and boost your career prospects
 image_path: /assets/images/graphic-design.jpg
 alt: why designers should learn to code

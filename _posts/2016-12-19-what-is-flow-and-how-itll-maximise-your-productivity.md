@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What is 'Flow' and How It'll Maximise Your Productivity"
+description: IOC Blog Post
 image_path: /uploads/pexels-photo-70232-compressor.jpeg
 alt: The Flow State
 month: DEC

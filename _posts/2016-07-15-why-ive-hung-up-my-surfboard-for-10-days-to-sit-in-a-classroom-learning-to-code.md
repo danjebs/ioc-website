@@ -2,6 +2,7 @@
 layout: post
 date: 2016-07-15T11:00:00.000Z
 title: Why I’ve hung up my surfboard for 10 days to sit in a classroom learning to code
+description: IOC Blog Post
 subtitle: 'Chantell is an author, marketing/advertising consultant and entrepreneur and came to our June 10 course to help take control of her online presence. This article highlights the importance of learning to code as a business owner.'
 image_path: /assets/images/surfboard.jpg
 alt: Why I’ve hung up my surfboard for 10 days to sit in a classroom learning to code

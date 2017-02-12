@@ -2,6 +2,7 @@
 layout: post
 date: 2016-07-01T11:00:00.000Z
 title: 6 Fears Keeping You From Starting Your Own Business
+description: IOC Blog Post
 subtitle:
 image_path: /assets/images/ioc blog post-running.jpg
 alt: Fears of starting a business

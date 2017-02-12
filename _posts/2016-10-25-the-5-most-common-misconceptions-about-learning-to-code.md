@@ -2,6 +2,7 @@
 layout: post
 date: 2016-10-25 00:00:00
 title: The 5 Most Common Misconceptions About Learning To Code
+description: IOC Blog Post
 subtitle: The 5 underlying reasons I never bothered learning to code.
 image_path: /assets/images/still_coding_1.jpg
 alt: The 5 underlying reasons I never bothered learning to code.

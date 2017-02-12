@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How learning to code can help you grow your business
+description: IOC Blog Post
 image_path: /jessicaevans2.jpg
 alt: Learn code to grow your business
 month: AUG

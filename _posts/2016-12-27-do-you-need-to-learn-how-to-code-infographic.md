@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Do You Need To Learn How To Code? [INFOGRAPHIC]'
+description: IOC Blog Post
 image_path: /uploads/b_0360672.jpg
 alt: new year resolutions
 month: JAN

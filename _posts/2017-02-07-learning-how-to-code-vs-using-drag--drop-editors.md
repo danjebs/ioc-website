@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Learning how to Code vs Using Drag & Drop Editors'
+description: IOC Blog Post
 image_path: /assets/images/derxvssqndm-artem-sapegin (1).jpg
 alt: Best Coding Bootcamp
 month: FEB

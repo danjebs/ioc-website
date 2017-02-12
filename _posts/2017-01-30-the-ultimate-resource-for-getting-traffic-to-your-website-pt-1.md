@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Ultimate Resource for Getting Traffic to Your Website (pt.1)
+description: IOC Blog Post
 image_path: /assets/images/nswcrlbt_74-cathryn-lavery-compressor.jpg
 alt: Best Coding Bootcamp
 month: JAN

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Digital Nomad's Toolbox"
+description: IOC Blog Post
 image_path: /uploads/pexels-photo-1.jpg
 alt: "The Digital Nomad's Toolbox"
 month: NOV

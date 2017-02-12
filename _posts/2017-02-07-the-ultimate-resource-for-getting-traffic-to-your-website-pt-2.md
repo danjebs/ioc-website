@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Ultimate Resource for Getting Traffic to Your Website (pt.2)
+description: IOC Blog Post
 image_path: /uploads/pexels-photo-242494.jpeg
 alt: Best Coding Bootcamp
 month: FEB

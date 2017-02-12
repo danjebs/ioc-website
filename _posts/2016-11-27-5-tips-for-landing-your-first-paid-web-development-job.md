@@ -2,6 +2,7 @@
 layout: post
 date: 2016-11-27 11:00:00
 title: 5 Tips for Landing Your First Paid Web Development Job
+description: IOC Blog Post
 image_path: /uploads/bali_2016-5-1024x681.jpg
 alt: 5 Tips for Landing Your First Paid Web Development Job
 month: NOV

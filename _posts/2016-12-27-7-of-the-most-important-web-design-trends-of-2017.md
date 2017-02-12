@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 7 of the Most Important Web Design Trends of 2017
+description: IOC Blog Post
 image_path: /uploads/screen-shot-2017-01-16-at-4-26-16-pm.png
 alt: web design trends
 month: JAN

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 3 Surefire Ways to Help You Keep Your NY Resolution
+description: IOC Blog Post
 image_path: /uploads/PR-Photos--3-compressor.jpg
 alt: new year resolutions
 month: JAN
