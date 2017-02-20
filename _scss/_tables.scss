@@ -10,12 +10,12 @@ table.enrol {
 td {
   padding        : 0 1.5em;
   vertical-align : bottom;
+  border-right : 2px solid rgb(150,150,155);
 }
 
 
 td:first-child {
   color        : #00A9BF;
-  border-right : 2px solid rgb(150,150,155);
   text-align   : right;
 }
 
@@ -26,8 +26,8 @@ td:first-child span {
   color: rgb(60,60,60);
 }
 
-td:nth-child(3) {
-  border-left : 2px solid rgb(150,150,155);
+td:last-child {
+  border : none;
 }
 
 td:nth-child(2) span,

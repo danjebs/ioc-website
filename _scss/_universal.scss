@@ -20,6 +20,9 @@ section {
   padding : 5vh 10%;
 }
 
+nav hr {
+  padding: 2em 0;
+}
 
 .padded {
   padding: 5%
@@ -120,6 +123,10 @@ section {
 
 .padded-right {
   padding-right: 5%;
+}
+
+.float-right {
+  float: right;
 }
 
 /* two box with equal heights*/

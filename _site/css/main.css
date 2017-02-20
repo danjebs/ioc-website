@@ -115,6 +115,9 @@ section {
 .padded-right {
   padding-right: 5%; }
 
+.float-right {
+  float: right; }
+
 /* two box with equal heights*/
 .two-box {
   position: relative;
@@ -397,7 +400,7 @@ form.enrol input, form.enrol textarea {
   padding: 0.5rem;
   border-radius: 3px;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 300;
   vertical-align: bottom;
   margin: 0 0 1em;
@@ -877,11 +880,11 @@ table.enrol {
 
 td {
   padding: 0 1.5em;
-  vertical-align: bottom; }
+  vertical-align: bottom;
+  border-right: 2px solid #96969b; }
 
 td:first-child {
   color: #00A9BF;
-  border-right: 2px solid #96969b;
   text-align: right; }
 
 td:first-child span {
@@ -890,8 +893,8 @@ td:first-child span {
   font-weight: 200;
   color: #3c3c3c; }
 
-td:nth-child(3) {
-  border-left: 2px solid #96969b; }
+td:last-child {
+  border: none; }
 
 td:nth-child(2) span,
 td:nth-child(3) span {
