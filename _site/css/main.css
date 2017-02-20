@@ -13,6 +13,9 @@ li {
   font-weight: 300;
   font-size: 17px; }
 
+a {
+  display: inline-block; }
+
 body {
   color: #41414D;
   font-family: "macho", sans-serif; }
@@ -317,6 +320,10 @@ form input[type="submit"] {
   background: none;
   width: auto;
   margin: auto; }
+
+/* This prevents IOS bug where text dissapears */
+input, button, textarea, select {
+  -webkit-transform: translate3d(0, 0, 0); }
 
 /* Removes awkward default styles on some inputs for iOS */
 textarea {
