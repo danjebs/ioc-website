@@ -12,12 +12,14 @@
       <table class="enrol">
 
         {% for session in site.data.dates %}
+          {% if session.type == 'web-dev' %}
         <tr>
             <td><a href="/enrol" title="Apply Now">{{session.date}}</a></td>
             <td><a href="/enrol" title="Apply Now">${{session.cost}}</a></td>
             <td><a href="/enrol" title="Apply Now">{{session.spots}} spots left</a></td>
         </tr>
-        {% endfor %}
+        {% endif %}
+      {% endfor %}
 
   </table>
   </div>

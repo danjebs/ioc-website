@@ -18,7 +18,7 @@ a {
 
 body {
   color: #41414D;
-  font-family: "macho", sans-serif; }
+  font-family: "macho", "Lato", sans-serif; }
 
 li {
   list-style-position: inside;
@@ -673,7 +673,7 @@ img.enrol {
   vertical-align: middle; }
 
 .curl span {
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-size: 15em;
   font-weight: 100; }
 
@@ -719,6 +719,11 @@ img.enrol {
 /* Blog Page */
 .blog .padded {
   padding: 1vh 5%; }
+
+/* Courses Schedule */
+.schedule p span {
+  color: #00A9BF;
+  font-weight: bold; }
 
 /* --- Video Banner -- */
 .video-banner,
@@ -1080,7 +1085,7 @@ blockquote {
   margin: 1em 0;
   font-weight: bold; }
 
-@media (max-width: 967px) {
+@media (max-width: 768px) {
   .twocol .col,
   .ten-wide,
   .nine-wide,
