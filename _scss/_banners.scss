@@ -66,6 +66,13 @@
     border-image: initial;
 }
 
+.image-banner,
+.banner-image  {
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+
 /* Grid of images in a banner */
 .activity-grid > div {
   background-size: cover;

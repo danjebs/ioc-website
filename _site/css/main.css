@@ -33,6 +33,9 @@ header,
 section {
   padding: 5vh 10%; }
 
+nav hr {
+  padding: 2em 0; }
+
 .padded {
   padding: 5%; }
 
@@ -785,6 +788,12 @@ img.enrol {
   border-color: white;
   border-image: initial; }
 
+.image-banner,
+.banner-image {
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh; }
+
 /* Grid of images in a banner */
 .activity-grid > div {
   background-size: cover;
@@ -1134,6 +1143,12 @@ blockquote {
     position: static;
     -webkit-transform: none;
     transform: none; }
+
+  .mob-flip {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
 
   .arrow-left,
   .arrow-right,
