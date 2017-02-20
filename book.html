@@ -47,13 +47,9 @@ layout: default
 
         <label for="course-date"> Which session would you like to attend?</label>
         <select name="course-date" required>
-          {% for %}
-            <option value="feb-4-16">Febraury 4th - 13th</option>
-            <option value="feb-17-16">February 17th - 26th</option>
-            <option value="mar-3-16">March 3rd - 12th</option>
-            <option value="apr-1-16">Apr 1st - Apr 10th</option>
-            <option value="apr-28-16">Apr 23th - May 2th</option>
-            <option value="may-24-16">May 24th - June 2nd</option>
+          {% for session in site.data.dates %}
+            <option value="{{session.date | slugify}}">{{session.date}}  |  {{session.type}}</option>
+          {% endfor %}
         </select>
 
         <h2> 4. Room Options </h2>

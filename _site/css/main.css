@@ -33,8 +33,14 @@ header,
 section {
   padding: 5vh 10%; }
 
-div.padded {
-  padding: 5vh 5%; }
+.padded {
+  padding: 5%; }
+
+.padded-top {
+  padding-top: 10%; }
+
+.padded-bottom {
+  padding-bottom: 10%; }
 
 .no-padding {
   margin: 0;
@@ -139,6 +145,12 @@ section {
 
 .mob-show {
   display: none !important; }
+
+.padded-top {
+  padding-top: 10%; }
+
+.padded-bottom {
+  padding-bottom: 10%; }
 
 .col.padded {
   padding: 4%; }
@@ -757,6 +769,14 @@ img.enrol {
 .our-story .banner-inner {
   color: #505055; }
 
+.light-box {
+  background-color: #fafafc;
+  padding: 4%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial; }
+
 /* Grid of images in a banner */
 .activity-grid > div {
   background-size: cover;
@@ -861,9 +881,9 @@ td:first-child {
 
 td:first-child span {
   display: block;
-  font-size: 3em;
   line-height: 0.9em;
-  font-weight: 200; }
+  font-weight: 200;
+  color: #3c3c3c; }
 
 td:nth-child(3) {
   border-left: 2px solid #96969b; }
@@ -1081,8 +1101,14 @@ blockquote {
     margin: 0 !important;
     height: auto; }
 
-  div.padded {
+  .padded {
     padding: 2vh 2%; }
+
+  .padded-top {
+    padding-top: 10%; }
+
+  .padded-bottom {
+    padding-bottom: 10%; }
 
   .pr-logos .three-wide {
     width: 48%;

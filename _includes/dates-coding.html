@@ -1,6 +1,6 @@
 <section class="grid">
   <div class="col-12 centered">
-        <h3 class="editable block">UPCOMING<span>DATES & DETAILS </span></h4>
+        <h3 class="editable block">UPCOMING<span>CODING RETREATS </span></h4>
   </div>
 
   <div class="col-6_sm-12 padded">
@@ -11,14 +11,9 @@
   <div class="col-6_sm-12 padded">
       <table class="enrol">
 
-        {% for session in site.data.dates limit: 6 %}
+        {% for session in site.data.dates %}
         <tr>
             <td><a href="/enrol" title="Apply Now">{{session.date}}</a></td>
-            <td>
-                {% if session.type == 'web-dev' %} Web Development {% endif %}
-                {% if session.type == 'marketing' %} Digital Marketing {% endif %}
-                {% if session.type == 'coworkation' %} Coworkation {% endif %}
-            </td>
             <td><a href="/enrol" title="Apply Now">${{session.cost}}</a></td>
             <td><a href="/enrol" title="Apply Now">{{session.spots}} spots left</a></td>
         </tr>

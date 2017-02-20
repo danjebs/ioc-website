@@ -21,9 +21,16 @@
     height: auto;
   }
 
-  div.padded {
+  .padded {
     padding : 2vh 2%;
   }
+  .padded-top {
+    padding-top: 10%;
+  }
+  .padded-bottom {
+    padding-bottom: 10%;
+  }
+
   .pr-logos .three-wide {
       width: 48%;
       display: inline-block;

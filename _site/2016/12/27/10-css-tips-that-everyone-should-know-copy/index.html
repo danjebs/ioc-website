@@ -8,13 +8,12 @@
 
 <title>10 CSS Tips that everyone should know</title>
 <meta property="og:title" content="10 CSS Tips that everyone should know">
-<meta property="og:description" content="Do you find yourself getting stuck when making simple stylistic changes your website? Dig into our CSS guide that shares how to change text colors, background images and much more.">
+<meta property="og:description" content="">
 <meta property="og:image" content="">
 
 <!-- Link to Stylesheet -->
 <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="/css/gridlex.css">
-<link href="/css/style.css" rel="stylesheet">
 <link href="/css/blog.css" rel="stylesheet">
 <link href="/css/pure-drawer.css" rel="stylesheet">
 <link href="/css/main.css" rel="stylesheet">
@@ -95,7 +94,9 @@ document.addEventListener('DOMContentLoaded', event = {
         <nav class="mobile-nav">
     <a href="/index.html">Home</a>
     <a href="/our-story">Our Story</a>
-    <a href="/courses/web-dev" >Courses</a>
+    <a href="/courses/web-dev">Web Development</a>
+    <a href="/courses/marketing">Digital Marketing</a>
+    <a href="/courses/blogging">Blog Mentorship</a>
     <a href="/campus">Our Campus</a>
     <a href="/student-stories">Student Stories</a>
     <a href="/enrol">Enroll Now</a>
@@ -103,8 +104,8 @@ document.addEventListener('DOMContentLoaded', event = {
     <hr>
 
     <a href="/blog">Blog</a>
-    <a href="/payment">Financial Support</a>
-    <a href="/sponsorship">Sponsor a Student</a>
+    <!-- <a href="/payment">Financial Support</a> -->
+    <!-- <a href="/sponsorship">Sponsor a Student</a> -->
     <a href="/careers"> Careers </a>
     <!-- <a href="/contact"> Get in Touch </a> -->
 
@@ -138,10 +139,7 @@ document.addEventListener('DOMContentLoaded', event = {
     </nav> -->
 </header>
 
-            <meta property="og:type" content="article" />
-<meta property="og:author" content="" />
-
-<header>
+            <header>
     <a href="/index.html"><img src="/assets/images/ioc-logo-med-long.svg" alt="Institute of Code" class="logo"></a>
     <!-- <nav class="mob-hide">
         <ul>
@@ -170,9 +168,10 @@ document.addEventListener('DOMContentLoaded', event = {
       </div><!--
       --><div class="col-9_sm-12">
           <p class="intro"> CSS (aka cascading stylesheets) is what controls the visual aspects of the web.</p>
-          <p> While parts of CSS can be tricky (we're looking at you positioning!), the basics are pretty easy to understand. The basic css structure looks like this:</p>
+          <p> While parts of CSS can be tricky (we're looking at you positioning!), the basics are pretty easy to understand. The basic css structure looks like this:</p> 
 <pre><code class="language-css">selector { property: value; }</code></pre>
 <p> Where we select the elements that we want to style and then apply various properties to them. </p>
+
       </div>
     </div>
 </section>
@@ -190,15 +189,11 @@ document.addEventListener('DOMContentLoaded', event = {
 
 <p>For example, let’s say we want to make all paragraphs a shade of purple (#8E44AD). The selector to select all elements is ‘p’ so we use that and change the color to purple.</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code> <span class="nt">p</span> <span class="p">{</span> <span class="nl">color</span><span class="p">:</span> <span class="m">#8E44AD</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css"> p { color: #8E44AD; }</code></pre>
 
 <p>To change all the level 1 headings to blue you would write…</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">h1</span> <span class="p">{</span> <span class="nl">color</span><span class="p">:</span> <span class="m">#8E44AD</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">h1 { color: #8E44AD; }</code></pre>
 
 <p>Colors can be set using color names, hex codes, and rgb values.</p>
 
@@ -206,17 +201,13 @@ document.addEventListener('DOMContentLoaded', event = {
 
 <p>To change the background color in css, first select the element you want to style first. If you want to apply the background to the whole page this would be the body.</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">body</span> <span class="p">{</span> <span class="nl">background-color</span><span class="p">:</span> <span class="m">#8E44AD</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">body { background-color: #8E44AD; }</code></pre>
 
 <h2 id="3-how-to-add-a-background-image">3. How to add a background image</h2>
 
 <p>To add a background image in css, you use the ‘background-image’ property (see, we told you it was simple!)</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">body</span> <span class="p">{</span> <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url('/images/sunset.png')</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">body { background-image: url('/images/sunset.png'); }</code></pre>
 
 <h2 id="4-how-to-change-the-font">4. How to change the font</h2>
 
@@ -224,87 +215,68 @@ document.addEventListener('DOMContentLoaded', event = {
 
 <p>Once you’ve done that you can style your text using the font’s that you have added (in this example we are using Lato on all the level 2 headings)</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">h2</span> <span class="p">{</span> <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Lato'</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">h2 { font-family: 'Lato'; }</code></pre>
 
 <h2 id="5-how-to-change-the-boldness-of-text">5. How to change the boldness of text</h2>
 
 <p>To change how thick text is with css, or to make it bold, we use the font-weight property. To change all of our links to be bold, we use the ‘anchor link’ element with the ‘a’ selector.</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">a</span> <span class="p">{</span> <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">a { font-weight: bold; }</code></pre>
 
 <p>If you are using a google font, you might have more options than just normal and bold, some fonts have options from 200 weight to 900 weight.</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">p</span> <span class="p">{</span> <span class="nl">font-weight</span><span class="p">:</span> <span class="m">300</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">p { font-weight: 300; }</code></pre>
 
 <h2 id="6-how-to-add-a-border-in-css">6. How to add a border in css</h2>
 
 <p>To create a border we need to specify the border thickness, style and color.</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">h1</span> <span class="p">{</span> <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="n">grey</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">h1 { border: 1px solid grey; }</code></pre>
 
 <h2 id="7-how-to-create-a-circle-in-css">7. How to create a circle in CSS</h2>
 
 <p>To create rounded edges in CSS we use the border-radius property. For example, we could apply a 3px border-radius will round the corners to round the corners of every element with a class of button.</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nc">.button</span> <span class="p">{</span> <span class="nl">border-radius</span><span class="p">:</span> <span class="m">3px</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">.button { border-radius: 3px; }</code></pre>
 
 <p>If we wanted to make circular images, we just need the border radius to be at least 50% and we need to start with a square image (otherwise we’ll end up with an oval).</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">img</span> <span class="p">{</span> <span class="nl">border-radius</span><span class="p">:</span> <span class="m">50%</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">img { border-radius: 50%; }</code></pre>
 
 <h2 id="8-how-to-make-a-link-change-color-on-hover">8. How to make a link change color on hover</h2>
 
 <p>To do this we add ‘:hover’ to the end of our ‘a’ selector, which tells the browser to only apply this style when it’s being hovered.</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">a</span><span class="nd">:hover</span> <span class="p">{</span> <span class="nl">color</span><span class="p">:</span> <span class="no">teal</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">a:hover { color: teal; }</code></pre>
 
 <h2 id="9-how-to-center-text">9. How to center text</h2>
 
 <p>There are two main ways to centre content. If you want to align all the content in a section, you would use…</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">section</span> <span class="p">{</span> <span class="nl">text-align</span><span class="p">:</span> <span class="nb">right</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">section { text-align: right; }</code></pre>
 
 <p>but if you just wanted to center (remember, US spelling for coding!) your headings you would use…</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span> <span class="p">{</span> <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span> <span class="p">}</span>
-</code></pre>
-</div>
+<pre><code class="language-css">h1, h2, h3 { text-align: center; }</code></pre>
 
 <h2 id="10-how-to-remove-the-default-underline-from-links">10. How to remove the default underline from links</h2>
 
 <p>All links by default are blue and have an underline. To reset the styles of the links and style them yourself you might use something like this…</p>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code> <span class="nt">a</span> <span class="p">{</span>
-    <span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
-    <span class="nl">color</span><span class="p">:</span> <span class="no">teal</span><span class="p">;</span>
-    <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span>
-<span class="p">}</span>
+<pre><code class="language-css"> a {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold
+}
 </code></pre>
-</div>
 
 
     <div class="share-page centered post-info">
             <hr>
             <h4> Share on ... </h4>
-            <a href="https://twitter.com/intent/tweet?text=10 CSS Tips that everyone should know&url=http://localhost:4000/2016/12/27/10-css-tips-that-everyone-should-know/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">TWITTER</a>
-            <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2016/12/27/10-css-tips-that-everyone-should-know/" rel="nofollow" target="_blank" title="Share on Facebook">FACEBOOK</a>
-            <a href="https://plus.google.com/share?url=http://localhost:4000/2016/12/27/10-css-tips-that-everyone-should-know/" rel="nofollow" target="_blank" title="Share on Google+">GOOGLE+</a>
+            <a href="https://twitter.com/intent/tweet?text=10 CSS Tips that everyone should know&url=http://localhost:4000/2016/12/27/10-css-tips-that-everyone-should-know-copy/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">TWITTER</a>
+            <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2016/12/27/10-css-tips-that-everyone-should-know-copy/" rel="nofollow" target="_blank" title="Share on Facebook">FACEBOOK</a>
+            <a href="https://plus.google.com/share?url=http://localhost:4000/2016/12/27/10-css-tips-that-everyone-should-know-copy/" rel="nofollow" target="_blank" title="Share on Google+">GOOGLE+</a>
     </div>
 
     <div class="mob-show">
@@ -323,9 +295,6 @@ document.addEventListener('DOMContentLoaded', event = {
     </div>
 </section>
 
-
-<!-- This gives you a pinterest hover on images -->
-<script type="text/javascript" async  data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
 
             <footer class="grey grid">
     <div class="col-6_sm-12 padded-right">
