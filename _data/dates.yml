@@ -1,12 +1,12 @@
-- date: Mar 3 - Mar 12
+- dates: Mar 3 - Mar 12
   cost: 3450
   type: web-dev
   spots: 15
-- date: Mar 15 - Mar 25
+- dates: Mar 15 - Mar 25
   cost: 3950
   type: web-dev
   spots: 7
-- date: Mar 7 - Mar 80
+- dates: Mar 7 - Mar 80
   cost: 3850
   type: marketing
   spots: 12
