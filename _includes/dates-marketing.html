@@ -3,19 +3,19 @@
         <h3 class="editable block">UPCOMING<span>CODING RETREATS </span></h4>
   </div>
 
-  <div class="col-6_sm-12 padded">
+  <div class="col-6_sm-12">
     <p> Ready to invest in yourself and learn tangible digital skills? Surround yourself with ambitious, like-minded individuals and experience a new model of learning. Isn't it time that you took a leap of faith in yourself? </p>
     <p class="editable"> All accommodation, meals, coursework and daily activities (like yoga) are included in the price. </p>
     <a class="button" href="/enrol"> Apply Now </a>
   </div>
-  <div class="col-6_sm-12 padded">
+  <div class="col-6_sm-12">
       <table class="enrol">
 
         {% for session in site.data.dates %}
           {% if session.type == 'marketing' %}
         <tr>
-            <td><a href="/enrol" title="Apply Now">{{session.date}}</a></td>
-            <td><a href="/enrol" title="Apply Now">${{session.cost}}</a></td>
+            <td><a href="/enrol" title="Apply Now">{{session.dates}}</a></td>
+            <td><a href="/enrol" title="Apply Now">${{session.cost}}<span class="usd">USD</span></a></td>
             <td><a href="/enrol" title="Apply Now">{{session.spots}} spots left</a></td>
         </tr>
         {% endif %}

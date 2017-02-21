@@ -33,9 +33,6 @@ header,
 section {
   padding: 5vh 10%; }
 
-nav hr {
-  padding: 2em 0; }
-
 .padded {
   padding: 5%; }
 
@@ -782,6 +779,7 @@ img.enrol {
 
 .light-box {
   background-color: #fafafc;
+  color: #3c3c3c;
   padding: 4%;
   border-width: 3px;
   border-style: solid;
@@ -896,20 +894,13 @@ td:first-child {
   color: #00A9BF;
   text-align: right; }
 
-td:first-child span {
-  display: block;
-  line-height: 0.9em;
-  font-weight: 200;
-  color: #3c3c3c; }
-
 td:last-child {
   border: none; }
 
 td:nth-child(2) span,
 td:nth-child(3) span {
-  display: block;
   color: #96969b;
-  font-weight: bold; }
+  font-size: 0.7em; }
 
 td:nth-child(2) span.teal,
 td:nth-child(3) span.teal {

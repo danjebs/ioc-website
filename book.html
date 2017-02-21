@@ -48,7 +48,7 @@ layout: default
         <label for="course-date"> Which session would you like to attend?</label>
         <select name="course-date" required>
           {% for session in site.data.dates %}
-            <option value="{{session.date | slugify}}">{{session.date}}  |  {{session.type}}</option>
+            <option value="{{session.dates | slugify}}">{{session.dates}}  |  {{session.type}}</option>
           {% endfor %}
         </select>
 
