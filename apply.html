@@ -1,30 +1,117 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+---
+layout: default
+title: Apply Now | Institute of Code
+---
 
-  <!--Add the title of your typeform below-->
-  <title>Institute of Code Enrolment Application</title>
+<section class="video-banner white-bottom">
 
-  <!--CSS styles that ensure your typeform takes up all the available screen space (DO NOT EDIT!)-->
-  <style type="text/css">
-    html{
-      margin: 0;
-      height: 100%;
-      overflow: hidden;
-    }
-    iframe{
-      position: absolute;
-      left:0;
-      right:0;
-      bottom:0;
-      top:0;
-      border:0;
-    }
-  </style>
-</head>
-<body>
-  <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://instituteofcode.typeform.com/to/CY2G2T"></iframe>
-  <script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/share.typeform.com/embed.js"></script>
-</body>
-</html>
+    <div class="banner-inner">
+        <h2> Apply Now & Secure Your Spot </h2>
+    </div>
+    <video autoplay loop poster="/assets/images/rice-paddy.jpg">
+        <source src="/assets/website-video-coding2.mp4" type="video/mp4" />
+        your browser does not support video
+    </video>
+    {% include triangle-point-up.html %}
+</section>
+<section id="enrol">
+      <h2 class="block centered">APPLY NOW<span>IMMERSIVE RETREATS</span></h2>
+      <form action="https://formspree.io/hello@instituteofcode.com"
+          method="POST" class="enrol">
+      <div class="grid">
+        <div class="col-6_md-12">
+          <label for="name"> Your Name </label>
+          <input type="text" name="name" id="name" placeholder="Name">
+
+          <label for="email"> Your Email </label>
+          <input type="email" name="_replyto"  id="email" placeholder="Email">
+
+          <label for="phone"> Your Phone Number </label>
+          <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number">
+
+          <label for="location"> Your Current Location </label>
+          <input type="text" name="location" id="location" placeholder="City, Country">
+        </div>
+        <div class="col-6_md-12">
+          <label for="type"> Which retreat are you interested in? </label>
+          <input type="text" name="type" id="type" placeholder="Digital Marketing / Web Development / Coworkation">
+
+          <label for="date"> When do you want to attend? </label>
+          <input type="text" name="date" id="date" placeholder="Preferred Session (dates below)">
+
+          <label for="name"> Why do you want to attend our program? </label>
+          <textarea name="message" id="message" placeholder="Because... "></textarea>
+
+        </div>
+        <div class="col centered">
+          <input type="submit" value="Submit" class="button">
+        </div>
+      </div>
+
+
+
+        <!-- These are hidden fields -->
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_next" value="/thanks.html" />
+      </form>
+</section>
+<!-- This is the table with dates and details -->
+{% include instagram.html %}
+
+{% include dates.html %}
+<section class="featured">
+  <h2 class="block"> Special Offers & <span> Events </h2>
+
+  <div class="grid">
+    <div class="col light-box">
+      <h3 class="block"> Special offer<span>Early Bird <span></h3>
+      <p> Book a retreat more than 3 months out and pay upfront to save $250 off any web development or digital marketing retreat! </p>
+    </div>
+    <div class="col light-box">
+      <h3 class="block"> Special Guest <span> Alex in Wanderland</span> </h3>
+      <p> We're excited to be welcoming <a target="_blank" href="http://www.alexinwanderland.com/"> Alex</a> to our coding retreat on the 3rd - 12th March. She'll be joining us as a student and also running a mastermind workshop on building a community and social media following.</p>
+    </div>
+    <div class="col light-box">
+      <h3 class="block"> Collaboration <span> We are Travel Girls</span> </h3>
+      <p> We're excited to be welcoming <a target="_blank" href="http://www.wearetravelgirls.com/"> Becky & Ryan</a> to our coding retreat on the 4th - 13th May. They'll be sharing their tips on building a sucessful blog, growing a community and taking killer instagram photos. </p>
+    </div>
+    <div class="col light-box">
+      <h3 class="block"> Last Minute <span> Mar 3 - 12 </span> </h3>
+      <p> We're got a few last minute spots available at the Mar 3rd session so we're offering any <strong>family & friends of past alumni $500 off!</strong> Just mention them in your application and we'll take $500 off the price making it only $2950US </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="faqs">
+
+    <h2 class="block"> <span>FAQs</span> </h2>
+    <div class="columns">
+		<h5>What experience or skills do I need to have?</h5>
+		<p>If you can send an email, watch cat videos on youtube, and stalk your ex on facebook, you have the technical chops required for this course. Zero to hero, that's the philosophy.</p>
+
+		<h5>Is it really all inclusive?</h5>
+		<p>We cover all of your mandatory expenses from the moment you step off the plane, including everything mentioned above and a few little bonus extras. It doesn't include your flights,  alcohol, optional excursions (like ziplining or a cooking class.), or anything outside of the necessities that you decide to spend your money on (and no, Bintang singlets are not considered a necessity).</p>
+
+		<h5>What can I expect to spend all up?</h5>
+		<p>Your only other mandatory cost is your flights. For the best rates, check Skyscanner. </p>
+    <p> A bottle of beer will set you back $2-3 in a bar, most optional activities (like parasailing) are less than $20.</p>
+
+		<h5>Can I stay longer than 10 days?</h5>
+		<p>Of course. If you want to add a few days or a week on either side of your stay, we can help you book and organise everything for that. There is so much to see and explore, if you have the time, why not!</p>
+
+		<h5>Do I need to bring a computer?</h5>
+		<p>We ask that everyone brings along their own laptop for the course. If you don't have a laptop, we can rent one to you for a small additional cost.</p>
+
+		<h5>Who can attend The Institute of Code?</h5>
+		<p>We accept anyone aged 18+, and expect that those who will enjoy it the most are between 18-35, or young at heart.</p>
+
+		<h5>This kind of sounds too good to be true</h5>
+		<p>We actually get this a lot. We promise we are 100% legit. Want to speak to past student, mentor or even one of our Co-Founders? Just send us a message below and ask. Also check out videos and photos from our recent sessions on our instagram (@instituteofcode).</p>
+
+    <h5> What happens once I enroll? Am I locked in to doing the course? </h5>
+    <p> Not at all, once you submit your enrollment one of our team will review and get back to you within 48 hours. We'll then send you an email with the option to complete either a short written application or skype with one of our team. They will chat to you about your goals, the experience and outcomes of the course, answer any questions you might have and together make sure that the program is the right fit for you.</p>
+    <p> After the call, you'll be given a pre-course info pack with all the final details about the course, the location, etc to review and then you will have the opportunity to book and pay a deposit of $250 to confirm your place.</p>
+    <p> Once you have booked we'll organise a payment plan with you. You can pay everything up front, or split it up into multiple payments at no extra cost. </p>
+  </div>
+</section> -->

@@ -20,9 +20,18 @@ section {
   padding : 5vh 10%;
 }
 
-div.padded {
-  padding : 5vh 5%;
+.padded {
+  padding: 5%
 }
+
+.padded-top {
+  padding-top: 10%;
+}
+
+.padded-bottom {
+  padding-bottom: 10%;
+}
+
 
 .no-padding {
   margin  : 0;
@@ -110,6 +119,10 @@ section {
 
 .padded-right {
   padding-right: 5%;
+}
+
+.float-right {
+  float: right;
 }
 
 /* two box with equal heights*/

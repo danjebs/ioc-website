@@ -13,9 +13,12 @@ li {
   font-weight: 300;
   font-size: 17px; }
 
+a {
+  display: inline-block; }
+
 body {
   color: #41414D;
-  font-family: "macho", sans-serif; }
+  font-family: "macho", "Lato", sans-serif; }
 
 li {
   list-style-position: inside;
@@ -30,8 +33,14 @@ header,
 section {
   padding: 5vh 10%; }
 
-div.padded {
-  padding: 5vh 5%; }
+.padded {
+  padding: 5%; }
+
+.padded-top {
+  padding-top: 10%; }
+
+.padded-bottom {
+  padding-bottom: 10%; }
 
 .no-padding {
   margin: 0;
@@ -106,6 +115,9 @@ section {
 .padded-right {
   padding-right: 5%; }
 
+.float-right {
+  float: right; }
+
 /* two box with equal heights*/
 .two-box {
   position: relative;
@@ -136,6 +148,12 @@ section {
 
 .mob-show {
   display: none !important; }
+
+.padded-top {
+  padding-top: 10%; }
+
+.padded-bottom {
+  padding-bottom: 10%; }
 
 .col.padded {
   padding: 4%; }
@@ -318,6 +336,10 @@ form input[type="submit"] {
   width: auto;
   margin: auto; }
 
+/* This prevents IOS bug where text dissapears */
+input, button, textarea, select {
+  -webkit-transform: translate3d(0, 0, 0); }
+
 /* Removes awkward default styles on some inputs for iOS */
 textarea {
   min-height: 8rem;
@@ -378,7 +400,7 @@ form.enrol input, form.enrol textarea {
   padding: 0.5rem;
   border-radius: 3px;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 300;
   vertical-align: bottom;
   margin: 0 0 1em;
@@ -654,7 +676,7 @@ img.enrol {
   vertical-align: middle; }
 
 .curl span {
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-size: 15em;
   font-weight: 100; }
 
@@ -701,6 +723,11 @@ img.enrol {
 .blog .padded {
   padding: 1vh 5%; }
 
+/* Courses Schedule */
+.schedule p span {
+  color: #00A9BF;
+  font-weight: bold; }
+
 /* --- Video Banner -- */
 .video-banner,
 .image-banner {
@@ -743,12 +770,27 @@ img.enrol {
   color: white; }
 
 .our-story {
-  background-image: url("/assets/images/our-story.jpg");
+  background-image: url("/assets/images/ioc-internal-4784.jpg");
   background-size: cover;
   background-position: 80% 50%; }
 
 .our-story .banner-inner {
   color: #505055; }
+
+.light-box {
+  background-color: #fafafc;
+  color: #3c3c3c;
+  padding: 4%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial; }
+
+.image-banner,
+.banner-image {
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh; }
 
 /* Grid of images in a banner */
 .activity-grid > div {
@@ -845,27 +887,20 @@ table.enrol {
 
 td {
   padding: 0 1.5em;
-  vertical-align: bottom; }
+  vertical-align: bottom;
+  border-right: 2px solid #96969b; }
 
 td:first-child {
   color: #00A9BF;
-  border-right: 2px solid #96969b;
   text-align: right; }
 
-td:first-child span {
-  display: block;
-  font-size: 3em;
-  line-height: 0.9em;
-  font-weight: 200; }
-
-td:nth-child(3) {
-  border-left: 2px solid #96969b; }
+td:last-child {
+  border: none; }
 
 td:nth-child(2) span,
 td:nth-child(3) span {
-  display: block;
   color: #96969b;
-  font-weight: bold; }
+  font-size: 0.7em; }
 
 td:nth-child(2) span.teal,
 td:nth-child(3) span.teal {
@@ -1053,7 +1088,7 @@ blockquote {
   margin: 1em 0;
   font-weight: bold; }
 
-@media (max-width: 967px) {
+@media (max-width: 768px) {
   .twocol .col,
   .ten-wide,
   .nine-wide,
@@ -1074,8 +1109,14 @@ blockquote {
     margin: 0 !important;
     height: auto; }
 
-  div.padded {
+  .padded {
     padding: 2vh 2%; }
+
+  .padded-top {
+    padding-top: 10%; }
+
+  .padded-bottom {
+    padding-bottom: 10%; }
 
   .pr-logos .three-wide {
     width: 48%;
@@ -1093,6 +1134,12 @@ blockquote {
     position: static;
     -webkit-transform: none;
     transform: none; }
+
+  .mob-flip {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
 
   .arrow-left,
   .arrow-right,

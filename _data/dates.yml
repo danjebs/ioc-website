@@ -1,0 +1,40 @@
+- dates: Mar 3 - Mar 12
+  cost: 3450
+  type: web-dev
+  spots: 6
+- dates: Mar 15 - Mar 21
+  cost: 1100
+  type: coworkation
+  spots: 11
+- dates: Mar 22 - Mar 29
+  cost: 1100
+  type: coworkation
+  spots: 11
+- dates: Apr 1 - Apr 10
+  cost: 3450
+  type: web-dev
+  spots: 8
+- dates: Apr 23 - May 2
+  cost: 3850
+  type: marketing
+  spots: 15
+- dates: May 4 - May 13
+  cost: 3850
+  type: web-dev
+  spots: 8
+- dates: May 24 - Jun 2
+  cost: 3850
+  type: marketing
+  spots: 15
+- dates: Jun 14 - Jun 23
+  cost: 4200
+  type: blogging
+  spots: 15
+- dates: Jun 30 - Jul 9
+  cost: 3850
+  type: web-dev
+  spots: 11
+- dates: July 12 - 21
+  cost: 4500
+  type: blogging
+  spots: 15

@@ -6,15 +6,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Enroll Now | Institute of Code</title>
-<meta property="og:title" content="Enroll Now | Institute of Code">
+<title>Apply Now | Institute of Code</title>
+<meta property="og:title" content="Apply Now | Institute of Code">
 <meta property="og:description" content="">
-<meta property="og:image" content="../assets/images/tina-becky-6238.jpg">
+<meta property="og:image" content="">
 
 <!-- Link to Stylesheet -->
-<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Lato:100,400,700" rel="stylesheet">
 <link rel="stylesheet" href="/css/gridlex.css">
-<link href="/css/style.css" rel="stylesheet">
 <link href="/css/blog.css" rel="stylesheet">
 <link href="/css/pure-drawer.css" rel="stylesheet">
 <link href="/css/main.css" rel="stylesheet">
@@ -95,16 +94,18 @@ document.addEventListener('DOMContentLoaded', event = {
         <nav class="mobile-nav">
     <a href="/index.html">Home</a>
     <a href="/our-story">Our Story</a>
-    <a href="/courses/web-dev" >Courses</a>
+    <a href="/courses/web-dev">Web Development</a>
+    <a href="/courses/marketing">Digital Marketing</a>
+    <a href="/courses/blogging">Blog Mentorship</a>
     <a href="/campus">Our Campus</a>
     <a href="/student-stories">Student Stories</a>
-    <a href="/enrol">Enroll Now</a>
+    <a href="/enrol">Apply Now</a>
 
     <hr>
 
     <a href="/blog">Blog</a>
-    <a href="/payment">Financial Support</a>
-    <a href="/sponsorship">Sponsor a Student</a>
+    <!-- <a href="/payment">Financial Support</a> -->
+    <!-- <a href="/sponsorship">Sponsor a Student</a> -->
     <a href="/careers"> Careers </a>
     <!-- <a href="/contact"> Get in Touch </a> -->
 
@@ -141,7 +142,7 @@ document.addEventListener('DOMContentLoaded', event = {
             <section class="video-banner white-bottom">
 
     <div class="banner-inner">
-        <h2> Enroll Now & Secure Your Spot </h2>
+        <h2> Apply Now & Secure Your Spot </h2>
     </div>
     <video autoplay loop poster="/assets/images/rice-paddy.jpg">
         <source src="/assets/website-video-coding2.mp4" type="video/mp4" />
@@ -153,28 +154,38 @@ document.addEventListener('DOMContentLoaded', event = {
 
 </section>
 <section id="enrol">
-      <h2 class="block">APPLY NOW<span>WEB DEVELOPMENT RETREAT</span></h2>
+      <h2 class="block centered">APPLY NOW<span>IMMERSIVE RETREATS</span></h2>
       <form action="https://formspree.io/hello@instituteofcode.com"
-          method="POST" class="enrol-form">
+          method="POST" class="enrol">
+      <div class="grid">
+        <div class="col-6_md-12">
+          <label for="name"> Your Name </label>
+          <input type="text" name="name" id="name" placeholder="Name">
 
-        <label for="name"> Your Name </label>
-        <input type="text" name="name" id="name" placeholder="Name">
+          <label for="email"> Your Email </label>
+          <input type="email" name="_replyto"  id="email" placeholder="Email">
 
-        <label for="email"> Your Email </label>
-        <input type="email" name="_replyto"  id="email" placeholder="Email">
+          <label for="phone"> Your Phone Number </label>
+          <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number">
 
-        <label for="phone"> Your Phone Number </label>
-        <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number">
+          <label for="location"> Your Current Location </label>
+          <input type="text" name="location" id="location" placeholder="City, Country">
+        </div>
+        <div class="col-6_md-12">
+          <label for="type"> Which retreat are you interested in? </label>
+          <input type="text" name="type" id="type" placeholder="Digital Marketing / Web Development / Coworkation">
 
-        <label for="location"> Your Current Location </label>
-        <input type="text" name="location" id="location" placeholder="City, Country">
+          <label for="date"> When do you want to attend? </label>
+          <input type="text" name="date" id="date" placeholder="Preferred Session (dates below)">
 
-        <label for="name"> When do you want to attend? </label>
-        <input type="text" name="date" id="date" placeholder="Nov 14 - 23 / Nov 26 - Dec 5 / Other">
+          <label for="name"> Why do you want to attend our program? </label>
+          <textarea name="message" id="message" placeholder="Because... "></textarea>
 
-        <label for="name"> Why do you want to attend our program? </label>
-        <textarea name="message" id="message" placeholder="Because... "></textarea>
-        <input type="submit" value="Submit" class="button">
+        </div>
+        <div class="col centered">
+          <input type="submit" value="Submit" class="button">
+        </div>
+      </div>
 
         <!-- These are hidden fields -->
         <input type="text" name="_gotcha" style="display:none" />
@@ -194,41 +205,160 @@ document.addEventListener('DOMContentLoaded', event = {
 
 <section class="grid">
   <div class="col-12 centered">
-        <h3 class="editable block">UPCOMING<span>CODING RETREATS </span></h4>
+        <h3 class="editable block">UPCOMING<span>DATES & DETAILS </span></h4>
   </div>
 
-  <div class="col-6_sm-12 padded">
-      <img src="/assets/images/new-villa-1.png">
-      <p class="editable"> All accommodation, meals, coursework and daily activities (like yoga) are included in the price. </p>
-      <a class="button" href="/enrol"> Apply Now </a>
+  <div class="col-4_md-12">
+    <p> Ready to invest in yourself and learn tangible digital skills? Surround yourself with ambitious, like-minded individuals and experience a new model of learning. Isn't it time that you took a leap of faith in yourself? </p>
+    <p class="editable"> 10 nights accommodation, all meals, airport transfer, all course materials, ongoing support and daily activities (like yoga) are all included in the price. </p>
+    <a class="button" href="/enrol"> Apply Now </a>
   </div>
-  <div class="col-6_sm-12 padded">
+  <div class="col-8_md-12">
       <table class="enrol">
-      <tr>
-          <td>FEB <span>4</span></td>
-          <td><span> FEB 4 - FEB 13 </span>Bali</td>
-          <td><a href="/enrol" title="Enroll Now"><span>ALMOST FULL</span>$3450 US</a></td>
-      </tr>
-      <tr>
-          <td>FEB <span>17</span></td>
-          <td><span> FEB 17 - FEB 26 </span>Bali</td>
-          <td><a href="/enrol" title="Enroll Now"><span>FILLING FAST</span>$3450 US</a></td>
-      </tr>
-       <tr>
-          <td>MAR <span>3</span></td>
-          <td><span> MAR 3 - MAR 12 </span>Bali</td>
-          <td><a href="/enrol" title="Enroll Now"><span>FILLING FAST</span>$3450 US</a></td>
-      </tr>
-  </table>
-  <h4 class="teal inline-block"> Want to see more 2017 dates? </h4> <a class="button" data-sumome-listbuilder-id="14156042-0b43-48ff-8d81-b7e8ef2c9504"> Send me the dates! </a>
+        
+        <tr>
+            <td><a href="/enrol" title="Apply Now">Mar 3 - Mar 12</a></td>
+            <td>
+                
+                  <a href="/courses/web-dev"> Web Development </a>
+                
+                
+                
+                
+            </td>
+            <td><a href="/enrol" title="Apply Now">$3450<span class="usd">USD</span></a></td>
+            <td><a href="/enrol" title="Apply Now">6 spots left</a></td>
+        </tr>
+        
+        <tr>
+            <td><a href="/enrol" title="Apply Now">Mar 15 - Mar 21</a></td>
+            <td>
+                
+                
+                
+                  Women's Coworkation (NEW!)
+                
+                
+            </td>
+            <td><a href="/enrol" title="Apply Now">$1100<span class="usd">USD</span></a></td>
+            <td><a href="/enrol" title="Apply Now">11 spots left</a></td>
+        </tr>
+        
+        <tr>
+            <td><a href="/enrol" title="Apply Now">Mar 22 - Mar 29</a></td>
+            <td>
+                
+                
+                
+                  Women's Coworkation (NEW!)
+                
+                
+            </td>
+            <td><a href="/enrol" title="Apply Now">$1100<span class="usd">USD</span></a></td>
+            <td><a href="/enrol" title="Apply Now">11 spots left</a></td>
+        </tr>
+        
+        <tr>
+            <td><a href="/enrol" title="Apply Now">Apr 1 - Apr 10</a></td>
+            <td>
+                
+                  <a href="/courses/web-dev"> Web Development </a>
+                
+                
+                
+                
+            </td>
+            <td><a href="/enrol" title="Apply Now">$3450<span class="usd">USD</span></a></td>
+            <td><a href="/enrol" title="Apply Now">8 spots left</a></td>
+        </tr>
+        
+        <tr>
+            <td><a href="/enrol" title="Apply Now">Apr 23 - May 2</a></td>
+            <td>
+                
+                
+                  <a href="/courses/marketing">Digital Marketing (NEW!)</a>
+                
+                
+                
+            </td>
+            <td><a href="/enrol" title="Apply Now">$3850<span class="usd">USD</span></a></td>
+            <td><a href="/enrol" title="Apply Now">15 spots left</a></td>
+        </tr>
+        
+        <tr>
+            <td><a href="/enrol" title="Apply Now">May 4 - May 13</a></td>
+            <td>
+                
+                  <a href="/courses/web-dev"> Web Development </a>
+                
+                
+                
+                
+            </td>
+            <td><a href="/enrol" title="Apply Now">$3850<span class="usd">USD</span></a></td>
+            <td><a href="/enrol" title="Apply Now">8 spots left</a></td>
+        </tr>
+        
+        <tr>
+            <td><a href="/enrol" title="Apply Now">May 24 - Jun 2</a></td>
+            <td>
+                
+                
+                  <a href="/courses/marketing">Digital Marketing (NEW!)</a>
+                
+                
+                
+            </td>
+            <td><a href="/enrol" title="Apply Now">$3850<span class="usd">USD</span></a></td>
+            <td><a href="/enrol" title="Apply Now">15 spots left</a></td>
+        </tr>
+        
+        <tr>
+            <td><a href="/enrol" title="Apply Now">Jun 14 - Jun 23</a></td>
+            <td>
+                
+                
+                
+                
+                  <a href="/courses/blogging">Blog Mentorship (NEW!)</a>
+                
+            </td>
+            <td><a href="/enrol" title="Apply Now">$4200<span class="usd">USD</span></a></td>
+            <td><a href="/enrol" title="Apply Now">15 spots left</a></td>
+        </tr>
+        
 
+  </table>
   </div>
 
 </section>
 
+<section class="featured">
+  <h2 class="block"> Special Offers & <span> Events </h2>
+
+  <div class="grid">
+    <div class="col light-box">
+      <h3 class="block"> Special offer<span>Early Bird <span></h3>
+      <p> Book a retreat more than 3 months out and pay upfront to save $250 off any web development or digital marketing retreat! </p>
+    </div>
+    <div class="col light-box">
+      <h3 class="block"> Special Guest <span> Alex in Wanderland</span> </h3>
+      <p> We're excited to be welcoming <a target="_blank" href="http://www.alexinwanderland.com/"> Alex</a> to our coding retreat on the 3rd - 12th March. She'll be joining us as a student and also running a mastermind workshop on building a community and social media following.</p>
+    </div>
+    <div class="col light-box">
+      <h3 class="block"> Collaboration <span> We are Travel Girls</span> </h3>
+      <p> We're excited to be welcoming <a target="_blank" href="http://www.wearetravelgirls.com/"> Becky & Ryan</a> to our coding retreat on the 4th - 13th May. They'll be sharing their tips on building a sucessful blog, growing a community and taking killer instagram photos. </p>
+    </div>
+    <div class="col light-box">
+      <h3 class="block"> Last Minute <span> Mar 3 - 12 </span> </h3>
+      <p> We're got a few last minute spots available at the Mar 3rd session so we're offering any <strong>family & friends of past alumni $500 off!</strong> Just mention them in your application and we'll take $500 off the price! </p>
+    </div>
+  </div>
+</section>
 
 
-<section class="faqs">
+<!-- <section class="faqs">
 
     <h2 class="block"> <span>FAQs</span> </h2>
     <div class="columns">
@@ -259,21 +389,22 @@ document.addEventListener('DOMContentLoaded', event = {
     <p> After the call, you'll be given a pre-course info pack with all the final details about the course, the location, etc to review and then you will have the opportunity to book and pay a deposit of $250 to confirm your place.</p>
     <p> Once you have booked we'll organise a payment plan with you. You can pay everything up front, or split it up into multiple payments at no extra cost. </p>
   </div>
-</section>
+</section> -->
 
             <footer class="grey grid">
     <div class="col-6_sm-12 padded-right">
       <h3> The Institute of Code</h3>
-      <p class="editable">Institute of Code runs 10 day immersive coding bootcamps in beautiful locations around the world. We create an environment of accelerated learning, so you can learn in demand digital skills while having an experience of a lifetime. </p>
+      <p class="editable">Institute of Code runs 10 day immersive bootcamps on topics like coding and digital marketing in beautiful locations around the world. We create an environment of accelerated learning, so you can learn in demand digital skills while having an experience of a lifetime. </p>
     </div>
     <div class="col-3_sm-12">
         <nav>
-            <a href="/index.html">Home</a><!--
-        --><a href="/our-story">Our Story</a><!--
-        --><a href="/courses/web-dev">Courses</a><!--
-        <a href="/courses/front-end.html">Front-End Development</a>
-        --><a href="/courses/help">Help me choose</a><!--
-        --><a href="/enrol">Enroll Now</a>
+        <a href="/index.html">Home</a>
+        <a href="/our-story">Our Story</a>
+        <a href="/courses/web-dev">Web Development</a>
+        <a href="/courses/marketing">Digital Marketing</a>
+        <a href="/courses/blogging">Blog Mentorship</a>
+        <a href="/courses/help">Help me choose</a><!--
+        --><a href="/enrol">Apply Now</a>
         </nav>
     </div>
     <div class="col-3_sm-12">
