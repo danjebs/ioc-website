@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Ultimate Resource for Getting Traffic to Your Website (pt.2)
+description: Part two of our guide delves into the importance of capitalizing on one marketing channel and running efficient testing to measure its performance.
 image_path: /uploads/pexels-photo-242494.jpeg
 alt: Best Coding Bootcamp
 month: FEB
@@ -23,7 +24,7 @@ Out of the 19 channels we listed, all you need is one channel to work for you. F
 
 The best way to effectively work through the channels is by using *the bullseye framework*. It's a three-step process, where you work through all the channels to find the one(s) that work for you - that channel is **the bullseye**.
 
-## &nbsp;
+##
 
 ### What is Possible - The Outer Ring
 
@@ -59,7 +60,7 @@ The key would be to find the common metrics you can measure both channels with. 
 
 Don't forget this step is to determine would move the needle forward for your business. Many founders make the mistake of scaling too early, too fast, and don't correctly measure their experiments.
 
-## &nbsp;
+##
 
 ### The Bullseye - What is Working
 
@@ -73,7 +74,7 @@ One thing to remember is eventually all channels will hit a saturation point - a
 
 When this happens, you will then need to refer to your inner circle, and promote another promising channel to your bullseye.
 
---
+–
 
 That's the bullseye framework! Hope this gives you a structured way of working out what the most effective way of bringing customers to your website. 19 channels might seem like a lot to work through, but the end results are well worth it.
 

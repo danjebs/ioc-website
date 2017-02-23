@@ -1,33 +1,38 @@
 <section class="grid">
   <div class="col-12 centered">
-        <h3 class="editable block">UPCOMING<span>CODING RETREATS </span></h4>
+        <h3 class="editable block">UPCOMING<span>DATES & DETAILS </span></h4>
   </div>
 
-  <div class="col-6_sm-12 padded">
-      <img src="/assets/images/new-villa-1.png">
-      <p class="editable"> All accommodation, meals, coursework and daily activities (like yoga) are included in the price. </p>
-      <a class="button" href="/enrol"> Apply Now </a>
+  <div class="col-4_md-12">
+    <p> Ready to invest in yourself and learn tangible digital skills? Surround yourself with ambitious, like-minded individuals and experience a new model of learning. Isn't it time that you took a leap of faith in yourself? </p>
+    <p class="editable"> 10 nights accommodation, all meals, airport transfer, all course materials, ongoing support and daily activities (like yoga) are all included in the price. </p>
+    <a class="button" href="/enrol"> Apply Now </a>
   </div>
-  <div class="col-6_sm-12 padded">
+  <div class="col-8_md-12">
       <table class="enrol">
-      <tr>
-          <td>FEB <span>4</span></td>
-          <td><span> FEB 4 - FEB 13 </span>Bali</td>
-          <td><a href="/enrol" title="Enroll Now"><span>ALMOST FULL</span>$3450 US</a></td>
-      </tr>
-      <tr>
-          <td>FEB <span>17</span></td>
-          <td><span> FEB 17 - FEB 26 </span>Bali</td>
-          <td><a href="/enrol" title="Enroll Now"><span>FILLING FAST</span>$3450 US</a></td>
-      </tr>
-       <tr>
-          <td>MAR <span>3</span></td>
-          <td><span> MAR 3 - MAR 12 </span>Bali</td>
-          <td><a href="/enrol" title="Enroll Now"><span>FILLING FAST</span>$3450 US</a></td>
-      </tr>
-  </table>
-  <h4 class="teal inline-block"> Want to see more 2017 dates? </h4> <a class="button" data-sumome-listbuilder-id="14156042-0b43-48ff-8d81-b7e8ef2c9504"> Send me the dates! </a>
+        {% for session in site.data.dates limit:8 %}
+        <tr>
+            <td><a href="/enrol" title="Apply Now">{{session.dates}}</a></td>
+            <td>
+                {% if session.type == 'web-dev' %}
+                  <a href="/courses/web-dev"> Web Development </a>
+                {% endif %}
+                {% if session.type == 'marketing' %}
+                  <a href="/courses/marketing">Digital Marketing (NEW!)</a>
+                {% endif %}
+                {% if session.type == 'coworkation' %}
+                  Women's Coworkation (NEW!)
+                {% endif %}
+                {% if session.type == 'blogging' %}
+                  <a href="/courses/blogging">Blog Mentorship (NEW!)</a>
+                {% endif %}
+            </td>
+            <td><a href="/enrol" title="Apply Now">${{session.cost}}<span class="usd">USD</span></a></td>
+            <td><a href="/enrol" title="Apply Now">{{session.spots}} spots left</a></td>
+        </tr>
+        {% endfor %}
 
+  </table>
   </div>
 
 </section>

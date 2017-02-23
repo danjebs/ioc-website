@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How learning to code can help you grow your business
+description: "Don't let technical intimidation keep you from learning coding. Not only can it improve your job prospects, but upskilling in HTML + CSS allows you to update your site without a developer and understand code speak."
 image_path: /jessicaevans2.jpg
 alt: Learn code to grow your business
 month: AUG
@@ -39,8 +40,6 @@ By learning how to code, you can have more intellectual conversations with a web
 
 ![](/uploads/versions/jessevansblog---x----940-626x---.jpg)
 
-
-
 **Update Your Site Without a Developer**
 
 In my first 10 days of learning to code I produced two websites. One was a website for a business that sells smoothie boosters.
@@ -50,8 +49,6 @@ I learnt how to create a complete e-commerce site including a feature video and 
 I also spent a fair amount of time lying by the pool and working on my tan, exploring the sites of Bali, eating incredible food and drinking delicious cocktails. Sounds like torture right?
 
 I now have the ability to change the content on my site as I see fit and speak with an improved sense of self-confidence about web dev.
-
-
 
 **Open Other Doors**
 

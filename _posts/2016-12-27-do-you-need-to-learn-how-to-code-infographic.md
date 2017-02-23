@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Do You Need To Learn How To Code? [INFOGRAPHIC]'
+description: Feast your eyes on our infographic that will help you determine whether or not you need to learn how to code.
 image_path: /uploads/b_0360672.jpg
 alt: new year resolutions
 month: JAN

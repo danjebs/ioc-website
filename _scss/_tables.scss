@@ -10,31 +10,23 @@ table.enrol {
 td {
   padding        : 0 1.5em;
   vertical-align : bottom;
+  border-right : 2px solid rgb(150,150,155);
 }
 
 
 td:first-child {
   color        : #00A9BF;
-  border-right : 2px solid rgb(150,150,155);
   text-align   : right;
 }
 
-td:first-child span {
-  display: block;
-  font-size: 3em;
-  line-height: 0.9em;
-  font-weight: 200;
-}
-
-td:nth-child(3) {
-  border-left : 2px solid rgb(150,150,155);
+td:last-child {
+  border : none;
 }
 
 td:nth-child(2) span,
 td:nth-child(3) span {
-  display     : block;
-  color       : rgb(150,150,155);
-  font-weight : bold;
+  color: #96969b;
+  font-size: 0.7em;
 }
 
 td:nth-child(2) span.teal,

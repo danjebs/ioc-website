@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2016-07-22T11:00:00.000Z
+date: 2016-07-22 11:00:00
 title: "Want a career in graphic design? Here's why you need to learn to code."
+description: "Still wondering why it's necessary for you to learn how to code despite being a talented graphic designer? We'll give you five great reasons why coding skills are necessary for graphic designers in today's market."
 subtitle: As a graphic designer learning to code can make you more employable and boost your career prospects
 image_path: /assets/images/graphic-design.jpg
 alt: why designers should learn to code

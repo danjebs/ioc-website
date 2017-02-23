@@ -38,7 +38,7 @@ img.enrol {
 }
 
 .curl span {
-  font-family : "Lato";
+  font-family : 'Lato', sans-serif;
   font-size   : 15em;
   font-weight : 100;
 }
@@ -96,4 +96,10 @@ img.enrol {
 
 .blog .padded {
   padding: 1vh 5%;
+}
+
+/* Courses Schedule */
+.schedule p span {
+  color: $color-featured;
+  font-weight: bold;
 }

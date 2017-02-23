@@ -1,5 +1,5 @@
 
-@media (max-width: 967px) {
+@media (max-width: 768px) {
   .twocol .col,
   .ten-wide,
   .nine-wide,
@@ -21,9 +21,16 @@
     height: auto;
   }
 
-  div.padded {
+  .padded {
     padding : 2vh 2%;
   }
+  .padded-top {
+    padding-top: 10%;
+  }
+  .padded-bottom {
+    padding-bottom: 10%;
+  }
+
   .pr-logos .three-wide {
       width: 48%;
       display: inline-block;
@@ -42,7 +49,14 @@
     position: static;
     -webkit-transform: none;
             transform: none;
+}
+  .mob-flip {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
+
 
   .arrow-left,
   .arrow-right,

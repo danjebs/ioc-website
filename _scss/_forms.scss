@@ -34,6 +34,11 @@ form input[type="submit"] {
   margin: auto;
 }
 
+/* This prevents IOS bug where text dissapears */
+input, button, textarea, select {
+    -webkit-transform: translate3d(0,0,0);
+}
+
 /* Removes awkward default styles on some inputs for iOS */
 
 textarea {
@@ -92,7 +97,7 @@ form.enrol input, form.enrol textarea {
     padding: 0.5rem;
     border-radius: 3px;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 300;
     vertical-align: bottom;
     margin: 0 0 1em;

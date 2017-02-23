@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why I decided to learn to code in Bali with Institute of Code
+description: "Michelle from \"Live Like It's The Weekend\" shares why she made the trip to Bali to learn how to code with the Institute of Code."
 image_path: /uploads/img-8756-1.jpg
 alt: Best Coding Bootcamp
 month: SEPT
@@ -23,4 +24,4 @@ So when I discovered Institute of Code, a start-up running code retreats in Bali
 
 Well, as it turns out — yes. It’s real. And it’s awesome. Investing in my career development and enrolling in Institute of Code is definitely one of the best decisions I’ve made so far in my travels and here’s why.
 
-Read Michelle's full post over on [Live Like it's the Weekend](http://www.livelikeitstheweekend.com/decided-learn-code-bali-institute-code/).&nbsp;
+Read Michelle's full post over on [Live Like it's the Weekend](http://www.livelikeitstheweekend.com/decided-learn-code-bali-institute-code/).
