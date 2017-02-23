@@ -16,31 +16,30 @@ title: Enroll Now | Institute of Code
 </section>
 <section id="enrol">
       <h2 class="block">APPLY NOW<span>WEB DEVELOPMENT RETREAT</span></h2>
-      <form action="http://localhost:3000/webform_enquiry/create"
+      <form action="http://localhost:3000/enquiries"
           method="POST" class="enrol-form">
 
         <label for="name"> Your Name </label>
-        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="text" name="name" id="name" placeholder="Name" required>
 
         <label for="email"> Your Email </label>
-        <input type="email" name="_replyto"  id="email" placeholder="Email">
+        <input type="email" name="email"  id="email" placeholder="Email" required>
 
         <label for="phone"> Your Phone Number </label>
-        <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number">
+        <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number" required>
 
         <label for="location"> Your Current Location </label>
         <input type="text" name="location" id="location" placeholder="City, Country">
 
         <label for="name"> When do you want to attend? </label>
-        <input type="text" name="date" id="date" placeholder="Nov 14 - 23 / Nov 26 - Dec 5 / Other">
+        <input type="text" name="session" id="session" placeholder="Month-Year">
 
         <label for="name"> Why do you want to attend our program? </label>
         <textarea name="message" id="message" placeholder="Because... "></textarea>
         <input type="submit" value="Submit" class="button">
 
         <!-- These are hidden fields -->
-        <input type="text" name="_gotcha" style="display:none" />
-        <input type="hidden" name="_next" value="/thanks.html" />
+        <input type="hidden" name="course" value="Web Development Bootcamp" />
       </form>
 
       <!-- Google Maps -->
