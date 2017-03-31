@@ -4,7 +4,7 @@ title: Sponsor a Student
 ---
 
 
-## Sponsor A Studentz Program
+## Sponsor A Student Program
 
 Sponsor a student to further their education and career prospects and give them the opportunity to develop their skills on a real world project. In exchange, you will receive a beautiful, brand new website custom built for your business at an incredible price.
 
